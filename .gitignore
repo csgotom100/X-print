@@ -1,0 +1,46 @@
+# ---------------- FreeCAD ----------------
+# Auto-saved backups and previous revisions
+*.FCBak
+*.FCStd1
+*.FCStd2
+
+# Per-step manual backups kept outside the repo history
+refs/CrossSlide_before_*.FCStd
+refs/CrossSlide_session_*.FCStd
+
+# ---------------- Agent / tool working data ----------------
+.workbuddy-ai/
+
+# ---------------- Temporary ----------------
+_tmp_img/
+refs/tmp/
+refs/__pycache__/
+__pycache__/
+*.log
+*.pyc
+
+# ---------------- Intermediate check images ----------------
+# Everything under refs/ is ignored by default; curated images are
+# re-included below so the repo stays readable and small.
+refs/*.png
+refs/*.jpg
+refs/*.jpeg
+
+# Viewport visibility snapshots captured during modelling sessions
+refs/vis_*.json
+
+# Curated: keep these comparison / verification images
+!refs/chamfer45_compare.png
+!refs/pocket_2080_compare.png
+!refs/sys_zfix_full.png
+!refs/belt_clear_before_after.png
+!refs/trim_before_after.png
+!refs/final_L_iso.png
+!refs/final_R_iso.png
+!refs/pk_iso2.png
+
+# ---------------- Third-party reference material ----------------
+# HP45 机械/电子原始资料属第三方项目（GPL-3.0 等），不复制进本仓库，
+# 来源见 README 第 6 节。需要时按链接自行下载到 refs/ 下。
+refs/HP45_Mechanical/
+refs/HP45_Electronics/
