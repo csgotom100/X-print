@@ -1,0 +1,3013 @@
+{
+ "commands": [
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "BRG_OD",
+    "expression": "12 mm",
+    "comment": "[A 轴承导杆] LM6UU 外径",
+    "favorite": true
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "BRG_ID",
+    "expression": "6 mm",
+    "comment": "[A 轴承导杆] LM6UU 内孔（= 导杆直径）",
+    "favorite": true
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "BRG_L",
+    "expression": "19 mm",
+    "comment": "[A 轴承导杆] LM6UU 长度",
+    "favorite": true
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "ROD_D",
+    "expression": "6 mm",
+    "comment": "[A 轴承导杆] 导杆直径",
+    "favorite": true
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "SEAT_R",
+    "expression": "BRG_OD / 2 + 0.05 mm",
+    "comment": "[A 轴承导杆] 滑车主座半径（轴承外径 + 0.10 间隙）",
+    "favorite": true
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "SEAT_L",
+    "expression": "BRG_L + 0.2 mm",
+    "comment": "[A 轴承导杆] 滑车主座长度",
+    "favorite": true
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "ROD_HOLE_R",
+    "expression": "ROD_D / 2 + 0.05 mm",
+    "comment": "[A 轴承导杆] 端板导杆孔半径",
+    "favorite": true
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "PILOT_R",
+    "expression": "4.7 mm",
+    "comment": "[A 轴承导杆] 导入段半径（形成 -端轴向挡肩）",
+    "favorite": true
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "EXIT_R",
+    "expression": "5.1 mm",
+    "comment": "[A 轴承导杆] 出口段半径（形成 +端轴向挡肩）",
+    "favorite": true
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "ROD_X_LEN",
+    "expression": "215 mm",
+    "comment": "[A 轴承导杆] X 轴导杆长度"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "ROD_Z_LEN",
+    "expression": "165 mm",
+    "comment": "[A 轴承导杆] Z 轴导杆长度"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "X_ROD_X0",
+    "expression": "42.5 mm",
+    "comment": "[A 轴承导杆] X 导杆起点 X"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "X_ROD_Y",
+    "expression": "-68 mm",
+    "comment": "[A 轴承导杆] X 导杆中心 Y（滑车分型面）"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "X_ROD_Z1",
+    "expression": "122 mm",
+    "comment": "[A 轴承导杆] X 导杆 1 中心 Z"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "X_ROD_Z2",
+    "expression": "152 mm",
+    "comment": "[A 轴承导杆] X 导杆 2 中心 Z"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "Z_ROD_Z0",
+    "expression": "54.5 mm",
+    "comment": "[A 轴承导杆] Z 导杆起点 Z"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "Z_ROD_X1",
+    "expression": "135 mm",
+    "comment": "[A 轴承导杆] Z 导杆 1 中心 X"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "Z_ROD_X2",
+    "expression": "165 mm",
+    "comment": "[A 轴承导杆] Z 导杆 2 中心 X"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "Z_ROD_Y",
+    "expression": "-12 mm",
+    "comment": "[A 轴承导杆] Z 导杆中心 Y（滑车分型面）"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "X_SEAT_X0",
+    "expression": "140.4 mm",
+    "comment": "[A 轴承导杆] X 滑车主座起点 X"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "Z_SEAT_Z0",
+    "expression": "127.4 mm",
+    "comment": "[A 轴承导杆] Z 滑车主座起点 Z"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "Z_SLOT_W",
+    "expression": "22 mm",
+    "comment": "[B 冻结项] Z 轴限位开关槽宽（禁止改动）",
+    "favorite": true
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "X_POCKET_W",
+    "expression": "20.8 mm",
+    "comment": "[B 冻结项] X 轴限位开关口袋宽（禁止改动）",
+    "favorite": true
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "FLANGE_T",
+    "expression": "7.5 mm",
+    "comment": "[C 端板] 端板法兰板厚度（贴型材端面）"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "FRAME_WALL",
+    "expression": "1.5 mm",
+    "comment": "[C 端板] 端板周边框架壁厚"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "MOTOR_PAD_L",
+    "expression": "10 mm",
+    "comment": "[C 端板] 电机安装台伸出长度"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "MOTOR_PAD_W",
+    "expression": "18 mm",
+    "comment": "[C 端板] 电机安装台宽度"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "MOTOR_PAD_H",
+    "expression": "24 mm",
+    "comment": "[C 端板] 电机安装台高度"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "MOTOR_BORE_L_R",
+    "expression": "8.5 mm",
+    "comment": "[C 端板] L 端板电机让位孔半径"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "MOTOR_BORE_R_R",
+    "expression": "10 mm",
+    "comment": "[C 端板] R 端板电机让位孔半径"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "MOTOR_Y",
+    "expression": "-62 mm",
+    "comment": "[C 端板] X 端板电机孔中心 Y"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "MOTOR_Z",
+    "expression": "137 mm",
+    "comment": "[C 端板] X 端板电机孔中心 Z"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "Z_MOTOR_Y",
+    "expression": "9 mm",
+    "comment": "[C 端板] Z 端板电机孔中心 Y"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "MOUNT_R",
+    "expression": "1.7 mm",
+    "comment": "[C 端板] 端板安装孔半径（M3 过孔）"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "X_MOUNT_Y",
+    "expression": "-60 mm",
+    "comment": "[C 端板] X 端板安装孔中心 Y"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "Z_MOUNT_Y",
+    "expression": "-5 mm",
+    "comment": "[C 端板] Z 端板安装孔中心 Y"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "BELT_SLOT_H",
+    "expression": "7 mm",
+    "comment": "[C 端板] 端板顶部皮带让位槽高度"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "X_EP_L_X0",
+    "expression": "0 mm",
+    "comment": "[D X 端板] X 端板 L 起点 X"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "X_EP_L_LEN",
+    "expression": "50 mm",
+    "comment": "[D X 端板] X 端板 L 长度（贴合型材 X50 端面）"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "X_EP_R_X0",
+    "expression": "250 mm",
+    "comment": "[D X 端板] X 端板 R 起点 X"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "X_EP_R_LEN",
+    "expression": "50 mm",
+    "comment": "[D X 端板] X 端板 R 长度"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "X_EP_Y0",
+    "expression": "-79 mm",
+    "comment": "[D X 端板] X 端板 Y 起点"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "X_EP_W",
+    "expression": "42 mm",
+    "comment": "[D X 端板] X 端板 Y 宽度"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "X_EP_Z0",
+    "expression": "117 mm",
+    "comment": "[D X 端板] X 端板 Z 起点"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "X_EP_H",
+    "expression": "40 mm",
+    "comment": "[D X 端板] X 端板 Z 高度"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "X_POCKET_X0",
+    "expression": "41.5 mm",
+    "comment": "[D X 端板] 限位口袋起点 X"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "X_POCKET_Y0",
+    "expression": "-79 mm",
+    "comment": "[D X 端板] 限位口袋起点 Y"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "X_POCKET_Y1",
+    "expression": "-71.1 mm",
+    "comment": "[D X 端板] 限位口袋终点 Y（与 Ø6.10 孔留 0.05 间隙）"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "X_POCKET_ZC",
+    "expression": "131.25 mm",
+    "comment": "[D X 端板] 限位口袋中心 Z"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "Z_EP_L_X0",
+    "expression": "105 mm",
+    "comment": "[E Z 端板] Z 端板 L 起点 X"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "Z_EP_L_W",
+    "expression": "90 mm",
+    "comment": "[E Z 端板] Z 端板 L X 宽度"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "Z_EP_L_Y0",
+    "expression": "-30 mm",
+    "comment": "[E Z 端板] Z 端板 L Y 起点"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "Z_EP_L_D",
+    "expression": "49 mm",
+    "comment": "[E Z 端板] Z 端板 L Y 深度"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "Z_EP_L_Z0",
+    "expression": "12 mm",
+    "comment": "[E Z 端板] Z 端板 L Z 起点"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "Z_EP_L_H",
+    "expression": "50 mm",
+    "comment": "[E Z 端板] Z 端板 L Z 高度（贴合型材 Z62 端面）"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "Z_EP_R_X0",
+    "expression": "130 mm",
+    "comment": "[E Z 端板] Z 端板 R 起点 X"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "Z_EP_R_W",
+    "expression": "40 mm",
+    "comment": "[E Z 端板] Z 端板 R X 宽度"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "Z_EP_R_Y0",
+    "expression": "-23 mm",
+    "comment": "[E Z 端板] Z 端板 R Y 起点"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "Z_EP_R_D",
+    "expression": "42 mm",
+    "comment": "[E Z 端板] Z 端板 R Y 深度"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "Z_EP_R_Z0",
+    "expression": "212 mm",
+    "comment": "[E Z 端板] Z 端板 R Z 起点（贴合型材 Z212 端面）"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "Z_EP_R_H",
+    "expression": "50 mm",
+    "comment": "[E Z 端板] Z 端板 R Z 高度"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "Z_SLOT_XC",
+    "expression": "150 mm",
+    "comment": "[E Z 端板] Z 限位槽中心 X"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "Z_SLOT_Y0",
+    "expression": "-30 mm",
+    "comment": "[E Z 端板] Z 限位槽起点 Y"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "Z_SLOT_Y1",
+    "expression": "-10 mm",
+    "comment": "[E Z 端板] Z 限位槽终点 Y（局部槽，不切断端板）"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "Z_SLOT_Z0",
+    "expression": "52 mm",
+    "comment": "[E Z 端板] Z 限位槽起点 Z"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "CAR_L",
+    "expression": "33 mm",
+    "comment": "[F 滑车] 滑车沿运动轴长度",
+    "favorite": true
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "CAR_SPAN",
+    "expression": "50 mm",
+    "comment": "[F 滑车] 滑车横向跨距（两导杆外侧）",
+    "favorite": true
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "CAR_T_LOWER",
+    "expression": "10.5 mm",
+    "comment": "[F 滑车] 下滑车半体厚度",
+    "favorite": true
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "CAR_T_UPPER",
+    "expression": "10 mm",
+    "comment": "[F 滑车] X 上滑车半体厚度",
+    "favorite": true
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "CAR_T_UPPER_Z",
+    "expression": "15 mm",
+    "comment": "[F 滑车] Z 上滑车半体厚度（真实 bbox Y-27..-12，与下半体在 Y=-12 合拢）",
+    "favorite": true
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "CAR_CORNER_R",
+    "expression": "4 mm",
+    "comment": "[F 滑车] 滑车四角圆角半径"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "CAR_M3_R",
+    "expression": "1.7 mm",
+    "comment": "[F 滑车] M3 合拢通孔半径",
+    "favorite": true
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "CAR_CB_R_UPPER",
+    "expression": "3.2 mm",
+    "comment": "[F 滑车] 上半体沉孔半径"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "CAR_CB_R_LOWER",
+    "expression": "2.3 mm",
+    "comment": "[F 滑车] 下半体沉孔半径"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "CAR_CB_DEPTH_UPPER",
+    "expression": "3 mm",
+    "comment": "[F 滑车] 上半体沉孔深度"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "CAR_CB_DEPTH_LOWER",
+    "expression": "8 mm",
+    "comment": "[F 滑车] 下半体沉孔深度"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "CAR_M3_PITCH",
+    "expression": "12 mm",
+    "comment": "[F 滑车] 两 M3 孔间距"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "CAR_BELT_W",
+    "expression": "5 mm",
+    "comment": "[F 滑车] 中央皮带让位腔边长（须 < M3 孔距 − 2×沉孔半径，避免与沉孔刀具重叠导致布尔空结果）"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "CAR_BELT_D",
+    "expression": "2 mm",
+    "comment": "[F 滑车] 中央皮带让位腔深度"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "X_CAR_X0",
+    "expression": "133.5 mm",
+    "comment": "[F 滑车] X 滑车起点 X"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "X_CAR_Z0",
+    "expression": "112 mm",
+    "comment": "[F 滑车] X 滑车起点 Z"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "Z_CAR_X0",
+    "expression": "125 mm",
+    "comment": "[F 滑车] Z 滑车起点 X"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "Z_CAR_Z0",
+    "expression": "120.5 mm",
+    "comment": "[F 滑车] Z 滑车起点 Z"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "X_CAR_LOWER_Y0",
+    "expression": "-68 mm",
+    "comment": "[F 滑车] X 下半体 Y 起点（= 分型面）"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "X_CAR_UPPER_Y0",
+    "expression": "-78 mm",
+    "comment": "[F 滑车] X 上半体 Y 起点"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "Z_CAR_LOWER_Y0",
+    "expression": "-12 mm",
+    "comment": "[F 滑车] Z 下半体 Y 起点（= 分型面）"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "Z_CAR_UPPER_Y0",
+    "expression": "-27 mm",
+    "comment": "[F 滑车] Z 上半体 Y 起点"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "X_PROF_X0",
+    "expression": "50 mm",
+    "comment": "[G 型材] X 型材起点 X"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "X_PROF_LEN",
+    "expression": "200 mm",
+    "comment": "[G 型材] X 型材长度"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "X_PROF_Y0",
+    "expression": "-57 mm",
+    "comment": "[G 型材] X 型材 Y 起点"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "X_PROF_W",
+    "expression": "20 mm",
+    "comment": "[G 型材] X 型材截面宽（2040 的 20）"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "X_PROF_Z0",
+    "expression": "117 mm",
+    "comment": "[G 型材] X 型材 Z 起点"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "X_PROF_H",
+    "expression": "40 mm",
+    "comment": "[G 型材] X 型材截面高（2040 的 40）"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "Z_PROF_X0",
+    "expression": "130 mm",
+    "comment": "[G 型材] Z 型材起点 X"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "Z_PROF_W",
+    "expression": "40 mm",
+    "comment": "[G 型材] Z 型材截面宽"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "Z_PROF_Y0",
+    "expression": "-1 mm",
+    "comment": "[G 型材] Z 型材 Y 起点"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "Z_PROF_D",
+    "expression": "20 mm",
+    "comment": "[G 型材] Z 型材截面深"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "Z_PROF_Z0",
+    "expression": "62 mm",
+    "comment": "[G 型材] Z 型材起点 Z"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "Z_PROF_LEN",
+    "expression": "150 mm",
+    "comment": "[G 型材] Z 型材长度"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "PROF_SLOT_W",
+    "expression": "6 mm",
+    "comment": "[G 型材] T 槽口宽"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "PROF_SLOT_D",
+    "expression": "6 mm",
+    "comment": "[G 型材] T 槽深"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "PROF_CORE_D",
+    "expression": "6 mm",
+    "comment": "[G 型材] 中心通孔直径（语义化挤压截面，非真实薄壁型腔）"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "OVL",
+    "expression": "0.2 mm",
+    "comment": "[H 辅助] 加料特征与主体的重叠量（保证布尔可靠）"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "CUT_EXT",
+    "expression": "1 mm",
+    "comment": "[H 辅助] 去料刀具外延长度（保证贯通）"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "X_EP_L_LEN",
+    "width": "X_EP_W",
+    "height": "X_EP_H",
+    "corner": [
+     "X_EP_L_X0",
+     "X_EP_Y0",
+     "X_EP_Z0"
+    ],
+    "name": "XP_L_Blank",
+    "operation": "new",
+    "body_name": "X_EndPlate_L"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "X_EP_L_LEN - FLANGE_T",
+    "width": "X_EP_W - 2 * FRAME_WALL",
+    "height": "X_EP_H - 2 * FRAME_WALL",
+    "corner": [
+     "X_EP_L_X0",
+     "X_EP_Y0 + FRAME_WALL",
+     "X_EP_Z0 + FRAME_WALL"
+    ],
+    "name": "XP_L_FrameCavity",
+    "operation": "cut",
+    "targets": [
+     "X_EndPlate_L"
+    ]
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "MOTOR_PAD_L + OVL",
+    "width": "MOTOR_PAD_W",
+    "height": "MOTOR_PAD_H",
+    "corner": [
+     "X_EP_L_X0 + X_EP_L_LEN - FLANGE_T - MOTOR_PAD_L",
+     "MOTOR_Y - MOTOR_PAD_W / 2",
+     "MOTOR_Z - MOTOR_PAD_H / 2"
+    ],
+    "name": "XP_L_MotorPad",
+    "operation": "join",
+    "targets": [
+     "X_EndPlate_L"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "MOTOR_BORE_L_R",
+    "height": "X_EP_L_LEN + 2 * CUT_EXT",
+    "base": [
+     "X_EP_L_X0 - CUT_EXT",
+     "MOTOR_Y",
+     "MOTOR_Z"
+    ],
+    "axis": "X",
+    "name": "XP_L_MotorBore",
+    "operation": "cut",
+    "targets": [
+     "X_EndPlate_L"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "ROD_HOLE_R",
+    "height": "X_EP_L_LEN + 2 * CUT_EXT",
+    "base": [
+     "X_EP_L_X0 - CUT_EXT",
+     "X_ROD_Y",
+     "X_ROD_Z1"
+    ],
+    "axis": "X",
+    "name": "XP_L_RodBore1",
+    "operation": "cut",
+    "targets": [
+     "X_EndPlate_L"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "ROD_HOLE_R",
+    "height": "X_EP_L_LEN + 2 * CUT_EXT",
+    "base": [
+     "X_EP_L_X0 - CUT_EXT",
+     "X_ROD_Y",
+     "X_ROD_Z2"
+    ],
+    "axis": "X",
+    "name": "XP_L_RodBore2",
+    "operation": "cut",
+    "targets": [
+     "X_EndPlate_L"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "MOUNT_R",
+    "height": "X_EP_L_LEN + 2 * CUT_EXT",
+    "base": [
+     "X_EP_L_X0 - CUT_EXT",
+     "X_MOUNT_Y",
+     "X_ROD_Z1"
+    ],
+    "axis": "X",
+    "name": "XP_L_MountHole1",
+    "operation": "cut",
+    "targets": [
+     "X_EndPlate_L"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "MOUNT_R",
+    "height": "X_EP_L_LEN + 2 * CUT_EXT",
+    "base": [
+     "X_EP_L_X0 - CUT_EXT",
+     "X_MOUNT_Y",
+     "X_ROD_Z2"
+    ],
+    "axis": "X",
+    "name": "XP_L_MountHole2",
+    "operation": "cut",
+    "targets": [
+     "X_EndPlate_L"
+    ]
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "X_EP_L_LEN + 2 * CUT_EXT",
+    "width": "X_EP_Y0 + X_EP_W - X_PROF_Y0",
+    "height": "BELT_SLOT_H + CUT_EXT",
+    "corner": [
+     "X_EP_L_X0 - CUT_EXT",
+     "X_PROF_Y0",
+     "X_EP_Z0 + X_EP_H - BELT_SLOT_H"
+    ],
+    "name": "XP_L_BeltSlot",
+    "operation": "cut",
+    "targets": [
+     "X_EndPlate_L"
+    ]
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "X_EP_L_LEN - X_POCKET_X0 + CUT_EXT",
+    "width": "X_POCKET_Y1 - X_POCKET_Y0",
+    "height": "X_POCKET_W",
+    "corner": [
+     "X_POCKET_X0",
+     "X_POCKET_Y0",
+     "X_POCKET_ZC - X_POCKET_W / 2"
+    ],
+    "name": "XP_L_LimitPocket",
+    "operation": "cut",
+    "targets": [
+     "X_EndPlate_L"
+    ]
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "X_EP_R_LEN",
+    "width": "X_EP_W",
+    "height": "X_EP_H",
+    "corner": [
+     "X_EP_R_X0",
+     "X_EP_Y0",
+     "X_EP_Z0"
+    ],
+    "name": "XP_R_Blank",
+    "operation": "new",
+    "body_name": "X_EndPlate_R"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "X_EP_R_LEN - FLANGE_T",
+    "width": "X_EP_W - 2 * FRAME_WALL",
+    "height": "X_EP_H - 2 * FRAME_WALL",
+    "corner": [
+     "X_EP_R_X0 + FLANGE_T",
+     "X_EP_Y0 + FRAME_WALL",
+     "X_EP_Z0 + FRAME_WALL"
+    ],
+    "name": "XP_R_FrameCavity",
+    "operation": "cut",
+    "targets": [
+     "X_EndPlate_R"
+    ]
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "MOTOR_PAD_L + OVL",
+    "width": "MOTOR_PAD_W",
+    "height": "MOTOR_PAD_H",
+    "corner": [
+     "X_EP_R_X0 + FLANGE_T - OVL",
+     "MOTOR_Y - MOTOR_PAD_W / 2",
+     "MOTOR_Z - MOTOR_PAD_H / 2"
+    ],
+    "name": "XP_R_MotorPad",
+    "operation": "join",
+    "targets": [
+     "X_EndPlate_R"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "MOTOR_BORE_R_R",
+    "height": "X_EP_R_LEN + 2 * CUT_EXT",
+    "base": [
+     "X_EP_R_X0 - CUT_EXT",
+     "MOTOR_Y",
+     "MOTOR_Z"
+    ],
+    "axis": "X",
+    "name": "XP_R_MotorBore",
+    "operation": "cut",
+    "targets": [
+     "X_EndPlate_R"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "ROD_HOLE_R",
+    "height": "X_EP_R_LEN + 2 * CUT_EXT",
+    "base": [
+     "X_EP_R_X0 - CUT_EXT",
+     "X_ROD_Y",
+     "X_ROD_Z1"
+    ],
+    "axis": "X",
+    "name": "XP_R_RodBore1",
+    "operation": "cut",
+    "targets": [
+     "X_EndPlate_R"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "ROD_HOLE_R",
+    "height": "X_EP_R_LEN + 2 * CUT_EXT",
+    "base": [
+     "X_EP_R_X0 - CUT_EXT",
+     "X_ROD_Y",
+     "X_ROD_Z2"
+    ],
+    "axis": "X",
+    "name": "XP_R_RodBore2",
+    "operation": "cut",
+    "targets": [
+     "X_EndPlate_R"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "MOUNT_R",
+    "height": "X_EP_R_LEN + 2 * CUT_EXT",
+    "base": [
+     "X_EP_R_X0 - CUT_EXT",
+     "X_MOUNT_Y",
+     "X_ROD_Z1"
+    ],
+    "axis": "X",
+    "name": "XP_R_MountHole1",
+    "operation": "cut",
+    "targets": [
+     "X_EndPlate_R"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "MOUNT_R",
+    "height": "X_EP_R_LEN + 2 * CUT_EXT",
+    "base": [
+     "X_EP_R_X0 - CUT_EXT",
+     "X_MOUNT_Y",
+     "X_ROD_Z2"
+    ],
+    "axis": "X",
+    "name": "XP_R_MountHole2",
+    "operation": "cut",
+    "targets": [
+     "X_EndPlate_R"
+    ]
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "X_EP_R_LEN + 2 * CUT_EXT",
+    "width": "X_EP_Y0 + X_EP_W - X_PROF_Y0",
+    "height": "BELT_SLOT_H + CUT_EXT",
+    "corner": [
+     "X_EP_R_X0 - CUT_EXT",
+     "X_PROF_Y0",
+     "X_EP_Z0 + X_EP_H - BELT_SLOT_H"
+    ],
+    "name": "XP_R_BeltSlot",
+    "operation": "cut",
+    "targets": [
+     "X_EndPlate_R"
+    ]
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "Z_EP_L_W",
+    "width": "Z_EP_L_D",
+    "height": "Z_EP_L_H",
+    "corner": [
+     "Z_EP_L_X0",
+     "Z_EP_L_Y0",
+     "Z_EP_L_Z0"
+    ],
+    "name": "ZP_L_Blank",
+    "operation": "new",
+    "body_name": "Z_EndPlate_L"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "Z_EP_L_W - 2 * FRAME_WALL",
+    "width": "Z_EP_L_D - 2 * FRAME_WALL",
+    "height": "Z_EP_L_H - FLANGE_T",
+    "corner": [
+     "Z_EP_L_X0 + FRAME_WALL",
+     "Z_EP_L_Y0 + FRAME_WALL",
+     "Z_EP_L_Z0"
+    ],
+    "name": "ZP_L_FrameCavity",
+    "operation": "cut",
+    "targets": [
+     "Z_EndPlate_L"
+    ]
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "MOTOR_PAD_W",
+    "width": "MOTOR_PAD_H",
+    "height": "MOTOR_PAD_L + OVL",
+    "corner": [
+     "Z_SLOT_XC - MOTOR_PAD_W / 2",
+     "Z_MOTOR_Y - MOTOR_PAD_H / 2",
+     "Z_EP_L_Z0 + Z_EP_L_H - FLANGE_T - MOTOR_PAD_L"
+    ],
+    "name": "ZP_L_MotorPad",
+    "operation": "join",
+    "targets": [
+     "Z_EndPlate_L"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "MOTOR_BORE_L_R",
+    "height": "Z_EP_L_H + 2 * CUT_EXT",
+    "base": [
+     "Z_SLOT_XC",
+     "Z_MOTOR_Y",
+     "Z_EP_L_Z0 - CUT_EXT"
+    ],
+    "axis": "Z",
+    "name": "ZP_L_MotorBore",
+    "operation": "cut",
+    "targets": [
+     "Z_EndPlate_L"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "ROD_HOLE_R",
+    "height": "Z_EP_L_H + 2 * CUT_EXT",
+    "base": [
+     "Z_ROD_X1",
+     "Z_ROD_Y",
+     "Z_EP_L_Z0 - CUT_EXT"
+    ],
+    "axis": "Z",
+    "name": "ZP_L_RodBore1",
+    "operation": "cut",
+    "targets": [
+     "Z_EndPlate_L"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "ROD_HOLE_R",
+    "height": "Z_EP_L_H + 2 * CUT_EXT",
+    "base": [
+     "Z_ROD_X2",
+     "Z_ROD_Y",
+     "Z_EP_L_Z0 - CUT_EXT"
+    ],
+    "axis": "Z",
+    "name": "ZP_L_RodBore2",
+    "operation": "cut",
+    "targets": [
+     "Z_EndPlate_L"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "MOUNT_R",
+    "height": "Z_EP_L_H + 2 * CUT_EXT",
+    "base": [
+     "Z_ROD_X1",
+     "Z_MOUNT_Y",
+     "Z_EP_L_Z0 - CUT_EXT"
+    ],
+    "axis": "Z",
+    "name": "ZP_L_MountHole1",
+    "operation": "cut",
+    "targets": [
+     "Z_EndPlate_L"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "MOUNT_R",
+    "height": "Z_EP_L_H + 2 * CUT_EXT",
+    "base": [
+     "Z_ROD_X2",
+     "Z_MOUNT_Y",
+     "Z_EP_L_Z0 - CUT_EXT"
+    ],
+    "axis": "Z",
+    "name": "ZP_L_MountHole2",
+    "operation": "cut",
+    "targets": [
+     "Z_EndPlate_L"
+    ]
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "Z_EP_L_W + 2 * CUT_EXT",
+    "width": "Z_EP_L_Y0 + Z_EP_L_D - Z_PROF_Y0",
+    "height": "BELT_SLOT_H + CUT_EXT",
+    "corner": [
+     "Z_EP_L_X0 - CUT_EXT",
+     "Z_PROF_Y0",
+     "Z_EP_L_Z0 + Z_EP_L_H - BELT_SLOT_H"
+    ],
+    "name": "ZP_L_BeltSlot",
+    "operation": "cut",
+    "targets": [
+     "Z_EndPlate_L"
+    ]
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "Z_SLOT_W",
+    "width": "Z_SLOT_Y1 - Z_SLOT_Y0",
+    "height": "Z_EP_L_Z0 + Z_EP_L_H - Z_SLOT_Z0 + CUT_EXT",
+    "corner": [
+     "Z_SLOT_XC - Z_SLOT_W / 2",
+     "Z_SLOT_Y0",
+     "Z_SLOT_Z0"
+    ],
+    "name": "ZP_L_LimitSlot",
+    "operation": "cut",
+    "targets": [
+     "Z_EndPlate_L"
+    ]
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "Z_EP_R_W",
+    "width": "Z_EP_R_D",
+    "height": "Z_EP_R_H",
+    "corner": [
+     "Z_EP_R_X0",
+     "Z_EP_R_Y0",
+     "Z_EP_R_Z0"
+    ],
+    "name": "ZP_R_Blank",
+    "operation": "new",
+    "body_name": "Z_EndPlate_R"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "Z_EP_R_W - 2 * FRAME_WALL",
+    "width": "Z_EP_R_D - 2 * FRAME_WALL",
+    "height": "Z_EP_R_H - FLANGE_T",
+    "corner": [
+     "Z_EP_R_X0 + FRAME_WALL",
+     "Z_EP_R_Y0 + FRAME_WALL",
+     "Z_EP_R_Z0 + FLANGE_T"
+    ],
+    "name": "ZP_R_FrameCavity",
+    "operation": "cut",
+    "targets": [
+     "Z_EndPlate_R"
+    ]
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "MOTOR_PAD_W",
+    "width": "MOTOR_PAD_H",
+    "height": "MOTOR_PAD_L + OVL",
+    "corner": [
+     "Z_SLOT_XC - MOTOR_PAD_W / 2",
+     "Z_MOTOR_Y - MOTOR_PAD_H / 2",
+     "Z_EP_R_Z0 + FLANGE_T - OVL"
+    ],
+    "name": "ZP_R_MotorPad",
+    "operation": "join",
+    "targets": [
+     "Z_EndPlate_R"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "MOTOR_BORE_R_R",
+    "height": "Z_EP_R_H + 2 * CUT_EXT",
+    "base": [
+     "Z_SLOT_XC",
+     "Z_MOTOR_Y",
+     "Z_EP_R_Z0 - CUT_EXT"
+    ],
+    "axis": "Z",
+    "name": "ZP_R_MotorBore",
+    "operation": "cut",
+    "targets": [
+     "Z_EndPlate_R"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "ROD_HOLE_R",
+    "height": "Z_EP_R_H + 2 * CUT_EXT",
+    "base": [
+     "Z_ROD_X1",
+     "Z_ROD_Y",
+     "Z_EP_R_Z0 - CUT_EXT"
+    ],
+    "axis": "Z",
+    "name": "ZP_R_RodBore1",
+    "operation": "cut",
+    "targets": [
+     "Z_EndPlate_R"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "ROD_HOLE_R",
+    "height": "Z_EP_R_H + 2 * CUT_EXT",
+    "base": [
+     "Z_ROD_X2",
+     "Z_ROD_Y",
+     "Z_EP_R_Z0 - CUT_EXT"
+    ],
+    "axis": "Z",
+    "name": "ZP_R_RodBore2",
+    "operation": "cut",
+    "targets": [
+     "Z_EndPlate_R"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "MOUNT_R",
+    "height": "Z_EP_R_H + 2 * CUT_EXT",
+    "base": [
+     "Z_ROD_X1",
+     "Z_MOUNT_Y",
+     "Z_EP_R_Z0 - CUT_EXT"
+    ],
+    "axis": "Z",
+    "name": "ZP_R_MountHole1",
+    "operation": "cut",
+    "targets": [
+     "Z_EndPlate_R"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "MOUNT_R",
+    "height": "Z_EP_R_H + 2 * CUT_EXT",
+    "base": [
+     "Z_ROD_X2",
+     "Z_MOUNT_Y",
+     "Z_EP_R_Z0 - CUT_EXT"
+    ],
+    "axis": "Z",
+    "name": "ZP_R_MountHole2",
+    "operation": "cut",
+    "targets": [
+     "Z_EndPlate_R"
+    ]
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "Z_EP_R_W + 2 * CUT_EXT",
+    "width": "Z_EP_R_Y0 + Z_EP_R_D - Z_PROF_Y0",
+    "height": "BELT_SLOT_H + CUT_EXT",
+    "corner": [
+     "Z_EP_R_X0 - CUT_EXT",
+     "Z_PROF_Y0",
+     "Z_EP_R_Z0 - CUT_EXT"
+    ],
+    "name": "ZP_R_BeltSlot",
+    "operation": "cut",
+    "targets": [
+     "Z_EndPlate_R"
+    ]
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "CAR_L",
+    "width": "CAR_T_LOWER",
+    "height": "CAR_SPAN",
+    "corner": [
+     "X_CAR_X0",
+     "X_CAR_LOWER_Y0",
+     "X_CAR_Z0"
+    ],
+    "name": "CA_X_Lower_Blank",
+    "operation": "new",
+    "body_name": "X_Carriage_Lower"
+   }
+  },
+  {
+   "command": "solid.fillet",
+   "params": {
+    "body": "X_Carriage_Lower",
+    "radius": "CAR_CORNER_R",
+    "edges": [
+     {
+      "body": "X_Carriage_Lower",
+      "index": 0
+     },
+     {
+      "body": "X_Carriage_Lower",
+      "index": 2
+     },
+     {
+      "body": "X_Carriage_Lower",
+      "index": 8
+     },
+     {
+      "body": "X_Carriage_Lower",
+      "index": 11
+     }
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "PILOT_R",
+    "height": "X_SEAT_X0 - X_CAR_X0",
+    "base": [
+     "X_CAR_X0",
+     "X_ROD_Y",
+     "X_ROD_Z1"
+    ],
+    "axis": "X",
+    "name": "CA_X_Lower_Pilot1",
+    "operation": "cut",
+    "targets": [
+     "X_Carriage_Lower"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "SEAT_R",
+    "height": "SEAT_L",
+    "base": [
+     "X_SEAT_X0",
+     "X_ROD_Y",
+     "X_ROD_Z1"
+    ],
+    "axis": "X",
+    "name": "CA_X_Lower_Seat1",
+    "operation": "cut",
+    "targets": [
+     "X_Carriage_Lower"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "EXIT_R",
+    "height": "X_CAR_X0 + CAR_L - X_SEAT_X0 - SEAT_L",
+    "base": [
+     "X_SEAT_X0 + SEAT_L",
+     "X_ROD_Y",
+     "X_ROD_Z1"
+    ],
+    "axis": "X",
+    "name": "CA_X_Lower_Exit1",
+    "operation": "cut",
+    "targets": [
+     "X_Carriage_Lower"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "PILOT_R",
+    "height": "X_SEAT_X0 - X_CAR_X0",
+    "base": [
+     "X_CAR_X0",
+     "X_ROD_Y",
+     "X_ROD_Z2"
+    ],
+    "axis": "X",
+    "name": "CA_X_Lower_Pilot2",
+    "operation": "cut",
+    "targets": [
+     "X_Carriage_Lower"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "SEAT_R",
+    "height": "SEAT_L",
+    "base": [
+     "X_SEAT_X0",
+     "X_ROD_Y",
+     "X_ROD_Z2"
+    ],
+    "axis": "X",
+    "name": "CA_X_Lower_Seat2",
+    "operation": "cut",
+    "targets": [
+     "X_Carriage_Lower"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "EXIT_R",
+    "height": "X_CAR_X0 + CAR_L - X_SEAT_X0 - SEAT_L",
+    "base": [
+     "X_SEAT_X0 + SEAT_L",
+     "X_ROD_Y",
+     "X_ROD_Z2"
+    ],
+    "axis": "X",
+    "name": "CA_X_Lower_Exit2",
+    "operation": "cut",
+    "targets": [
+     "X_Carriage_Lower"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "CAR_M3_R",
+    "height": "CAR_T_LOWER + 2 * CUT_EXT",
+    "base": [
+     "X_CAR_X0 + CAR_L / 2 - CAR_M3_PITCH / 2",
+     "X_CAR_LOWER_Y0 - CUT_EXT",
+     "X_CAR_Z0 + CAR_SPAN / 2"
+    ],
+    "axis": "Y",
+    "name": "CA_X_Lower_M3Through1",
+    "operation": "cut",
+    "targets": [
+     "X_Carriage_Lower"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "CAR_M3_R",
+    "height": "CAR_T_LOWER + 2 * CUT_EXT",
+    "base": [
+     "X_CAR_X0 + CAR_L / 2 + CAR_M3_PITCH / 2",
+     "X_CAR_LOWER_Y0 - CUT_EXT",
+     "X_CAR_Z0 + CAR_SPAN / 2"
+    ],
+    "axis": "Y",
+    "name": "CA_X_Lower_M3Through2",
+    "operation": "cut",
+    "targets": [
+     "X_Carriage_Lower"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "CAR_CB_R_LOWER",
+    "height": "CAR_CB_DEPTH_LOWER + CUT_EXT",
+    "base": [
+     "X_CAR_X0 + CAR_L / 2 - CAR_M3_PITCH / 2",
+     "X_CAR_LOWER_Y0 - CUT_EXT",
+     "X_CAR_Z0 + CAR_SPAN / 2"
+    ],
+    "axis": "Y",
+    "name": "CA_X_Lower_M3Cbore1",
+    "operation": "cut",
+    "targets": [
+     "X_Carriage_Lower"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "CAR_CB_R_LOWER",
+    "height": "CAR_CB_DEPTH_LOWER + CUT_EXT",
+    "base": [
+     "X_CAR_X0 + CAR_L / 2 + CAR_M3_PITCH / 2",
+     "X_CAR_LOWER_Y0 - CUT_EXT",
+     "X_CAR_Z0 + CAR_SPAN / 2"
+    ],
+    "axis": "Y",
+    "name": "CA_X_Lower_M3Cbore2",
+    "operation": "cut",
+    "targets": [
+     "X_Carriage_Lower"
+    ]
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "CAR_BELT_W",
+    "width": "CAR_BELT_D + CUT_EXT",
+    "height": "CAR_BELT_W",
+    "corner": [
+     "X_CAR_X0 + CAR_L / 2 - CAR_BELT_W / 2",
+     "X_CAR_LOWER_Y0 + CAR_T_LOWER - CAR_BELT_D",
+     "X_CAR_Z0 + CAR_SPAN / 2 - CAR_BELT_W / 2"
+    ],
+    "name": "CA_X_Lower_BeltRelief",
+    "operation": "cut",
+    "targets": [
+     "X_Carriage_Lower"
+    ]
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "CAR_L",
+    "width": "CAR_T_UPPER",
+    "height": "CAR_SPAN",
+    "corner": [
+     "X_CAR_X0",
+     "X_CAR_UPPER_Y0",
+     "X_CAR_Z0"
+    ],
+    "name": "CA_X_Upper_Blank",
+    "operation": "new",
+    "body_name": "X_Carriage_Upper"
+   }
+  },
+  {
+   "command": "solid.fillet",
+   "params": {
+    "body": "X_Carriage_Upper",
+    "radius": "CAR_CORNER_R",
+    "edges": [
+     {
+      "body": "X_Carriage_Upper",
+      "index": 0
+     },
+     {
+      "body": "X_Carriage_Upper",
+      "index": 2
+     },
+     {
+      "body": "X_Carriage_Upper",
+      "index": 8
+     },
+     {
+      "body": "X_Carriage_Upper",
+      "index": 11
+     }
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "PILOT_R",
+    "height": "X_SEAT_X0 - X_CAR_X0",
+    "base": [
+     "X_CAR_X0",
+     "X_ROD_Y",
+     "X_ROD_Z1"
+    ],
+    "axis": "X",
+    "name": "CA_X_Upper_Pilot1",
+    "operation": "cut",
+    "targets": [
+     "X_Carriage_Upper"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "SEAT_R",
+    "height": "SEAT_L",
+    "base": [
+     "X_SEAT_X0",
+     "X_ROD_Y",
+     "X_ROD_Z1"
+    ],
+    "axis": "X",
+    "name": "CA_X_Upper_Seat1",
+    "operation": "cut",
+    "targets": [
+     "X_Carriage_Upper"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "EXIT_R",
+    "height": "X_CAR_X0 + CAR_L - X_SEAT_X0 - SEAT_L",
+    "base": [
+     "X_SEAT_X0 + SEAT_L",
+     "X_ROD_Y",
+     "X_ROD_Z1"
+    ],
+    "axis": "X",
+    "name": "CA_X_Upper_Exit1",
+    "operation": "cut",
+    "targets": [
+     "X_Carriage_Upper"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "PILOT_R",
+    "height": "X_SEAT_X0 - X_CAR_X0",
+    "base": [
+     "X_CAR_X0",
+     "X_ROD_Y",
+     "X_ROD_Z2"
+    ],
+    "axis": "X",
+    "name": "CA_X_Upper_Pilot2",
+    "operation": "cut",
+    "targets": [
+     "X_Carriage_Upper"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "SEAT_R",
+    "height": "SEAT_L",
+    "base": [
+     "X_SEAT_X0",
+     "X_ROD_Y",
+     "X_ROD_Z2"
+    ],
+    "axis": "X",
+    "name": "CA_X_Upper_Seat2",
+    "operation": "cut",
+    "targets": [
+     "X_Carriage_Upper"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "EXIT_R",
+    "height": "X_CAR_X0 + CAR_L - X_SEAT_X0 - SEAT_L",
+    "base": [
+     "X_SEAT_X0 + SEAT_L",
+     "X_ROD_Y",
+     "X_ROD_Z2"
+    ],
+    "axis": "X",
+    "name": "CA_X_Upper_Exit2",
+    "operation": "cut",
+    "targets": [
+     "X_Carriage_Upper"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "CAR_M3_R",
+    "height": "CAR_T_UPPER + 2 * CUT_EXT",
+    "base": [
+     "X_CAR_X0 + CAR_L / 2 - CAR_M3_PITCH / 2",
+     "X_CAR_UPPER_Y0 - CUT_EXT",
+     "X_CAR_Z0 + CAR_SPAN / 2"
+    ],
+    "axis": "Y",
+    "name": "CA_X_Upper_M3Through1",
+    "operation": "cut",
+    "targets": [
+     "X_Carriage_Upper"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "CAR_M3_R",
+    "height": "CAR_T_UPPER + 2 * CUT_EXT",
+    "base": [
+     "X_CAR_X0 + CAR_L / 2 + CAR_M3_PITCH / 2",
+     "X_CAR_UPPER_Y0 - CUT_EXT",
+     "X_CAR_Z0 + CAR_SPAN / 2"
+    ],
+    "axis": "Y",
+    "name": "CA_X_Upper_M3Through2",
+    "operation": "cut",
+    "targets": [
+     "X_Carriage_Upper"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "CAR_CB_R_UPPER",
+    "height": "CAR_CB_DEPTH_UPPER + CUT_EXT",
+    "base": [
+     "X_CAR_X0 + CAR_L / 2 - CAR_M3_PITCH / 2",
+     "X_CAR_UPPER_Y0 - CUT_EXT",
+     "X_CAR_Z0 + CAR_SPAN / 2"
+    ],
+    "axis": "Y",
+    "name": "CA_X_Upper_M3Cbore1",
+    "operation": "cut",
+    "targets": [
+     "X_Carriage_Upper"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "CAR_CB_R_UPPER",
+    "height": "CAR_CB_DEPTH_UPPER + CUT_EXT",
+    "base": [
+     "X_CAR_X0 + CAR_L / 2 + CAR_M3_PITCH / 2",
+     "X_CAR_UPPER_Y0 - CUT_EXT",
+     "X_CAR_Z0 + CAR_SPAN / 2"
+    ],
+    "axis": "Y",
+    "name": "CA_X_Upper_M3Cbore2",
+    "operation": "cut",
+    "targets": [
+     "X_Carriage_Upper"
+    ]
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "CAR_BELT_W",
+    "width": "CAR_BELT_D + CUT_EXT",
+    "height": "CAR_BELT_W",
+    "corner": [
+     "X_CAR_X0 + CAR_L / 2 - CAR_BELT_W / 2",
+     "X_CAR_UPPER_Y0 - CUT_EXT",
+     "X_CAR_Z0 + CAR_SPAN / 2 - CAR_BELT_W / 2"
+    ],
+    "name": "CA_X_Upper_BeltRelief",
+    "operation": "cut",
+    "targets": [
+     "X_Carriage_Upper"
+    ]
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "CAR_SPAN",
+    "width": "CAR_T_LOWER",
+    "height": "CAR_L",
+    "corner": [
+     "Z_CAR_X0",
+     "Z_CAR_LOWER_Y0",
+     "Z_CAR_Z0"
+    ],
+    "name": "CA_Z_Lower_Blank",
+    "operation": "new",
+    "body_name": "Z_Carriage_Lower"
+   }
+  },
+  {
+   "command": "solid.fillet",
+   "params": {
+    "body": "Z_Carriage_Lower",
+    "radius": "CAR_CORNER_R",
+    "edges": [
+     {
+      "body": "Z_Carriage_Lower",
+      "index": 0
+     },
+     {
+      "body": "Z_Carriage_Lower",
+      "index": 2
+     },
+     {
+      "body": "Z_Carriage_Lower",
+      "index": 8
+     },
+     {
+      "body": "Z_Carriage_Lower",
+      "index": 11
+     }
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "PILOT_R",
+    "height": "Z_SEAT_Z0 - Z_CAR_Z0",
+    "base": [
+     "Z_ROD_X1",
+     "Z_ROD_Y",
+     "Z_CAR_Z0"
+    ],
+    "axis": "Z",
+    "name": "CA_Z_Lower_Pilot1",
+    "operation": "cut",
+    "targets": [
+     "Z_Carriage_Lower"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "SEAT_R",
+    "height": "SEAT_L",
+    "base": [
+     "Z_ROD_X1",
+     "Z_ROD_Y",
+     "Z_SEAT_Z0"
+    ],
+    "axis": "Z",
+    "name": "CA_Z_Lower_Seat1",
+    "operation": "cut",
+    "targets": [
+     "Z_Carriage_Lower"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "EXIT_R",
+    "height": "Z_CAR_Z0 + CAR_L - Z_SEAT_Z0 - SEAT_L",
+    "base": [
+     "Z_ROD_X1",
+     "Z_ROD_Y",
+     "Z_SEAT_Z0 + SEAT_L"
+    ],
+    "axis": "Z",
+    "name": "CA_Z_Lower_Exit1",
+    "operation": "cut",
+    "targets": [
+     "Z_Carriage_Lower"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "PILOT_R",
+    "height": "Z_SEAT_Z0 - Z_CAR_Z0",
+    "base": [
+     "Z_ROD_X2",
+     "Z_ROD_Y",
+     "Z_CAR_Z0"
+    ],
+    "axis": "Z",
+    "name": "CA_Z_Lower_Pilot2",
+    "operation": "cut",
+    "targets": [
+     "Z_Carriage_Lower"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "SEAT_R",
+    "height": "SEAT_L",
+    "base": [
+     "Z_ROD_X2",
+     "Z_ROD_Y",
+     "Z_SEAT_Z0"
+    ],
+    "axis": "Z",
+    "name": "CA_Z_Lower_Seat2",
+    "operation": "cut",
+    "targets": [
+     "Z_Carriage_Lower"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "EXIT_R",
+    "height": "Z_CAR_Z0 + CAR_L - Z_SEAT_Z0 - SEAT_L",
+    "base": [
+     "Z_ROD_X2",
+     "Z_ROD_Y",
+     "Z_SEAT_Z0 + SEAT_L"
+    ],
+    "axis": "Z",
+    "name": "CA_Z_Lower_Exit2",
+    "operation": "cut",
+    "targets": [
+     "Z_Carriage_Lower"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "CAR_M3_R",
+    "height": "CAR_T_LOWER + 2 * CUT_EXT",
+    "base": [
+     "Z_CAR_X0 + CAR_SPAN / 2",
+     "Z_CAR_LOWER_Y0 - CUT_EXT",
+     "Z_CAR_Z0 + CAR_L / 2 - CAR_M3_PITCH / 2"
+    ],
+    "axis": "Y",
+    "name": "CA_Z_Lower_M3Through1",
+    "operation": "cut",
+    "targets": [
+     "Z_Carriage_Lower"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "CAR_M3_R",
+    "height": "CAR_T_LOWER + 2 * CUT_EXT",
+    "base": [
+     "Z_CAR_X0 + CAR_SPAN / 2",
+     "Z_CAR_LOWER_Y0 - CUT_EXT",
+     "Z_CAR_Z0 + CAR_L / 2 + CAR_M3_PITCH / 2"
+    ],
+    "axis": "Y",
+    "name": "CA_Z_Lower_M3Through2",
+    "operation": "cut",
+    "targets": [
+     "Z_Carriage_Lower"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "CAR_CB_R_LOWER",
+    "height": "CAR_CB_DEPTH_LOWER + CUT_EXT",
+    "base": [
+     "Z_CAR_X0 + CAR_SPAN / 2",
+     "Z_CAR_LOWER_Y0 - CUT_EXT",
+     "Z_CAR_Z0 + CAR_L / 2 - CAR_M3_PITCH / 2"
+    ],
+    "axis": "Y",
+    "name": "CA_Z_Lower_M3Cbore1",
+    "operation": "cut",
+    "targets": [
+     "Z_Carriage_Lower"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "CAR_CB_R_LOWER",
+    "height": "CAR_CB_DEPTH_LOWER + CUT_EXT",
+    "base": [
+     "Z_CAR_X0 + CAR_SPAN / 2",
+     "Z_CAR_LOWER_Y0 - CUT_EXT",
+     "Z_CAR_Z0 + CAR_L / 2 + CAR_M3_PITCH / 2"
+    ],
+    "axis": "Y",
+    "name": "CA_Z_Lower_M3Cbore2",
+    "operation": "cut",
+    "targets": [
+     "Z_Carriage_Lower"
+    ]
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "CAR_BELT_W",
+    "width": "CAR_BELT_D + CUT_EXT",
+    "height": "CAR_BELT_W",
+    "corner": [
+     "Z_CAR_X0 + CAR_SPAN / 2 - CAR_BELT_W / 2",
+     "Z_CAR_LOWER_Y0 + CAR_T_LOWER - CAR_BELT_D",
+     "Z_CAR_Z0 + CAR_L / 2 - CAR_BELT_W / 2"
+    ],
+    "name": "CA_Z_Lower_BeltRelief",
+    "operation": "cut",
+    "targets": [
+     "Z_Carriage_Lower"
+    ]
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "CAR_SPAN",
+    "width": "CAR_T_UPPER_Z",
+    "height": "CAR_L",
+    "corner": [
+     "Z_CAR_X0",
+     "Z_CAR_UPPER_Y0",
+     "Z_CAR_Z0"
+    ],
+    "name": "CA_Z_Upper_Blank",
+    "operation": "new",
+    "body_name": "Z_Carriage_Upper"
+   }
+  },
+  {
+   "command": "solid.fillet",
+   "params": {
+    "body": "Z_Carriage_Upper",
+    "radius": "CAR_CORNER_R",
+    "edges": [
+     {
+      "body": "Z_Carriage_Upper",
+      "index": 0
+     },
+     {
+      "body": "Z_Carriage_Upper",
+      "index": 2
+     },
+     {
+      "body": "Z_Carriage_Upper",
+      "index": 8
+     },
+     {
+      "body": "Z_Carriage_Upper",
+      "index": 11
+     }
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "PILOT_R",
+    "height": "Z_SEAT_Z0 - Z_CAR_Z0",
+    "base": [
+     "Z_ROD_X1",
+     "Z_ROD_Y",
+     "Z_CAR_Z0"
+    ],
+    "axis": "Z",
+    "name": "CA_Z_Upper_Pilot1",
+    "operation": "cut",
+    "targets": [
+     "Z_Carriage_Upper"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "SEAT_R",
+    "height": "SEAT_L",
+    "base": [
+     "Z_ROD_X1",
+     "Z_ROD_Y",
+     "Z_SEAT_Z0"
+    ],
+    "axis": "Z",
+    "name": "CA_Z_Upper_Seat1",
+    "operation": "cut",
+    "targets": [
+     "Z_Carriage_Upper"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "EXIT_R",
+    "height": "Z_CAR_Z0 + CAR_L - Z_SEAT_Z0 - SEAT_L",
+    "base": [
+     "Z_ROD_X1",
+     "Z_ROD_Y",
+     "Z_SEAT_Z0 + SEAT_L"
+    ],
+    "axis": "Z",
+    "name": "CA_Z_Upper_Exit1",
+    "operation": "cut",
+    "targets": [
+     "Z_Carriage_Upper"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "PILOT_R",
+    "height": "Z_SEAT_Z0 - Z_CAR_Z0",
+    "base": [
+     "Z_ROD_X2",
+     "Z_ROD_Y",
+     "Z_CAR_Z0"
+    ],
+    "axis": "Z",
+    "name": "CA_Z_Upper_Pilot2",
+    "operation": "cut",
+    "targets": [
+     "Z_Carriage_Upper"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "SEAT_R",
+    "height": "SEAT_L",
+    "base": [
+     "Z_ROD_X2",
+     "Z_ROD_Y",
+     "Z_SEAT_Z0"
+    ],
+    "axis": "Z",
+    "name": "CA_Z_Upper_Seat2",
+    "operation": "cut",
+    "targets": [
+     "Z_Carriage_Upper"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "EXIT_R",
+    "height": "Z_CAR_Z0 + CAR_L - Z_SEAT_Z0 - SEAT_L",
+    "base": [
+     "Z_ROD_X2",
+     "Z_ROD_Y",
+     "Z_SEAT_Z0 + SEAT_L"
+    ],
+    "axis": "Z",
+    "name": "CA_Z_Upper_Exit2",
+    "operation": "cut",
+    "targets": [
+     "Z_Carriage_Upper"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "CAR_M3_R",
+    "height": "CAR_T_UPPER_Z + 2 * CUT_EXT",
+    "base": [
+     "Z_CAR_X0 + CAR_SPAN / 2",
+     "Z_CAR_UPPER_Y0 - CUT_EXT",
+     "Z_CAR_Z0 + CAR_L / 2 - CAR_M3_PITCH / 2"
+    ],
+    "axis": "Y",
+    "name": "CA_Z_Upper_M3Through1",
+    "operation": "cut",
+    "targets": [
+     "Z_Carriage_Upper"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "CAR_M3_R",
+    "height": "CAR_T_UPPER_Z + 2 * CUT_EXT",
+    "base": [
+     "Z_CAR_X0 + CAR_SPAN / 2",
+     "Z_CAR_UPPER_Y0 - CUT_EXT",
+     "Z_CAR_Z0 + CAR_L / 2 + CAR_M3_PITCH / 2"
+    ],
+    "axis": "Y",
+    "name": "CA_Z_Upper_M3Through2",
+    "operation": "cut",
+    "targets": [
+     "Z_Carriage_Upper"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "CAR_CB_R_UPPER",
+    "height": "CAR_CB_DEPTH_UPPER + CUT_EXT",
+    "base": [
+     "Z_CAR_X0 + CAR_SPAN / 2",
+     "Z_CAR_UPPER_Y0 - CUT_EXT",
+     "Z_CAR_Z0 + CAR_L / 2 - CAR_M3_PITCH / 2"
+    ],
+    "axis": "Y",
+    "name": "CA_Z_Upper_M3Cbore1",
+    "operation": "cut",
+    "targets": [
+     "Z_Carriage_Upper"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "CAR_CB_R_UPPER",
+    "height": "CAR_CB_DEPTH_UPPER + CUT_EXT",
+    "base": [
+     "Z_CAR_X0 + CAR_SPAN / 2",
+     "Z_CAR_UPPER_Y0 - CUT_EXT",
+     "Z_CAR_Z0 + CAR_L / 2 + CAR_M3_PITCH / 2"
+    ],
+    "axis": "Y",
+    "name": "CA_Z_Upper_M3Cbore2",
+    "operation": "cut",
+    "targets": [
+     "Z_Carriage_Upper"
+    ]
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "CAR_BELT_W",
+    "width": "CAR_BELT_D + CUT_EXT",
+    "height": "CAR_BELT_W",
+    "corner": [
+     "Z_CAR_X0 + CAR_SPAN / 2 - CAR_BELT_W / 2",
+     "Z_CAR_UPPER_Y0 - CUT_EXT",
+     "Z_CAR_Z0 + CAR_L / 2 - CAR_BELT_W / 2"
+    ],
+    "name": "CA_Z_Upper_BeltRelief",
+    "operation": "cut",
+    "targets": [
+     "Z_Carriage_Upper"
+    ]
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "X_PROF_LEN",
+    "width": "X_PROF_W",
+    "height": "X_PROF_H",
+    "corner": [
+     "X_PROF_X0",
+     "X_PROF_Y0",
+     "X_PROF_Z0"
+    ],
+    "name": "PF_X_Blank",
+    "operation": "new",
+    "body_name": "X_Profile"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "X_PROF_LEN + 2 * CUT_EXT",
+    "width": "PROF_SLOT_W",
+    "height": "PROF_SLOT_D + CUT_EXT",
+    "corner": [
+     "X_PROF_X0 - CUT_EXT",
+     "X_PROF_Y0 + X_PROF_W / 2 - PROF_SLOT_W / 2",
+     "X_PROF_Z0 + X_PROF_H - PROF_SLOT_D"
+    ],
+    "name": "PF_X_TSlotTop",
+    "operation": "cut",
+    "targets": [
+     "X_Profile"
+    ]
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "X_PROF_LEN + 2 * CUT_EXT",
+    "width": "PROF_SLOT_W",
+    "height": "PROF_SLOT_D + CUT_EXT",
+    "corner": [
+     "X_PROF_X0 - CUT_EXT",
+     "X_PROF_Y0 + X_PROF_W / 2 - PROF_SLOT_W / 2",
+     "X_PROF_Z0 - CUT_EXT"
+    ],
+    "name": "PF_X_TSlotBot",
+    "operation": "cut",
+    "targets": [
+     "X_Profile"
+    ]
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "X_PROF_LEN + 2 * CUT_EXT",
+    "width": "PROF_SLOT_D + CUT_EXT",
+    "height": "PROF_SLOT_W",
+    "corner": [
+     "X_PROF_X0 - CUT_EXT",
+     "X_PROF_Y0 - CUT_EXT",
+     "X_PROF_Z0 + X_PROF_H / 2 - PROF_SLOT_W / 2"
+    ],
+    "name": "PF_X_TSlotLeft",
+    "operation": "cut",
+    "targets": [
+     "X_Profile"
+    ]
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "X_PROF_LEN + 2 * CUT_EXT",
+    "width": "PROF_SLOT_D + CUT_EXT",
+    "height": "PROF_SLOT_W",
+    "corner": [
+     "X_PROF_X0 - CUT_EXT",
+     "X_PROF_Y0 + X_PROF_W - PROF_SLOT_D",
+     "X_PROF_Z0 + X_PROF_H / 2 - PROF_SLOT_W / 2"
+    ],
+    "name": "PF_X_TSlotRight",
+    "operation": "cut",
+    "targets": [
+     "X_Profile"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "PROF_CORE_D / 2",
+    "height": "X_PROF_LEN + 2 * CUT_EXT",
+    "base": [
+     "X_PROF_X0 - CUT_EXT",
+     "X_PROF_Y0 + X_PROF_W / 2",
+     "X_PROF_Z0 + X_PROF_H / 2"
+    ],
+    "axis": "X",
+    "name": "PF_X_Core",
+    "operation": "cut",
+    "targets": [
+     "X_Profile"
+    ]
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "Z_PROF_W",
+    "width": "Z_PROF_D",
+    "height": "Z_PROF_LEN",
+    "corner": [
+     "Z_PROF_X0",
+     "Z_PROF_Y0",
+     "Z_PROF_Z0"
+    ],
+    "name": "PF_Z_Blank",
+    "operation": "new",
+    "body_name": "Z_Profile"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "PROF_SLOT_D + CUT_EXT",
+    "width": "PROF_SLOT_W",
+    "height": "Z_PROF_LEN + 2 * CUT_EXT",
+    "corner": [
+     "Z_PROF_X0 + Z_PROF_W - PROF_SLOT_D",
+     "Z_PROF_Y0 + Z_PROF_D / 2 - PROF_SLOT_W / 2",
+     "Z_PROF_Z0 - CUT_EXT"
+    ],
+    "name": "PF_Z_TSlotXHi",
+    "operation": "cut",
+    "targets": [
+     "Z_Profile"
+    ]
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "PROF_SLOT_D + CUT_EXT",
+    "width": "PROF_SLOT_W",
+    "height": "Z_PROF_LEN + 2 * CUT_EXT",
+    "corner": [
+     "Z_PROF_X0 - CUT_EXT",
+     "Z_PROF_Y0 + Z_PROF_D / 2 - PROF_SLOT_W / 2",
+     "Z_PROF_Z0 - CUT_EXT"
+    ],
+    "name": "PF_Z_TSlotXLo",
+    "operation": "cut",
+    "targets": [
+     "Z_Profile"
+    ]
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "PROF_SLOT_W",
+    "width": "PROF_SLOT_D + CUT_EXT",
+    "height": "Z_PROF_LEN + 2 * CUT_EXT",
+    "corner": [
+     "Z_PROF_X0 + Z_PROF_W / 2 - PROF_SLOT_W / 2",
+     "Z_PROF_Y0 + Z_PROF_D - PROF_SLOT_D",
+     "Z_PROF_Z0 - CUT_EXT"
+    ],
+    "name": "PF_Z_TSlotYHi",
+    "operation": "cut",
+    "targets": [
+     "Z_Profile"
+    ]
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "PROF_SLOT_W",
+    "width": "PROF_SLOT_D + CUT_EXT",
+    "height": "Z_PROF_LEN + 2 * CUT_EXT",
+    "corner": [
+     "Z_PROF_X0 + Z_PROF_W / 2 - PROF_SLOT_W / 2",
+     "Z_PROF_Y0 - CUT_EXT",
+     "Z_PROF_Z0 - CUT_EXT"
+    ],
+    "name": "PF_Z_TSlotYLo",
+    "operation": "cut",
+    "targets": [
+     "Z_Profile"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "PROF_CORE_D / 2",
+    "height": "Z_PROF_LEN + 2 * CUT_EXT",
+    "base": [
+     "Z_PROF_X0 + Z_PROF_W / 2",
+     "Z_PROF_Y0 + Z_PROF_D / 2",
+     "Z_PROF_Z0 - CUT_EXT"
+    ],
+    "axis": "Z",
+    "name": "PF_Z_Core",
+    "operation": "cut",
+    "targets": [
+     "Z_Profile"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "ROD_D / 2",
+    "height": "ROD_X_LEN",
+    "base": [
+     "X_ROD_X0",
+     "X_ROD_Y",
+     "X_ROD_Z1"
+    ],
+    "axis": "X",
+    "name": "X_Rod1",
+    "operation": "new",
+    "body_name": "X_GuideRod_1"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "ROD_D / 2",
+    "height": "ROD_X_LEN",
+    "base": [
+     "X_ROD_X0",
+     "X_ROD_Y",
+     "X_ROD_Z2"
+    ],
+    "axis": "X",
+    "name": "X_Rod2",
+    "operation": "new",
+    "body_name": "X_GuideRod_2"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "ROD_D / 2",
+    "height": "ROD_Z_LEN",
+    "base": [
+     "Z_ROD_X1",
+     "Z_ROD_Y",
+     "Z_ROD_Z0"
+    ],
+    "axis": "Z",
+    "name": "Z_Rod1",
+    "operation": "new",
+    "body_name": "Z_GuideRod_1"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "ROD_D / 2",
+    "height": "ROD_Z_LEN",
+    "base": [
+     "Z_ROD_X2",
+     "Z_ROD_Y",
+     "Z_ROD_Z0"
+    ],
+    "axis": "Z",
+    "name": "Z_Rod2",
+    "operation": "new",
+    "body_name": "Z_GuideRod_2"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "BRG_OD / 2",
+    "height": "BRG_L",
+    "base": [
+     "X_SEAT_X0",
+     "X_ROD_Y",
+     "X_ROD_Z1"
+    ],
+    "axis": "X",
+    "name": "X_Brg1_Outer",
+    "operation": "new",
+    "body_name": "X_LM6UU_1"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "BRG_ID / 2",
+    "height": "BRG_L",
+    "base": [
+     "X_SEAT_X0",
+     "X_ROD_Y",
+     "X_ROD_Z1"
+    ],
+    "axis": "X",
+    "name": "X_Brg1_Bore",
+    "operation": "cut",
+    "targets": [
+     "X_LM6UU_1"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "BRG_OD / 2",
+    "height": "BRG_L",
+    "base": [
+     "X_SEAT_X0",
+     "X_ROD_Y",
+     "X_ROD_Z2"
+    ],
+    "axis": "X",
+    "name": "X_Brg2_Outer",
+    "operation": "new",
+    "body_name": "X_LM6UU_2"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "BRG_ID / 2",
+    "height": "BRG_L",
+    "base": [
+     "X_SEAT_X0",
+     "X_ROD_Y",
+     "X_ROD_Z2"
+    ],
+    "axis": "X",
+    "name": "X_Brg2_Bore",
+    "operation": "cut",
+    "targets": [
+     "X_LM6UU_2"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "BRG_OD / 2",
+    "height": "BRG_L",
+    "base": [
+     "Z_ROD_X1",
+     "Z_ROD_Y",
+     "Z_SEAT_Z0"
+    ],
+    "axis": "Z",
+    "name": "Z_Brg1_Outer",
+    "operation": "new",
+    "body_name": "Z_LM6UU_1"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "BRG_ID / 2",
+    "height": "BRG_L",
+    "base": [
+     "Z_ROD_X1",
+     "Z_ROD_Y",
+     "Z_SEAT_Z0"
+    ],
+    "axis": "Z",
+    "name": "Z_Brg1_Bore",
+    "operation": "cut",
+    "targets": [
+     "Z_LM6UU_1"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "BRG_OD / 2",
+    "height": "BRG_L",
+    "base": [
+     "Z_ROD_X2",
+     "Z_ROD_Y",
+     "Z_SEAT_Z0"
+    ],
+    "axis": "Z",
+    "name": "Z_Brg2_Outer",
+    "operation": "new",
+    "body_name": "Z_LM6UU_2"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "BRG_ID / 2",
+    "height": "BRG_L",
+    "base": [
+     "Z_ROD_X2",
+     "Z_ROD_Y",
+     "Z_SEAT_Z0"
+    ],
+    "axis": "Z",
+    "name": "Z_Brg2_Bore",
+    "operation": "cut",
+    "targets": [
+     "Z_LM6UU_2"
+    ]
+   }
+  },
+  {
+   "command": "appearance.assign",
+   "params": {
+    "name": "PETG 异型结构件 / 端板",
+    "bodies": [
+     "X_EndPlate_L",
+     "X_EndPlate_R",
+     "Z_EndPlate_L",
+     "Z_EndPlate_R"
+    ],
+    "color": [
+     232,
+     146,
+     62
+    ],
+    "pbr": {
+     "metallic": 0.0,
+     "roughness": 0.45,
+     "dielectric_ior": 1.5
+    }
+   }
+  },
+  {
+   "command": "appearance.assign",
+   "params": {
+    "name": "PETG 异型结构件 / 滑车",
+    "bodies": [
+     "X_Carriage_Lower",
+     "X_Carriage_Upper",
+     "Z_Carriage_Lower",
+     "Z_Carriage_Upper"
+    ],
+    "color": [
+     238,
+     168,
+     88
+    ],
+    "pbr": {
+     "metallic": 0.0,
+     "roughness": 0.45,
+     "dielectric_ior": 1.5
+    }
+   }
+  },
+  {
+   "command": "appearance.assign",
+   "params": {
+    "name": "2040 铝型材",
+    "bodies": [
+     "X_Profile",
+     "Z_Profile"
+    ],
+    "color": [
+     176,
+     183,
+     191
+    ],
+    "pbr": {
+     "metallic": 0.75,
+     "roughness": 0.35,
+     "dielectric_ior": 1.5
+    }
+   }
+  },
+  {
+   "command": "appearance.assign",
+   "params": {
+    "name": "Ø6 导杆 轴承钢",
+    "bodies": [
+     "X_GuideRod_1",
+     "X_GuideRod_2",
+     "Z_GuideRod_1",
+     "Z_GuideRod_2"
+    ],
+    "color": [
+     225,
+     228,
+     232
+    ],
+    "pbr": {
+     "metallic": 0.85,
+     "roughness": 0.22,
+     "dielectric_ior": 1.5
+    }
+   }
+  },
+  {
+   "command": "appearance.assign",
+   "params": {
+    "name": "LM6UU 轴承钢",
+    "bodies": [
+     "X_LM6UU_1",
+     "X_LM6UU_2",
+     "Z_LM6UU_1",
+     "Z_LM6UU_2"
+    ],
+    "color": [
+     90,
+     96,
+     106
+    ],
+    "pbr": {
+     "metallic": 0.9,
+     "roughness": 0.28,
+     "dielectric_ior": 1.5
+    }
+   }
+  },
+  {
+   "command": "file.save",
+   "params": {
+    "path": "D:/ink/solidcraft/LM6UU_Native.sc",
+    "format": "container",
+    "overwrite": true
+   }
+  }
+ ]
+}

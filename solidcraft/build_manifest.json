@@ -1,0 +1,40 @@
+{
+ "bodies": 144,
+ "material_commands": 42,
+ "joint_commands": 100,
+ "drive_commands": 12,
+ "study_commands": 1,
+ "deg_per_mm": 11.25,
+ "ground": 49,
+ "z_group": 53,
+ "x_group": 37,
+ "pogo_group": 2,
+ "leaders": {
+  "Z 升降 / Z approach": 303,
+  "X 扫描 / X scan": 338,
+  "探针压缩 / probe stroke": 411
+ },
+ "material_counts": {
+  "PETG": 16,
+  "AL6061": 1,
+  "AL6063": 2,
+  "AL_PULLEY": 4,
+  "STEEL_FASTENER": 70,
+  "STEEL_ROD": 6,
+  "BEARING": 4,
+  "BRASS": 6,
+  "SPRING_STEEL": 6,
+  "PU_BELT": 6,
+  "MOTOR": 2,
+  "SWITCH": 4,
+  "ABS_CARTRIDGE": 1,
+  "POM": 2,
+  "PA66GF30": 1,
+  "NDFEB": 1,
+  "FR4": 2,
+  "EPOXY_IC": 1,
+  "SILICONE": 3,
+  "SPONGE": 1,
+  "AUX": 5
+ }
+}

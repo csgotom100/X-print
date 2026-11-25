@@ -1,0 +1,18 @@
+=== X_Profile axis X section YZ
+  slab vol 60.561587 faces 346
+  chosen face area 302.807933 wires 4
+   wire 0 outer chain nprims 290 area_abs 491.272842 curve_types {'Circle': 4, 'Line': 286}
+   wire 1 hole circle nprims 0 area_abs 19.634954 curve_types {'Circle': 1}
+   wire 2 hole chain nprims 52 area_abs 149.195 curve_types {'Line': 52}
+   wire 3 hole circle nprims 0 area_abs 19.634954 curve_types {'Circle': 1}
+  rebuilt area 302.807934 BREP area 302.807933 delta 1e-06
+=== Z_Profile axis Z section XY
+  slab vol 60.561587 faces 346
+  chosen face area 302.807933 wires 4
+   wire 0 outer chain nprims 290 area_abs 491.272842 curve_types {'Circle': 4, 'Line': 286}
+   wire 1 hole circle nprims 0 area_abs 19.634954 curve_types {'Circle': 1}
+   wire 2 hole chain nprims 52 area_abs 149.195 curve_types {'Line': 52}
+   wire 3 hole circle nprims 0 area_abs 19.634954 curve_types {'Circle': 1}
+  rebuilt area 302.807934 BREP area 302.807933 delta 1e-06
+WROTE D:/ink/refs/tmp/profile_contours.json
+DONE

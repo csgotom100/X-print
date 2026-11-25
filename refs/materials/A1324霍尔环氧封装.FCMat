@@ -1,0 +1,20 @@
+---
+General:
+  UUID: "e1792e9d-9ad6-53dd-a060-9cfc046d17ec"
+  Name: "A1324霍尔环氧封装"
+  Author: "X-print"
+  License: "CC0-1.0"
+  Description: "A1324 线性霍尔（5 mV/G），环氧封装 TO-92 类外购件"
+Models:
+  Density:
+    UUID: '454661e5-265b-4320-8e6f-fcf6223ac3af'
+    Density: "1500 kg/m^3"
+AppearanceModels:
+  BasicRendering:
+    UUID: 'f006c7e4-35b7-43d5-bbf9-c5d572309e6e'
+    AmbientColor: "(0.0500, 0.0500, 0.0600, 1)"
+    DiffuseColor: "(0.10, 0.10, 0.12, 1)"
+    EmissiveColor: "(0, 0, 0, 1)"
+    SpecularColor: "(0.35, 0.35, 0.35, 1)"
+    Shininess: "0.30"
+    Transparency: "0"

@@ -1,0 +1,7 @@
+{
+ "commands": [
+  {"command": "inspect.measure", "params": {"bodies": ["X_Carriage_Lower", "X_LM6UU_1"]}},
+  {"command": "parameters.change", "params": {"name": "SEAT_R", "expression": "BRG_OD / 2 + 0.35 mm"}},
+  {"command": "inspect.measure", "params": {"bodies": ["X_Carriage_Lower", "X_LM6UU_1"]}}
+ ]
+}

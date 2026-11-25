@@ -1,0 +1,11 @@
+{
+ "commands": [
+  {"command": "inspect.measure", "params": {"bodies": ["Z_EndPlate_L"]}},
+  {"command": "parameters.change", "params": {"name": "Z_SLOT_W", "expression": "24 mm"}},
+  {"command": "inspect.measure", "params": {"bodies": ["Z_EndPlate_L"]}},
+  {"command": "inspect.measure", "params": {"items": [
+    {"type": "face", "body": "Z_EndPlate_L", "point": [138.0, -21.2, 58.25]},
+    {"type": "face", "body": "Z_EndPlate_L", "point": [162.0, -21.2, 58.25]}
+  ]}}
+ ]
+}

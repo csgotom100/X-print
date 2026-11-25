@@ -1,0 +1,24 @@
+---
+General:
+  UUID: "3e0a6de0-5d6b-5179-b88d-b3d12057bc57"
+  Name: "POM注塑探针座与侧盖板"
+  Author: "X-print"
+  License: "CC0-1.0"
+  Description: "v13 注塑件：探针座 + -X 侧盖板；1.5 deg 拔模 / R0.4 / 名义壁厚 2.0；原型试制可用 PETG FDM 或 CNC POM，量产口径为 POM / PA66"
+Models:
+  Density:
+    UUID: '454661e5-265b-4320-8e6f-fcf6223ac3af'
+    Density: "1410 kg/m^3"
+  LinearElastic:
+    UUID: '7b561d1d-fb9b-44f6-9da9-56a4f74d7536'
+    YoungsModulus: "2800 MPa"
+    PoissonRatio: "0.35"
+AppearanceModels:
+  BasicRendering:
+    UUID: 'f006c7e4-35b7-43d5-bbf9-c5d572309e6e'
+    AmbientColor: "(0.4550, 0.4400, 0.3950, 1)"
+    DiffuseColor: "(0.91, 0.88, 0.79, 1)"
+    EmissiveColor: "(0, 0, 0, 1)"
+    SpecularColor: "(0.35, 0.35, 0.35, 1)"
+    Shininess: "0.35"
+    Transparency: "0"

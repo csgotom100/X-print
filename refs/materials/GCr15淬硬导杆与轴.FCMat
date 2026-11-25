@@ -1,0 +1,24 @@
+---
+General:
+  UUID: "64979025-5785-54da-b3c6-5335c7162d47"
+  Name: "GCr15淬硬导杆与轴"
+  Author: "X-print"
+  License: "CC0-1.0"
+  Description: "D5 直线导杆与电机轴，GCr15/45# 钢淬硬磨光，表面镀硬铬"
+Models:
+  Density:
+    UUID: '454661e5-265b-4320-8e6f-fcf6223ac3af'
+    Density: "7830 kg/m^3"
+  LinearElastic:
+    UUID: '7b561d1d-fb9b-44f6-9da9-56a4f74d7536'
+    YoungsModulus: "210000 MPa"
+    PoissonRatio: "0.3"
+AppearanceModels:
+  BasicRendering:
+    UUID: 'f006c7e4-35b7-43d5-bbf9-c5d572309e6e'
+    AmbientColor: "(0.3000, 0.3150, 0.3300, 1)"
+    DiffuseColor: "(0.60, 0.63, 0.66, 1)"
+    EmissiveColor: "(0, 0, 0, 1)"
+    SpecularColor: "(0.35, 0.35, 0.35, 1)"
+    Shininess: "0.70"
+    Transparency: "0"

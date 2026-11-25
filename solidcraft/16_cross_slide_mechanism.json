@@ -1,0 +1,16 @@
+{
+ "commands": [
+  {"command": "component.create", "params": {"name": "X_Base", "parent": "root", "activate": false}},
+  {"command": "component.move_bodies", "params": {"bodies": ["X_Profile", "X_EndPlate_L", "X_EndPlate_R", "X_GuideRod_1", "X_GuideRod_2"], "component": "X_Base"}},
+  {"command": "component.create", "params": {"name": "X_Stage", "parent": "root", "activate": false}},
+  {"command": "component.move_bodies", "params": {"bodies": ["X_Carriage_Lower", "X_Carriage_Upper", "X_LM6UU_1", "X_LM6UU_2", "Z_Profile", "Z_EndPlate_L", "Z_EndPlate_R", "Z_GuideRod_1", "Z_GuideRod_2"], "component": "X_Stage"}},
+  {"command": "component.create", "params": {"name": "Z_Stage", "parent": "root", "activate": false}},
+  {"command": "component.move_bodies", "params": {"bodies": ["Z_Carriage_Lower", "Z_Carriage_Upper", "Z_LM6UU_1", "Z_LM6UU_2"], "component": "Z_Stage"}},
+  {"command": "occurrence.ground", "params": {"occurrence": "X_Base:1", "grounded": true}},
+  {"command": "joint.create", "params": {"type": "slider", "name": "X_Travel", "flip": true, "limits": [[-80, 80]], "a": {"occurrence": "X_Base", "point": [150, -68, 137], "z": [1, 0, 0]}, "b": {"occurrence": "X_Stage", "point": [150, -68, 137], "z": [1, 0, 0]}}},
+  {"command": "joint.create", "params": {"type": "slider", "name": "Z_Travel", "flip": true, "limits": [[-55, 55]], "a": {"occurrence": "X_Stage", "point": [150, -12, 137], "z": [0, 0, 1]}, "b": {"occurrence": "Z_Stage", "point": [150, -12, 137], "z": [0, 0, 1]}}},
+  {"command": "motion.study", "params": {"name": "CrossSlide_Cycle", "steps": 10, "keys": [{"joint": "X_Travel", "points": [[0, 0], [5, 60], [10, 0]]}, {"joint": "Z_Travel", "points": [[0, 0], [5, 40], [10, 0]]}]}},
+  {"command": "joint.list", "params": {}},
+  {"command": "file.save", "params": {"path": "D:/ink/solidcraft/CrossSlide_XZ_mech.sc", "format": "container", "overwrite": true}}
+ ]
+}

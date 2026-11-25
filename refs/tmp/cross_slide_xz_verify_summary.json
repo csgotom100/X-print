@@ -1,0 +1,642 @@
+{
+ "project": "X-Z 十字滑台",
+ "designs": {
+  "static": "solidcraft/CrossSlide_XZ.sc",
+  "mechanism": "solidcraft/CrossSlide_XZ_mech.sc"
+ },
+ "build": {
+  "commands": 238,
+  "user_parameters": 100,
+  "timeline_features": 106,
+  "transform_scripts": 12
+ },
+ "bodies": {
+  "X_Profile": {
+   "volume_mm3": 60563.054,
+   "faces": 346,
+   "closed": true,
+   "bbox": {
+    "max": [
+     250.00000000000014,
+     -37.0,
+     157.00000000000108
+    ],
+    "min": [
+     49.99999999999994,
+     -57.0,
+     116.99999999999878
+    ]
+   }
+  },
+  "Z_Profile": {
+   "volume_mm3": 45421.783,
+   "faces": 346,
+   "closed": true,
+   "bbox": {
+    "max": [
+     170.0,
+     19.00000000000246,
+     212.0000000000001
+    ],
+    "min": [
+     129.9999999999955,
+     -1.0000000000013936,
+     61.99999999999995
+    ]
+   }
+  },
+  "X_EndPlate_L": {
+   "volume_mm3": 18506.048,
+   "faces": 29,
+   "closed": true,
+   "bbox": {
+    "max": [
+     49.99999999998322,
+     -36.99999999998715,
+     157.0
+    ],
+    "min": [
+     0.0,
+     -79.0,
+     116.99999999999358
+    ]
+   }
+  },
+  "X_EndPlate_R": {
+   "volume_mm3": 18361.518,
+   "faces": 31,
+   "closed": true,
+   "bbox": {
+    "max": [
+     299.9999999999997,
+     -37.0,
+     157.0
+    ],
+    "min": [
+     249.9999999999999,
+     -79.0,
+     117.0
+    ]
+   }
+  },
+  "Z_EndPlate_L": {
+   "volume_mm3": 35532.048,
+   "faces": 31,
+   "closed": true,
+   "bbox": {
+    "max": [
+     195.0,
+     21.0,
+     61.99999999999989
+    ],
+    "min": [
+     105.0,
+     -30.000000000002302,
+     11.99999999999774
+    ]
+   }
+  },
+  "Z_EndPlate_R": {
+   "volume_mm3": 17026.289,
+   "faces": 33,
+   "closed": true,
+   "bbox": {
+    "max": [
+     170.0,
+     21.0,
+     262.00000000000006
+    ],
+    "min": [
+     130.0,
+     -23.0,
+     212.0000000000302
+    ]
+   }
+  },
+  "X_Carriage_Lower": {
+   "volume_mm3": 13569.202,
+   "faces": 33,
+   "closed": true,
+   "bbox": {
+    "max": [
+     166.5000000000001,
+     -57.499999999999964,
+     162.0
+    ],
+    "min": [
+     133.4999999999999,
+     -68.00000001202102,
+     112.0
+    ]
+   }
+  },
+  "X_Carriage_Upper": {
+   "volume_mm3": 12742.201,
+   "faces": 33,
+   "closed": true,
+   "bbox": {
+    "max": [
+     166.5000000000001,
+     -67.99999998797898,
+     162.0
+    ],
+    "min": [
+     133.49999999999991,
+     -78.00000000000004,
+     112.0
+    ]
+   }
+  },
+  "Z_Carriage_Lower": {
+   "volume_mm3": 13569.256,
+   "faces": 33,
+   "closed": true,
+   "bbox": {
+    "max": [
+     175.0,
+     -1.4999999999999976,
+     153.50000000000014
+    ],
+    "min": [
+     125.0,
+     -12.00000002463902,
+     120.49999999999993
+    ]
+   }
+  },
+  "Z_Carriage_Upper": {
+   "volume_mm3": 20832.778,
+   "faces": 33,
+   "closed": true,
+   "bbox": {
+    "max": [
+     175.00000000000003,
+     -11.999999968282973,
+     153.50000000000014
+    ],
+    "min": [
+     124.99999999999997,
+     -27.000000000000014,
+     120.49999999999994
+    ]
+   }
+  },
+  "X_GuideRod_1": {
+   "volume_mm3": 6077.702,
+   "faces": 3,
+   "closed": true,
+   "bbox": {
+    "max": [
+     257.5000000000001,
+     -65.00053986481238,
+     124.99991940122199
+    ],
+    "min": [
+     42.49999999999995,
+     -70.99946013518763,
+     119.00008059877804
+    ]
+   }
+  },
+  "X_GuideRod_2": {
+   "volume_mm3": 6077.702,
+   "faces": 3,
+   "closed": true,
+   "bbox": {
+    "max": [
+     257.50000000000017,
+     -65.00053986481237,
+     154.99991940122197
+    ],
+    "min": [
+     42.499999999999936,
+     -70.99946013518763,
+     149.00008059877803
+    ]
+   }
+  },
+  "Z_GuideRod_1": {
+   "volume_mm3": 4664.49,
+   "faces": 3,
+   "closed": true,
+   "bbox": {
+    "max": [
+     137.99995366863976,
+     -9.000080598778073,
+     219.50000000000014
+    ],
+    "min": [
+     132.00004633136027,
+     -14.999919401221929,
+     54.49999999999995
+    ]
+   }
+  },
+  "Z_GuideRod_2": {
+   "volume_mm3": 4664.49,
+   "faces": 3,
+   "closed": true,
+   "bbox": {
+    "max": [
+     167.99995366863976,
+     -9.000080598778073,
+     219.5000000000001
+    ],
+    "min": [
+     162.00004633136027,
+     -14.99991940122193,
+     54.49999999999994
+    ]
+   }
+  },
+  "X_LM6UU_1": {
+   "volume_mm3": 1611.484,
+   "faces": 4,
+   "closed": true,
+   "bbox": {
+    "max": [
+     159.40000000000015,
+     -62.00009266272055,
+     127.99983880244392
+    ],
+    "min": [
+     140.39999999999992,
+     -73.99990733727944,
+     116.00016119755612
+    ]
+   }
+  },
+  "X_LM6UU_2": {
+   "volume_mm3": 1611.484,
+   "faces": 4,
+   "closed": true,
+   "bbox": {
+    "max": [
+     159.40000000000012,
+     -62.00009266272054,
+     157.9998388024439
+    ],
+    "min": [
+     140.39999999999992,
+     -73.99990733727941,
+     146.0001611975561
+    ]
+   }
+  },
+  "Z_LM6UU_1": {
+   "volume_mm3": 1611.484,
+   "faces": 4,
+   "closed": true,
+   "bbox": {
+    "max": [
+     140.99990733727944,
+     -6.000161197556146,
+     146.40000000000006
+    ],
+    "min": [
+     129.00009266272053,
+     -17.999838802443858,
+     127.3999999999999
+    ]
+   }
+  },
+  "Z_LM6UU_2": {
+   "volume_mm3": 1611.484,
+   "faces": 4,
+   "closed": true,
+   "bbox": {
+    "max": [
+     170.99990733727944,
+     -6.000161197556143,
+     146.40000000000006
+    ],
+    "min": [
+     159.0000926627205,
+     -17.999838802443858,
+     127.3999999999999
+    ]
+   }
+  }
+ },
+ "profile_fidelity": {
+  "X_Profile": {
+   "volume_mm3": 60563.053507,
+   "target_mm3": 60561.587,
+   "error_pct": 0.002422,
+   "faces": 346,
+   "target_faces": 346,
+   "shells": 1
+  },
+  "Z_Profile": {
+   "volume_mm3": 45421.783053,
+   "target_mm3": 45421.19,
+   "error_pct": 0.001306,
+   "faces": 346,
+   "target_faces": 346,
+   "shells": 1
+  }
+ },
+ "structural_volume_deviation_informational": {
+  "X_EndPlate_L": {
+   "current_mm3": 18506.048,
+   "original_mm3": 19096.771,
+   "error_pct": -3.093
+  },
+  "X_EndPlate_R": {
+   "current_mm3": 18361.518,
+   "original_mm3": 20869.194,
+   "error_pct": -12.016
+  },
+  "Z_EndPlate_L": {
+   "current_mm3": 35532.048,
+   "original_mm3": 41521.447,
+   "error_pct": -14.425
+  },
+  "Z_EndPlate_R": {
+   "current_mm3": 17026.289,
+   "original_mm3": 23059.448,
+   "error_pct": -26.164
+  },
+  "X_Carriage_Lower": {
+   "current_mm3": 13569.202,
+   "original_mm3": 13295.278,
+   "error_pct": 2.06
+  },
+  "X_Carriage_Upper": {
+   "current_mm3": 12742.201,
+   "original_mm3": 12457.113,
+   "error_pct": 2.289
+  },
+  "Z_Carriage_Lower": {
+   "current_mm3": 13569.256,
+   "original_mm3": 13295.278,
+   "error_pct": 2.061
+  },
+  "Z_Carriage_Upper": {
+   "current_mm3": 20832.778,
+   "original_mm3": 20503.537,
+   "error_pct": 1.606
+  }
+ },
+ "checks": [
+  {
+   "name": "body_count=18",
+   "pass": true,
+   "detail": 18
+  },
+  {
+   "name": "all_bodies_closed",
+   "pass": true,
+   "detail": []
+  },
+  {
+   "name": "timeline_errors=0",
+   "pass": true,
+   "detail": {
+    "errors": 0,
+    "warnings": 10
+   }
+  },
+  {
+   "name": "profile_volume_fidelity",
+   "pass": true,
+   "detail": {
+    "X_Profile": {
+     "volume_mm3": 60563.053507,
+     "target_mm3": 60561.587,
+     "error_pct": 0.002422,
+     "faces": 346,
+     "target_faces": 346,
+     "shells": 1
+    },
+    "Z_Profile": {
+     "volume_mm3": 45421.783053,
+     "target_mm3": 45421.19,
+     "error_pct": 0.001306,
+     "faces": 346,
+     "target_faces": 346,
+     "shells": 1
+    }
+   }
+  },
+  {
+   "name": "profile_face_count",
+   "pass": true,
+   "detail": {
+    "X_Profile": {
+     "volume_mm3": 60563.053507,
+     "target_mm3": 60561.587,
+     "error_pct": 0.002422,
+     "faces": 346,
+     "target_faces": 346,
+     "shells": 1
+    },
+    "Z_Profile": {
+     "volume_mm3": 45421.783053,
+     "target_mm3": 45421.19,
+     "error_pct": 0.001306,
+     "faces": 346,
+     "target_faces": 346,
+     "shells": 1
+    }
+   }
+  },
+  {
+   "name": "Z_slot_width_22",
+   "pass": true,
+   "detail": 22.0
+  },
+  {
+   "name": "X_pocket_width_20_8",
+   "pass": true,
+   "detail": 20.80000000081833
+  },
+  {
+   "name": "interference_zero",
+   "pass": true,
+   "detail": {
+    "count": 0,
+    "checked": 18,
+    "pairs_not_checked": 0,
+    "budget_exceeded": false,
+    "pairs_candidate": 35,
+    "pairs_intersected": 35
+   }
+  },
+  {
+   "name": "parameters_cycles_errors_zero",
+   "pass": true,
+   "detail": {
+    "count": 100,
+    "cycles": [],
+    "errors": []
+   }
+  },
+  {
+   "name": "param_SEAT_R_linkage",
+   "pass": true,
+   "detail": {
+    "6.05mm": 13569.202,
+    "6.35mm": 13344.825,
+    "recomputed": 61
+   }
+  },
+  {
+   "name": "param_Z_SLOT_W_linkage",
+   "pass": true,
+   "detail": {
+    "22mm": 35532.048,
+    "24mm": 35225.097,
+    "measured_slot": 24.0
+   }
+  },
+  {
+   "name": "joints_no_conflicts",
+   "pass": true,
+   "detail": {
+    "joints": [
+     "X_Travel",
+     "Z_Travel"
+    ],
+    "fixed": [
+     0,
+     108
+    ],
+    "dof": [
+     {
+      "dof": 0,
+      "occurrence": 0
+     },
+     {
+      "dof": 0,
+      "occurrence": 108
+     },
+     {
+      "dof": 1,
+      "occurrence": 115
+     },
+     {
+      "dof": 2,
+      "occurrence": 126
+     }
+    ]
+   }
+  },
+  {
+   "name": "motion_X_plus20",
+   "pass": true,
+   "detail": {
+    "requested": [
+     {
+      "limits": [
+       -80.0,
+       80.0
+      ],
+      "name": "distance",
+      "unit": "mm",
+      "value": 20.0
+     }
+    ],
+    "values": [
+     {
+      "limits": [
+       -80.0,
+       80.0
+      ],
+      "name": "distance",
+      "unit": "mm",
+      "value": 20.0
+     }
+    ]
+   }
+  },
+  {
+   "name": "motion_Z_plus15",
+   "pass": true,
+   "detail": {
+    "requested": [
+     {
+      "limits": [
+       -55.0,
+       55.0
+      ],
+      "name": "distance",
+      "unit": "mm",
+      "value": 15.0
+     }
+    ],
+    "values": [
+     {
+      "limits": [
+       -55.0,
+       55.0
+      ],
+      "name": "distance",
+      "unit": "mm",
+      "value": 15.0
+     }
+    ]
+   }
+  },
+  {
+   "name": "motion_com_translation",
+   "pass": true,
+   "detail": {
+    "delta": [
+     20.0,
+     0.0,
+     15.0
+    ],
+    "expected": [
+     20.0,
+     0.0,
+     15.0
+    ]
+   }
+  }
+ ],
+ "failed": [],
+ "warnings": [
+  {
+   "feature": "CA_X_Lower_Seat1",
+   "message": "Boolean retry: tool displacement 1.224371e-4 mm, rotation 2.000000e-6 rad"
+  },
+  {
+   "feature": "CA_X_Lower_Seat2",
+   "message": "Boolean retry: tool displacement 1.224371e-4 mm, rotation 2.000000e-6 rad"
+  },
+  {
+   "feature": "CA_X_Upper_Seat1",
+   "message": "Boolean retry: tool displacement 1.222673e-4 mm, rotation 2.000000e-6 rad"
+  },
+  {
+   "feature": "CA_X_Upper_Seat2",
+   "message": "Boolean retry: tool displacement 1.222673e-4 mm, rotation 2.000000e-6 rad"
+  },
+  {
+   "feature": "CA_Z_Lower_Seat1",
+   "message": "Boolean retry: tool displacement 1.224371e-4 mm, rotation 2.000000e-6 rad"
+  },
+  {
+   "feature": "CA_Z_Lower_Seat2",
+   "message": "Boolean retry: tool displacement 1.224371e-4 mm, rotation 2.000000e-6 rad"
+  },
+  {
+   "feature": "CA_Z_Lower_Exit2",
+   "message": "Boolean retry: tool displacement 1.224371e-4 mm, rotation 2.000000e-6 rad"
+  },
+  {
+   "feature": "CA_Z_Upper_Seat1",
+   "message": "Boolean retry: tool displacement 1.243216e-4 mm, rotation 2.000000e-6 rad"
+  },
+  {
+   "feature": "CA_Z_Upper_Seat2",
+   "message": "Boolean retry: tool displacement 1.243216e-4 mm, rotation 2.000000e-6 rad"
+  },
+  {
+   "feature": "CA_Z_Upper_Exit2",
+   "message": "Boolean retry: tool displacement 1.243216e-4 mm, rotation 2.000000e-6 rad"
+  }
+ ],
+ "conclusion": "PASS"
+}

@@ -1,0 +1,307 @@
+{
+  "bodies": [
+    {
+      "area_mm2": 60305.06408370786,
+      "bbox": {
+        "max": [
+          250.00000000000014,
+          -37.0,
+          157.00000000000108
+        ],
+        "min": [
+          49.99999999999994,
+          -57.0,
+          116.99999999999878
+        ]
+      },
+      "center_of_mass": [
+        150.0,
+        -47.001663368531595,
+        137.00332673706316
+      ],
+      "closed": true,
+      "density_g_cm3": 1.29,
+      "edges": 1030,
+      "face_types": {
+        "cylinder": 6,
+        "plane": 340
+      },
+      "faces": 346,
+      "kernel": {
+        "edges": 1038,
+        "faces": 348,
+        "shells": 1,
+        "vertices": 692
+      },
+      "mass_g": 78.12633902424648,
+      "material": "Default",
+      "name": "X_Profile",
+      "vertices": 688,
+      "volume_mm3": 60563.05350716782
+    },
+    {
+      "area_mm2": 45380.30036422404,
+      "bbox": {
+        "max": [
+          170.0,
+          19.00000000000246,
+          212.0000000000001
+        ],
+        "min": [
+          129.9999999999955,
+          -1.0000000000013936,
+          61.99999999999995
+        ]
+      },
+      "center_of_mass": [
+        149.99667322579586,
+        8.998336612899864,
+        136.99999999999997
+      ],
+      "closed": true,
+      "density_g_cm3": 1.29,
+      "edges": 1030,
+      "face_types": {
+        "cylinder": 6,
+        "plane": 340
+      },
+      "faces": 346,
+      "kernel": {
+        "edges": 1038,
+        "faces": 348,
+        "shells": 1,
+        "vertices": 692
+      },
+      "mass_g": 58.594100138719675,
+      "material": "Default",
+      "name": "Z_Profile",
+      "vertices": 688,
+      "volume_mm3": 45421.783053271065
+    }
+  ],
+  "body_count": 2,
+  "params": [
+    {
+      "comment": "X 型材截面宽（2040 的 20）",
+      "error": null,
+      "expression": "20 mm",
+      "model": false,
+      "name": "PW",
+      "unit": "mm",
+      "value": 20.0
+    },
+    {
+      "comment": "X 型材截面高（2040 的 40）",
+      "error": null,
+      "expression": "40 mm",
+      "model": false,
+      "name": "PH",
+      "unit": "mm",
+      "value": 40.0
+    },
+    {
+      "comment": "Z 型材截面宽（旋转 90°）",
+      "error": null,
+      "expression": "40 mm",
+      "model": false,
+      "name": "PWZ",
+      "unit": "mm",
+      "value": 40.0
+    },
+    {
+      "comment": "Z 型材截面深（旋转 90°）",
+      "error": null,
+      "expression": "20 mm",
+      "model": false,
+      "name": "PHZ",
+      "unit": "mm",
+      "value": 20.0
+    },
+    {
+      "comment": "2040 型材两个中心孔半径（Ø5）",
+      "error": null,
+      "expression": "2.5 mm",
+      "model": false,
+      "name": "PROF_HOLE_R",
+      "unit": "mm",
+      "value": 2.5
+    },
+    {
+      "comment": "X 型材 Y 起点",
+      "error": null,
+      "expression": "-57 mm",
+      "model": false,
+      "name": "X_PROF_Y0",
+      "unit": "mm",
+      "value": -57.0
+    },
+    {
+      "comment": "X 型材 Z 起点",
+      "error": null,
+      "expression": "117 mm",
+      "model": false,
+      "name": "X_PROF_Z0",
+      "unit": "mm",
+      "value": 117.0
+    },
+    {
+      "comment": "X 型材长度",
+      "error": null,
+      "expression": "200 mm",
+      "model": false,
+      "name": "X_PROF_LEN",
+      "unit": "mm",
+      "value": 200.0
+    },
+    {
+      "comment": "Z 型材 X 起点",
+      "error": null,
+      "expression": "130 mm",
+      "model": false,
+      "name": "Z_PROF_X0",
+      "unit": "mm",
+      "value": 130.0
+    },
+    {
+      "comment": "Z 型材 Y 起点",
+      "error": null,
+      "expression": "-1 mm",
+      "model": false,
+      "name": "Z_PROF_Y0",
+      "unit": "mm",
+      "value": -1.0
+    },
+    {
+      "comment": "Z 型材长度",
+      "error": null,
+      "expression": "150 mm",
+      "model": false,
+      "name": "Z_PROF_LEN",
+      "unit": "mm",
+      "value": 150.0
+    },
+    {
+      "comment": "",
+      "error": null,
+      "expression": "PROF_HOLE_R",
+      "model": true,
+      "name": "d1",
+      "unit": "mm",
+      "value": 2.5
+    },
+    {
+      "comment": "",
+      "error": null,
+      "expression": "PROF_HOLE_R",
+      "model": true,
+      "name": "d2",
+      "unit": "mm",
+      "value": 2.5
+    },
+    {
+      "comment": "",
+      "error": null,
+      "expression": "PROF_HOLE_R",
+      "model": true,
+      "name": "d4",
+      "unit": "mm",
+      "value": 2.5
+    },
+    {
+      "comment": "",
+      "error": null,
+      "expression": "PROF_HOLE_R",
+      "model": true,
+      "name": "d5",
+      "unit": "mm",
+      "value": 2.5
+    }
+  ],
+  "sketches": [
+    {
+      "curves": 344,
+      "dof": 688,
+      "id": 1,
+      "name": "Sketch1",
+      "profiles": 4,
+      "status": "solved",
+      "visible": false
+    },
+    {
+      "curves": 344,
+      "dof": 688,
+      "id": 3,
+      "name": "Sketch2",
+      "profiles": 4,
+      "status": "solved",
+      "visible": false
+    }
+  ],
+  "timeline": [
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 1,
+      "ms": 67.0724,
+      "name": "Sketch1",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "Sketch",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 2,
+      "ms": 96.2273,
+      "name": "Extrude1",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "ExtrudeFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 3,
+      "ms": 9.0919,
+      "name": "Sketch2",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "Sketch",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 4,
+      "ms": 165.8356,
+      "name": "Extrude2",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "ExtrudeFeature",
+      "warning": null
+    }
+  ],
+  "total": {
+    "area_mm2": 105685.3644479319,
+    "edges": 2060,
+    "faces": 692,
+    "mass_g": 136.72043916296616,
+    "open_bodies_skipped": 0,
+    "vertices": 1376,
+    "volume_mm3": 105984.83656043888
+  }
+}

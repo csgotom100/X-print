@@ -1,0 +1,812 @@
+{
+ "commands": [
+  {
+   "command": "explode.create",
+   "params": {
+    "name": "整机爆炸图 / Assembly exploded",
+    "moves": [
+     {
+      "occurrence": 42,
+      "translate": [
+       0.0,
+       -40.0,
+       50.0
+      ]
+     },
+     {
+      "occurrence": 44,
+      "translate": [
+       0.0,
+       -40.0,
+       50.0
+      ]
+     },
+     {
+      "occurrence": 46,
+      "translate": [
+       0.0,
+       -40.0,
+       50.0
+      ]
+     },
+     {
+      "occurrence": 48,
+      "translate": [
+       0.0,
+       -40.0,
+       50.0
+      ]
+     },
+     {
+      "occurrence": 50,
+      "translate": [
+       0.0,
+       -40.0,
+       50.0
+      ]
+     },
+     {
+      "occurrence": 52,
+      "translate": [
+       0.0,
+       -40.0,
+       50.0
+      ]
+     },
+     {
+      "occurrence": 54,
+      "translate": [
+       0.0,
+       -40.0,
+       50.0
+      ]
+     },
+     {
+      "occurrence": 56,
+      "translate": [
+       0.0,
+       -40.0,
+       50.0
+      ]
+     },
+     {
+      "occurrence": 58,
+      "translate": [
+       0.0,
+       -40.0,
+       50.0
+      ]
+     },
+     {
+      "occurrence": 60,
+      "translate": [
+       0.0,
+       -40.0,
+       50.0
+      ]
+     },
+     {
+      "occurrence": 82,
+      "translate": [
+       0.0,
+       -40.0,
+       50.0
+      ]
+     },
+     {
+      "occurrence": 84,
+      "translate": [
+       0.0,
+       -85.0,
+       0.0
+      ]
+     },
+     {
+      "occurrence": 86,
+      "translate": [
+       0.0,
+       -85.0,
+       0.0
+      ]
+     },
+     {
+      "occurrence": 88,
+      "translate": [
+       0.0,
+       -85.0,
+       0.0
+      ]
+     },
+     {
+      "occurrence": 90,
+      "translate": [
+       0.0,
+       -85.0,
+       0.0
+      ]
+     },
+     {
+      "occurrence": 92,
+      "translate": [
+       0.0,
+       -85.0,
+       0.0
+      ]
+     },
+     {
+      "occurrence": 94,
+      "translate": [
+       0.0,
+       -85.0,
+       0.0
+      ]
+     },
+     {
+      "occurrence": 96,
+      "translate": [
+       0.0,
+       -85.0,
+       0.0
+      ]
+     },
+     {
+      "occurrence": 98,
+      "translate": [
+       0.0,
+       -85.0,
+       0.0
+      ]
+     },
+     {
+      "occurrence": 100,
+      "translate": [
+       0.0,
+       -85.0,
+       0.0
+      ]
+     },
+     {
+      "occurrence": 102,
+      "translate": [
+       0.0,
+       -85.0,
+       0.0
+      ]
+     },
+     {
+      "occurrence": 104,
+      "translate": [
+       0.0,
+       -85.0,
+       0.0
+      ]
+     },
+     {
+      "occurrence": 106,
+      "translate": [
+       0.0,
+       -85.0,
+       0.0
+      ]
+     },
+     {
+      "occurrence": 108,
+      "translate": [
+       0.0,
+       -85.0,
+       0.0
+      ]
+     },
+     {
+      "occurrence": 110,
+      "translate": [
+       0.0,
+       -85.0,
+       0.0
+      ]
+     },
+     {
+      "occurrence": 112,
+      "translate": [
+       0.0,
+       -150.0,
+       0.0
+      ]
+     },
+     {
+      "occurrence": 114,
+      "translate": [
+       0.0,
+       -150.0,
+       0.0
+      ]
+     },
+     {
+      "occurrence": 116,
+      "translate": [
+       0.0,
+       -150.0,
+       0.0
+      ]
+     },
+     {
+      "occurrence": 118,
+      "translate": [
+       0.0,
+       -150.0,
+       0.0
+      ]
+     },
+     {
+      "occurrence": 120,
+      "translate": [
+       0.0,
+       -150.0,
+       0.0
+      ]
+     },
+     {
+      "occurrence": 122,
+      "translate": [
+       0.0,
+       -150.0,
+       0.0
+      ]
+     },
+     {
+      "occurrence": 124,
+      "translate": [
+       0.0,
+       -150.0,
+       0.0
+      ]
+     },
+     {
+      "occurrence": 126,
+      "translate": [
+       0.0,
+       -150.0,
+       0.0
+      ]
+     },
+     {
+      "occurrence": 128,
+      "translate": [
+       0.0,
+       -150.0,
+       0.0
+      ]
+     },
+     {
+      "occurrence": 130,
+      "translate": [
+       0.0,
+       -150.0,
+       0.0
+      ]
+     },
+     {
+      "occurrence": 132,
+      "translate": [
+       0.0,
+       -85.0,
+       0.0
+      ]
+     },
+     {
+      "occurrence": 134,
+      "translate": [
+       0.0,
+       -85.0,
+       0.0
+      ]
+     },
+     {
+      "occurrence": 136,
+      "translate": [
+       0.0,
+       -85.0,
+       0.0
+      ]
+     },
+     {
+      "occurrence": 138,
+      "translate": [
+       0.0,
+       -85.0,
+       0.0
+      ]
+     },
+     {
+      "occurrence": 140,
+      "translate": [
+       0.0,
+       -85.0,
+       0.0
+      ]
+     },
+     {
+      "occurrence": 142,
+      "translate": [
+       0.0,
+       -85.0,
+       0.0
+      ]
+     },
+     {
+      "occurrence": 144,
+      "translate": [
+       0.0,
+       -40.0,
+       50.0
+      ]
+     },
+     {
+      "occurrence": 146,
+      "translate": [
+       0.0,
+       -40.0,
+       50.0
+      ]
+     },
+     {
+      "occurrence": 148,
+      "translate": [
+       0.0,
+       -40.0,
+       50.0
+      ]
+     },
+     {
+      "occurrence": 150,
+      "translate": [
+       0.0,
+       -40.0,
+       50.0
+      ]
+     },
+     {
+      "occurrence": 152,
+      "translate": [
+       0.0,
+       -40.0,
+       50.0
+      ]
+     },
+     {
+      "occurrence": 154,
+      "translate": [
+       0.0,
+       -40.0,
+       50.0
+      ]
+     },
+     {
+      "occurrence": 156,
+      "translate": [
+       0.0,
+       -40.0,
+       50.0
+      ]
+     },
+     {
+      "occurrence": 158,
+      "translate": [
+       0.0,
+       -40.0,
+       50.0
+      ]
+     },
+     {
+      "occurrence": 160,
+      "translate": [
+       0.0,
+       -40.0,
+       50.0
+      ]
+     },
+     {
+      "occurrence": 162,
+      "translate": [
+       0.0,
+       -40.0,
+       50.0
+      ]
+     },
+     {
+      "occurrence": 164,
+      "translate": [
+       0.0,
+       -40.0,
+       50.0
+      ]
+     },
+     {
+      "occurrence": 166,
+      "translate": [
+       0.0,
+       -40.0,
+       50.0
+      ]
+     },
+     {
+      "occurrence": 172,
+      "translate": [
+       0.0,
+       -85.0,
+       0.0
+      ]
+     },
+     {
+      "occurrence": 174,
+      "translate": [
+       0.0,
+       -85.0,
+       0.0
+      ]
+     },
+     {
+      "occurrence": 180,
+      "translate": [
+       0.0,
+       -85.0,
+       0.0
+      ]
+     },
+     {
+      "occurrence": 182,
+      "translate": [
+       0.0,
+       -85.0,
+       0.0
+      ]
+     },
+     {
+      "occurrence": 196,
+      "translate": [
+       0.0,
+       -85.0,
+       0.0
+      ]
+     },
+     {
+      "occurrence": 198,
+      "translate": [
+       0.0,
+       -85.0,
+       0.0
+      ]
+     },
+     {
+      "occurrence": 200,
+      "translate": [
+       0.0,
+       -85.0,
+       0.0
+      ]
+     },
+     {
+      "occurrence": 202,
+      "translate": [
+       0.0,
+       -85.0,
+       0.0
+      ]
+     },
+     {
+      "occurrence": 204,
+      "translate": [
+       0.0,
+       -85.0,
+       0.0
+      ]
+     },
+     {
+      "occurrence": 206,
+      "translate": [
+       0.0,
+       -85.0,
+       0.0
+      ]
+     },
+     {
+      "occurrence": 208,
+      "translate": [
+       -25.0,
+       -235.0,
+       0.0
+      ]
+     },
+     {
+      "occurrence": 210,
+      "translate": [
+       -25.0,
+       -235.0,
+       0.0
+      ]
+     },
+     {
+      "occurrence": 212,
+      "translate": [
+       -25.0,
+       -235.0,
+       0.0
+      ]
+     },
+     {
+      "occurrence": 214,
+      "translate": [
+       -25.0,
+       -235.0,
+       0.0
+      ]
+     },
+     {
+      "occurrence": 216,
+      "translate": [
+       -25.0,
+       -235.0,
+       0.0
+      ]
+     },
+     {
+      "occurrence": 218,
+      "translate": [
+       -25.0,
+       -235.0,
+       0.0
+      ]
+     },
+     {
+      "occurrence": 220,
+      "translate": [
+       -25.0,
+       -235.0,
+       0.0
+      ]
+     },
+     {
+      "occurrence": 222,
+      "translate": [
+       -25.0,
+       -235.0,
+       0.0
+      ]
+     },
+     {
+      "occurrence": 224,
+      "translate": [
+       -25.0,
+       -235.0,
+       0.0
+      ]
+     },
+     {
+      "occurrence": 226,
+      "translate": [
+       -25.0,
+       -235.0,
+       0.0
+      ]
+     },
+     {
+      "occurrence": 228,
+      "translate": [
+       -25.0,
+       -235.0,
+       0.0
+      ]
+     },
+     {
+      "occurrence": 230,
+      "translate": [
+       -25.0,
+       -235.0,
+       0.0
+      ]
+     },
+     {
+      "occurrence": 232,
+      "translate": [
+       -25.0,
+       -235.0,
+       0.0
+      ]
+     },
+     {
+      "occurrence": 234,
+      "translate": [
+       -25.0,
+       -235.0,
+       0.0
+      ]
+     },
+     {
+      "occurrence": 236,
+      "translate": [
+       -25.0,
+       -235.0,
+       0.0
+      ]
+     },
+     {
+      "occurrence": 238,
+      "translate": [
+       -25.0,
+       -235.0,
+       0.0
+      ]
+     },
+     {
+      "occurrence": 240,
+      "translate": [
+       -25.0,
+       -235.0,
+       0.0
+      ]
+     },
+     {
+      "occurrence": 242,
+      "translate": [
+       -25.0,
+       -235.0,
+       0.0
+      ]
+     },
+     {
+      "occurrence": 244,
+      "translate": [
+       95.0,
+       -55.0,
+       0.0
+      ]
+     },
+     {
+      "occurrence": 246,
+      "translate": [
+       95.0,
+       -55.0,
+       0.0
+      ]
+     },
+     {
+      "occurrence": 248,
+      "translate": [
+       95.0,
+       -55.0,
+       0.0
+      ]
+     },
+     {
+      "occurrence": 250,
+      "translate": [
+       95.0,
+       -55.0,
+       0.0
+      ]
+     },
+     {
+      "occurrence": 252,
+      "translate": [
+       95.0,
+       -55.0,
+       0.0
+      ]
+     },
+     {
+      "occurrence": 254,
+      "translate": [
+       95.0,
+       -55.0,
+       0.0
+      ]
+     },
+     {
+      "occurrence": 256,
+      "translate": [
+       -115.0,
+       -235.0,
+       0.0
+      ]
+     },
+     {
+      "occurrence": 258,
+      "translate": [
+       -115.0,
+       -235.0,
+       0.0
+      ]
+     },
+     {
+      "occurrence": 260,
+      "translate": [
+       -115.0,
+       -235.0,
+       0.0
+      ]
+     },
+     {
+      "occurrence": 262,
+      "translate": [
+       -115.0,
+       -235.0,
+       0.0
+      ]
+     },
+     {
+      "occurrence": 264,
+      "translate": [
+       -115.0,
+       -235.0,
+       0.0
+      ]
+     },
+     {
+      "occurrence": 266,
+      "translate": [
+       -115.0,
+       -235.0,
+       0.0
+      ]
+     },
+     {
+      "occurrence": 268,
+      "translate": [
+       -115.0,
+       -235.0,
+       0.0
+      ]
+     },
+     {
+      "occurrence": 270,
+      "translate": [
+       -115.0,
+       -235.0,
+       0.0
+      ]
+     },
+     {
+      "occurrence": 272,
+      "translate": [
+       -115.0,
+       -235.0,
+       0.0
+      ]
+     },
+     {
+      "occurrence": 274,
+      "translate": [
+       -115.0,
+       -235.0,
+       0.0
+      ]
+     },
+     {
+      "occurrence": 276,
+      "translate": [
+       -115.0,
+       -235.0,
+       0.0
+      ]
+     },
+     {
+      "occurrence": 278,
+      "translate": [
+       -115.0,
+       -235.0,
+       0.0
+      ]
+     },
+     {
+      "occurrence": 280,
+      "translate": [
+       -115.0,
+       -235.0,
+       0.0
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}

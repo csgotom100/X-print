@@ -1,0 +1,13 @@
+# Machine-generated CAD / drawing exports. Their lines may carry significant
+# trailing spaces (DXF linetype definitions, matplotlib SVG path data), so keep
+# them byte-exact and out of text diffs / `git diff --check`, and never let Git
+# rewrite their line endings.
+*.brp -text -diff
+*.step -text -diff
+*.dxf -text -diff
+*.svg -text -diff
+*.sc -text -diff
+*.stl -text -diff
+*.3mf -text -diff
+*.gif -text -diff
+*.png -text -diff

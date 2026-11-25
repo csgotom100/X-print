@@ -1,0 +1,3343 @@
+{
+  "bodies": [
+    {
+      "area_mm2": 60305.06408370786,
+      "bbox": {
+        "max": [
+          250.00000000000014,
+          -37.0,
+          157.00000000000108
+        ],
+        "min": [
+          49.99999999999994,
+          -57.0,
+          116.99999999999878
+        ]
+      },
+      "center_of_mass": [
+        150.0,
+        -47.001663368531595,
+        137.00332673706316
+      ],
+      "closed": true,
+      "density_g_cm3": 1.29,
+      "edges": 1030,
+      "face_types": {
+        "cylinder": 6,
+        "plane": 340
+      },
+      "faces": 346,
+      "kernel": {
+        "edges": 1038,
+        "faces": 348,
+        "shells": 1,
+        "vertices": 692
+      },
+      "mass_g": 78.12633902424648,
+      "material": "Default",
+      "name": "X_Profile",
+      "vertices": 688,
+      "volume_mm3": 60563.05350716782
+    },
+    {
+      "area_mm2": 45380.30036422404,
+      "bbox": {
+        "max": [
+          170.0,
+          19.00000000000246,
+          212.0000000000001
+        ],
+        "min": [
+          129.9999999999955,
+          -1.0000000000013936,
+          61.99999999999995
+        ]
+      },
+      "center_of_mass": [
+        149.99667322579586,
+        8.998336612899864,
+        136.99999999999997
+      ],
+      "closed": true,
+      "density_g_cm3": 1.29,
+      "edges": 1030,
+      "face_types": {
+        "cylinder": 6,
+        "plane": 340
+      },
+      "faces": 346,
+      "kernel": {
+        "edges": 1038,
+        "faces": 348,
+        "shells": 1,
+        "vertices": 692
+      },
+      "mass_g": 58.594100138719675,
+      "material": "Default",
+      "name": "Z_Profile",
+      "vertices": 688,
+      "volume_mm3": 45421.783053271065
+    },
+    {
+      "area_mm2": 17128.91829247845,
+      "bbox": {
+        "max": [
+          49.99999999998322,
+          -36.99999999998715,
+          157.0
+        ],
+        "min": [
+          0.0,
+          -79.0,
+          116.99999999999358
+        ]
+      },
+      "center_of_mass": [
+        33.87713702895036,
+        -58.419326798860354,
+        134.83176863525745
+      ],
+      "closed": true,
+      "density_g_cm3": 1.29,
+      "edges": 83,
+      "face_types": {
+        "cylinder": 5,
+        "plane": 24
+      },
+      "faces": 29,
+      "kernel": {
+        "edges": 113,
+        "faces": 38,
+        "shells": 1,
+        "vertices": 74
+      },
+      "mass_g": 23.872801956149903,
+      "material": "Default",
+      "name": "X_EndPlate_L",
+      "vertices": 58,
+      "volume_mm3": 18506.04802802318
+    },
+    {
+      "area_mm2": 16951.074941155413,
+      "bbox": {
+        "max": [
+          299.9999999999997,
+          -37.0,
+          157.0
+        ],
+        "min": [
+          249.9999999999999,
+          -79.0,
+          117.0
+        ]
+      },
+      "center_of_mass": [
+        265.86801098331995,
+        -59.294652347937074,
+        134.41899917191466
+      ],
+      "closed": true,
+      "density_g_cm3": 1.29,
+      "edges": 85,
+      "face_types": {
+        "cylinder": 8,
+        "plane": 23
+      },
+      "faces": 31,
+      "kernel": {
+        "edges": 115,
+        "faces": 41,
+        "shells": 1,
+        "vertices": 74
+      },
+      "mass_g": 23.68635852002388,
+      "material": "Default",
+      "name": "X_EndPlate_R",
+      "vertices": 58,
+      "volume_mm3": 18361.51823257665
+    },
+    {
+      "area_mm2": 34052.5861239316,
+      "bbox": {
+        "max": [
+          195.0,
+          21.0,
+          61.99999999999989
+        ],
+        "min": [
+          105.0,
+          -30.000000000002302,
+          11.99999999999774
+        ]
+      },
+      "center_of_mass": [
+        149.99999782938997,
+        -8.546670305119818,
+        45.54472469528481
+      ],
+      "closed": true,
+      "density_g_cm3": 1.29,
+      "edges": 82,
+      "face_types": {
+        "cylinder": 5,
+        "plane": 26
+      },
+      "faces": 31,
+      "kernel": {
+        "edges": 105,
+        "faces": 37,
+        "shells": 1,
+        "vertices": 70
+      },
+      "mass_g": 45.836341450669956,
+      "material": "Default",
+      "name": "Z_EndPlate_L",
+      "vertices": 58,
+      "volume_mm3": 35532.04763617826
+    },
+    {
+      "area_mm2": 18252.14930379878,
+      "bbox": {
+        "max": [
+          170.0,
+          21.0,
+          262.00000000000006
+        ],
+        "min": [
+          130.0,
+          -23.0,
+          212.0000000000302
+        ]
+      },
+      "center_of_mass": [
+        149.99999961460938,
+        -5.323213016016455,
+        230.5055286583172
+      ],
+      "closed": true,
+      "density_g_cm3": 1.29,
+      "edges": 88,
+      "face_types": {
+        "cylinder": 5,
+        "plane": 28
+      },
+      "faces": 33,
+      "kernel": {
+        "edges": 144,
+        "faces": 54,
+        "shells": 1,
+        "vertices": 91
+      },
+      "mass_g": 21.96391238203383,
+      "material": "Default",
+      "name": "Z_EndPlate_R",
+      "vertices": 60,
+      "volume_mm3": 17026.288668243276
+    },
+    {
+      "area_mm2": 5717.8460255804775,
+      "bbox": {
+        "max": [
+          166.5000000000001,
+          -57.499999999999964,
+          162.0
+        ],
+        "min": [
+          133.4999999999999,
+          -68.00000001202102,
+          112.0
+        ]
+      },
+      "center_of_mass": [
+        149.9182740544767,
+        -62.07506113457961,
+        136.9999776357786
+      ],
+      "closed": true,
+      "density_g_cm3": 1.29,
+      "edges": 80,
+      "face_types": {
+        "cylinder": 14,
+        "plane": 19
+      },
+      "faces": 33,
+      "kernel": {
+        "edges": 114,
+        "faces": 43,
+        "shells": 1,
+        "vertices": 76
+      },
+      "mass_g": 17.504270163294088,
+      "material": "Default",
+      "name": "X_Carriage_Lower",
+      "vertices": 56,
+      "volume_mm3": 13569.20167697216
+    },
+    {
+      "area_mm2": 5623.840884468596,
+      "bbox": {
+        "max": [
+          166.5000000000001,
+          -67.99999998797898,
+          162.0
+        ],
+        "min": [
+          133.49999999999991,
+          -78.00000000000004,
+          112.0
+        ]
+      },
+      "center_of_mass": [
+        149.91296795885788,
+        -73.60607132914954,
+        136.99999347085395
+      ],
+      "closed": true,
+      "density_g_cm3": 1.29,
+      "edges": 80,
+      "face_types": {
+        "cylinder": 14,
+        "plane": 19
+      },
+      "faces": 33,
+      "kernel": {
+        "edges": 114,
+        "faces": 43,
+        "shells": 1,
+        "vertices": 76
+      },
+      "mass_g": 16.437439114570676,
+      "material": "Default",
+      "name": "X_Carriage_Upper",
+      "vertices": 56,
+      "volume_mm3": 12742.200864008277
+    },
+    {
+      "area_mm2": 5717.841680263049,
+      "bbox": {
+        "max": [
+          175.0,
+          -1.4999999999999976,
+          153.50000000000014
+        ],
+        "min": [
+          125.0,
+          -12.00000002463902,
+          120.49999999999993
+        ]
+      },
+      "center_of_mass": [
+        149.99997868885606,
+        -6.075067665102834,
+        136.91827829248746
+      ],
+      "closed": true,
+      "density_g_cm3": 1.29,
+      "edges": 80,
+      "face_types": {
+        "cylinder": 14,
+        "plane": 19
+      },
+      "faces": 33,
+      "kernel": {
+        "edges": 114,
+        "faces": 43,
+        "shells": 1,
+        "vertices": 76
+      },
+      "mass_g": 17.504339869390073,
+      "material": "Default",
+      "name": "Z_Carriage_Lower",
+      "vertices": 56,
+      "volume_mm3": 13569.255712705482
+    },
+    {
+      "area_mm2": 6526.30618107702,
+      "bbox": {
+        "max": [
+          175.00000000000003,
+          -11.999999968282973,
+          153.50000000000014
+        ],
+        "min": [
+          124.99999999999997,
+          -27.000000000000014,
+          120.49999999999994
+        ]
+      },
+      "center_of_mass": [
+        149.9999950424717,
+        -20.23811454297315,
+        136.94676633806984
+      ],
+      "closed": true,
+      "density_g_cm3": 1.29,
+      "edges": 80,
+      "face_types": {
+        "cylinder": 14,
+        "plane": 19
+      },
+      "faces": 33,
+      "kernel": {
+        "edges": 114,
+        "faces": 43,
+        "shells": 1,
+        "vertices": 76
+      },
+      "mass_g": 26.874283454165756,
+      "material": "Default",
+      "name": "Z_Carriage_Upper",
+      "vertices": 56,
+      "volume_mm3": 20832.777871446324
+    },
+    {
+      "area_mm2": 4108.977928366542,
+      "bbox": {
+        "max": [
+          257.5000000000001,
+          -65.00053986481238,
+          124.99991940122199
+        ],
+        "min": [
+          42.49999999999995,
+          -70.99946013518763,
+          119.00008059877804
+        ]
+      },
+      "center_of_mass": [
+        149.99999999999997,
+        -68.0,
+        122.00000000000001
+      ],
+      "closed": true,
+      "density_g_cm3": 1.29,
+      "edges": 2,
+      "face_types": {
+        "cylinder": 1,
+        "plane": 2
+      },
+      "faces": 3,
+      "kernel": {
+        "edges": 6,
+        "faces": 4,
+        "shells": 1,
+        "vertices": 4
+      },
+      "mass_g": 7.840235227920072,
+      "material": "Default",
+      "name": "X_GuideRod_1",
+      "vertices": 2,
+      "volume_mm3": 6077.701727069823
+    },
+    {
+      "area_mm2": 4108.9779283665375,
+      "bbox": {
+        "max": [
+          257.50000000000017,
+          -65.00053986481237,
+          154.99991940122197
+        ],
+        "min": [
+          42.499999999999936,
+          -70.99946013518763,
+          149.00008059877803
+        ]
+      },
+      "center_of_mass": [
+        150.00000000000006,
+        -68.0,
+        152.0
+      ],
+      "closed": true,
+      "density_g_cm3": 1.29,
+      "edges": 2,
+      "face_types": {
+        "cylinder": 1,
+        "plane": 2
+      },
+      "faces": 3,
+      "kernel": {
+        "edges": 6,
+        "faces": 4,
+        "shells": 1,
+        "vertices": 4
+      },
+      "mass_g": 7.840235227920101,
+      "material": "Default",
+      "name": "X_GuideRod_2",
+      "vertices": 2,
+      "volume_mm3": 6077.701727069846
+    },
+    {
+      "area_mm2": 3166.5868434384993,
+      "bbox": {
+        "max": [
+          137.99995366863976,
+          -9.000080598778073,
+          219.50000000000014
+        ],
+        "min": [
+          132.00004633136027,
+          -14.999919401221929,
+          54.49999999999995
+        ]
+      },
+      "center_of_mass": [
+        135.0,
+        -12.000000000000007,
+        137.0
+      ],
+      "closed": true,
+      "density_g_cm3": 1.29,
+      "edges": 2,
+      "face_types": {
+        "cylinder": 1,
+        "plane": 2
+      },
+      "faces": 3,
+      "kernel": {
+        "edges": 6,
+        "faces": 4,
+        "shells": 1,
+        "vertices": 4
+      },
+      "mass_g": 6.017192322977599,
+      "material": "Default",
+      "name": "Z_GuideRod_1",
+      "vertices": 2,
+      "volume_mm3": 4664.490172850852
+    },
+    {
+      "area_mm2": 3166.586843438514,
+      "bbox": {
+        "max": [
+          167.99995366863976,
+          -9.000080598778073,
+          219.5000000000001
+        ],
+        "min": [
+          162.00004633136027,
+          -14.99991940122193,
+          54.49999999999994
+        ]
+      },
+      "center_of_mass": [
+        165.0,
+        -12.000000000000002,
+        137.0
+      ],
+      "closed": true,
+      "density_g_cm3": 1.29,
+      "edges": 2,
+      "face_types": {
+        "cylinder": 1,
+        "plane": 2
+      },
+      "faces": 3,
+      "kernel": {
+        "edges": 6,
+        "faces": 4,
+        "shells": 1,
+        "vertices": 4
+      },
+      "mass_g": 6.017192322977602,
+      "material": "Default",
+      "name": "Z_GuideRod_2",
+      "vertices": 2,
+      "volume_mm3": 4664.490172850854
+    },
+    {
+      "area_mm2": 1244.0194799309636,
+      "bbox": {
+        "max": [
+          159.40000000000015,
+          -62.00009266272055,
+          127.99983880244392
+        ],
+        "min": [
+          140.39999999999992,
+          -73.99990733727944,
+          116.00016119755612
+        ]
+      },
+      "center_of_mass": [
+        149.9,
+        -68.0,
+        122.0
+      ],
+      "closed": true,
+      "density_g_cm3": 1.29,
+      "edges": 4,
+      "face_types": {
+        "cylinder": 2,
+        "plane": 2
+      },
+      "faces": 4,
+      "kernel": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "vertices": 8
+      },
+      "mass_g": 2.078814091823195,
+      "material": "Default",
+      "name": "X_LM6UU_1",
+      "vertices": 4,
+      "volume_mm3": 1611.483792111004
+    },
+    {
+      "area_mm2": 1244.0194799309613,
+      "bbox": {
+        "max": [
+          159.40000000000012,
+          -62.00009266272054,
+          157.9998388024439
+        ],
+        "min": [
+          140.39999999999992,
+          -73.99990733727941,
+          146.0001611975561
+        ]
+      },
+      "center_of_mass": [
+        149.9,
+        -67.99999999999997,
+        151.99999999999997
+      ],
+      "closed": true,
+      "density_g_cm3": 1.29,
+      "edges": 4,
+      "face_types": {
+        "cylinder": 2,
+        "plane": 2
+      },
+      "faces": 4,
+      "kernel": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "vertices": 8
+      },
+      "mass_g": 2.078814091823185,
+      "material": "Default",
+      "name": "X_LM6UU_2",
+      "vertices": 4,
+      "volume_mm3": 1611.4837921109963
+    },
+    {
+      "area_mm2": 1244.0194799309645,
+      "bbox": {
+        "max": [
+          140.99990733727944,
+          -6.000161197556146,
+          146.40000000000006
+        ],
+        "min": [
+          129.00009266272053,
+          -17.999838802443858,
+          127.3999999999999
+        ]
+      },
+      "center_of_mass": [
+        135.0,
+        -12.000000000000004,
+        136.89999999999998
+      ],
+      "closed": true,
+      "density_g_cm3": 1.29,
+      "edges": 4,
+      "face_types": {
+        "cylinder": 2,
+        "plane": 2
+      },
+      "faces": 4,
+      "kernel": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "vertices": 8
+      },
+      "mass_g": 2.0788140918231894,
+      "material": "Default",
+      "name": "Z_LM6UU_1",
+      "vertices": 4,
+      "volume_mm3": 1611.4837921109995
+    },
+    {
+      "area_mm2": 1244.0194799309613,
+      "bbox": {
+        "max": [
+          170.99990733727944,
+          -6.000161197556143,
+          146.40000000000006
+        ],
+        "min": [
+          159.0000926627205,
+          -17.999838802443858,
+          127.3999999999999
+        ]
+      },
+      "center_of_mass": [
+        165.0,
+        -11.99999999999999,
+        136.89999999999998
+      ],
+      "closed": true,
+      "density_g_cm3": 1.29,
+      "edges": 4,
+      "face_types": {
+        "cylinder": 2,
+        "plane": 2
+      },
+      "faces": 4,
+      "kernel": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "vertices": 8
+      },
+      "mass_g": 2.078814091823197,
+      "material": "Default",
+      "name": "Z_LM6UU_2",
+      "vertices": 4,
+      "volume_mm3": 1611.4837921110054
+    }
+  ],
+  "body_count": 18,
+  "params": [
+    {
+      "comment": "X 型材截面宽（2040 的 20）",
+      "error": null,
+      "expression": "20 mm",
+      "model": false,
+      "name": "PW",
+      "unit": "mm",
+      "value": 20.0
+    },
+    {
+      "comment": "X 型材截面高（2040 的 40）",
+      "error": null,
+      "expression": "40 mm",
+      "model": false,
+      "name": "PH",
+      "unit": "mm",
+      "value": 40.0
+    },
+    {
+      "comment": "Z 型材截面宽（旋转 90°）",
+      "error": null,
+      "expression": "40 mm",
+      "model": false,
+      "name": "PWZ",
+      "unit": "mm",
+      "value": 40.0
+    },
+    {
+      "comment": "Z 型材截面深（旋转 90°）",
+      "error": null,
+      "expression": "20 mm",
+      "model": false,
+      "name": "PHZ",
+      "unit": "mm",
+      "value": 20.0
+    },
+    {
+      "comment": "2040 型材两个中心孔半径（Ø5）",
+      "error": null,
+      "expression": "2.5 mm",
+      "model": false,
+      "name": "PROF_HOLE_R",
+      "unit": "mm",
+      "value": 2.5
+    },
+    {
+      "comment": "X 型材 Y 起点",
+      "error": null,
+      "expression": "-57 mm",
+      "model": false,
+      "name": "X_PROF_Y0",
+      "unit": "mm",
+      "value": -57.0
+    },
+    {
+      "comment": "X 型材 Z 起点",
+      "error": null,
+      "expression": "117 mm",
+      "model": false,
+      "name": "X_PROF_Z0",
+      "unit": "mm",
+      "value": 117.0
+    },
+    {
+      "comment": "X 型材长度",
+      "error": null,
+      "expression": "200 mm",
+      "model": false,
+      "name": "X_PROF_LEN",
+      "unit": "mm",
+      "value": 200.0
+    },
+    {
+      "comment": "Z 型材 X 起点",
+      "error": null,
+      "expression": "130 mm",
+      "model": false,
+      "name": "Z_PROF_X0",
+      "unit": "mm",
+      "value": 130.0
+    },
+    {
+      "comment": "Z 型材 Y 起点",
+      "error": null,
+      "expression": "-1 mm",
+      "model": false,
+      "name": "Z_PROF_Y0",
+      "unit": "mm",
+      "value": -1.0
+    },
+    {
+      "comment": "Z 型材长度",
+      "error": null,
+      "expression": "150 mm",
+      "model": false,
+      "name": "Z_PROF_LEN",
+      "unit": "mm",
+      "value": 150.0
+    },
+    {
+      "comment": "",
+      "error": null,
+      "expression": "PROF_HOLE_R",
+      "model": true,
+      "name": "d1",
+      "unit": "mm",
+      "value": 2.5
+    },
+    {
+      "comment": "",
+      "error": null,
+      "expression": "PROF_HOLE_R",
+      "model": true,
+      "name": "d2",
+      "unit": "mm",
+      "value": 2.5
+    },
+    {
+      "comment": "",
+      "error": null,
+      "expression": "PROF_HOLE_R",
+      "model": true,
+      "name": "d4",
+      "unit": "mm",
+      "value": 2.5
+    },
+    {
+      "comment": "",
+      "error": null,
+      "expression": "PROF_HOLE_R",
+      "model": true,
+      "name": "d5",
+      "unit": "mm",
+      "value": 2.5
+    },
+    {
+      "comment": "[A 轴承导杆] LM6UU 外径",
+      "error": null,
+      "expression": "12 mm",
+      "model": false,
+      "name": "BRG_OD",
+      "unit": "mm",
+      "value": 12.0
+    },
+    {
+      "comment": "[A 轴承导杆] LM6UU 内孔（= 导杆直径）",
+      "error": null,
+      "expression": "6 mm",
+      "model": false,
+      "name": "BRG_ID",
+      "unit": "mm",
+      "value": 6.0
+    },
+    {
+      "comment": "[A 轴承导杆] LM6UU 长度",
+      "error": null,
+      "expression": "19 mm",
+      "model": false,
+      "name": "BRG_L",
+      "unit": "mm",
+      "value": 19.0
+    },
+    {
+      "comment": "[A 轴承导杆] 导杆直径",
+      "error": null,
+      "expression": "6 mm",
+      "model": false,
+      "name": "ROD_D",
+      "unit": "mm",
+      "value": 6.0
+    },
+    {
+      "comment": "[A 轴承导杆] 滑车主座半径（轴承外径 + 0.10 间隙）",
+      "error": null,
+      "expression": "BRG_OD / 2 + 0.05 mm",
+      "model": false,
+      "name": "SEAT_R",
+      "unit": "mm",
+      "value": 6.05
+    },
+    {
+      "comment": "[A 轴承导杆] 滑车主座长度",
+      "error": null,
+      "expression": "BRG_L + 0.2 mm",
+      "model": false,
+      "name": "SEAT_L",
+      "unit": "mm",
+      "value": 19.2
+    },
+    {
+      "comment": "[A 轴承导杆] 端板导杆孔半径 Ø6.10",
+      "error": null,
+      "expression": "ROD_D / 2 + 0.05 mm",
+      "model": false,
+      "name": "ROD_HOLE_R",
+      "unit": "mm",
+      "value": 3.05
+    },
+    {
+      "comment": "[A 轴承导杆] 导入段半径（形成 -端轴向挡肩）",
+      "error": null,
+      "expression": "4.7 mm",
+      "model": false,
+      "name": "PILOT_R",
+      "unit": "mm",
+      "value": 4.7
+    },
+    {
+      "comment": "[A 轴承导杆] 出口段半径（形成 +端轴向挡肩）",
+      "error": null,
+      "expression": "5.1 mm",
+      "model": false,
+      "name": "EXIT_R",
+      "unit": "mm",
+      "value": 5.1
+    },
+    {
+      "comment": "[A 轴承导杆] X 轴导杆长度",
+      "error": null,
+      "expression": "215 mm",
+      "model": false,
+      "name": "ROD_X_LEN",
+      "unit": "mm",
+      "value": 215.0
+    },
+    {
+      "comment": "[A 轴承导杆] Z 轴导杆长度",
+      "error": null,
+      "expression": "165 mm",
+      "model": false,
+      "name": "ROD_Z_LEN",
+      "unit": "mm",
+      "value": 165.0
+    },
+    {
+      "comment": "[A 轴承导杆] X 导杆起点 X",
+      "error": null,
+      "expression": "42.5 mm",
+      "model": false,
+      "name": "X_ROD_X0",
+      "unit": "mm",
+      "value": 42.5
+    },
+    {
+      "comment": "[A 轴承导杆] X 导杆中心 Y（滑车分型面）",
+      "error": null,
+      "expression": "-68 mm",
+      "model": false,
+      "name": "X_ROD_Y",
+      "unit": "mm",
+      "value": -68.0
+    },
+    {
+      "comment": "[A 轴承导杆] X 导杆 1 中心 Z",
+      "error": null,
+      "expression": "122 mm",
+      "model": false,
+      "name": "X_ROD_Z1",
+      "unit": "mm",
+      "value": 122.0
+    },
+    {
+      "comment": "[A 轴承导杆] X 导杆 2 中心 Z",
+      "error": null,
+      "expression": "152 mm",
+      "model": false,
+      "name": "X_ROD_Z2",
+      "unit": "mm",
+      "value": 152.0
+    },
+    {
+      "comment": "[A 轴承导杆] Z 导杆起点 Z",
+      "error": null,
+      "expression": "54.5 mm",
+      "model": false,
+      "name": "Z_ROD_Z0",
+      "unit": "mm",
+      "value": 54.5
+    },
+    {
+      "comment": "[A 轴承导杆] Z 导杆 1 中心 X",
+      "error": null,
+      "expression": "135 mm",
+      "model": false,
+      "name": "Z_ROD_X1",
+      "unit": "mm",
+      "value": 135.0
+    },
+    {
+      "comment": "[A 轴承导杆] Z 导杆 2 中心 X",
+      "error": null,
+      "expression": "165 mm",
+      "model": false,
+      "name": "Z_ROD_X2",
+      "unit": "mm",
+      "value": 165.0
+    },
+    {
+      "comment": "[A 轴承导杆] Z 导杆中心 Y（滑车分型面）",
+      "error": null,
+      "expression": "-12 mm",
+      "model": false,
+      "name": "Z_ROD_Y",
+      "unit": "mm",
+      "value": -12.0
+    },
+    {
+      "comment": "[A 轴承导杆] X 滑车主座起点 X",
+      "error": null,
+      "expression": "140.4 mm",
+      "model": false,
+      "name": "X_SEAT_X0",
+      "unit": "mm",
+      "value": 140.4
+    },
+    {
+      "comment": "[A 轴承导杆] Z 滑车主座起点 Z",
+      "error": null,
+      "expression": "127.4 mm",
+      "model": false,
+      "name": "Z_SEAT_Z0",
+      "unit": "mm",
+      "value": 127.4
+    },
+    {
+      "comment": "[B 冻结项] Z 轴限位开关槽宽（禁止改动）",
+      "error": null,
+      "expression": "22 mm",
+      "model": false,
+      "name": "Z_SLOT_W",
+      "unit": "mm",
+      "value": 22.0
+    },
+    {
+      "comment": "[B 冻结项] X 轴限位开关口袋宽（禁止改动）",
+      "error": null,
+      "expression": "20.8 mm",
+      "model": false,
+      "name": "X_POCKET_W",
+      "unit": "mm",
+      "value": 20.8
+    },
+    {
+      "comment": "[C 端板] 端板法兰板厚度（贴型材端面）",
+      "error": null,
+      "expression": "7.5 mm",
+      "model": false,
+      "name": "FLANGE_T",
+      "unit": "mm",
+      "value": 7.5
+    },
+    {
+      "comment": "[C 端板] 端板周边框架壁厚",
+      "error": null,
+      "expression": "1.5 mm",
+      "model": false,
+      "name": "FRAME_WALL",
+      "unit": "mm",
+      "value": 1.5
+    },
+    {
+      "comment": "[C 端板] 电机安装台伸出长度",
+      "error": null,
+      "expression": "10 mm",
+      "model": false,
+      "name": "MOTOR_PAD_L",
+      "unit": "mm",
+      "value": 10.0
+    },
+    {
+      "comment": "[C 端板] 电机安装台宽度",
+      "error": null,
+      "expression": "18 mm",
+      "model": false,
+      "name": "MOTOR_PAD_W",
+      "unit": "mm",
+      "value": 18.0
+    },
+    {
+      "comment": "[C 端板] 电机安装台高度",
+      "error": null,
+      "expression": "24 mm",
+      "model": false,
+      "name": "MOTOR_PAD_H",
+      "unit": "mm",
+      "value": 24.0
+    },
+    {
+      "comment": "[C 端板] L 端板电机让位孔半径",
+      "error": null,
+      "expression": "8.5 mm",
+      "model": false,
+      "name": "MOTOR_BORE_L_R",
+      "unit": "mm",
+      "value": 8.5
+    },
+    {
+      "comment": "[C 端板] R 端板电机让位孔半径",
+      "error": null,
+      "expression": "10 mm",
+      "model": false,
+      "name": "MOTOR_BORE_R_R",
+      "unit": "mm",
+      "value": 10.0
+    },
+    {
+      "comment": "[C 端板] X 端板电机孔中心 Y",
+      "error": null,
+      "expression": "-62 mm",
+      "model": false,
+      "name": "MOTOR_Y",
+      "unit": "mm",
+      "value": -62.0
+    },
+    {
+      "comment": "[C 端板] X 端板电机孔中心 Z",
+      "error": null,
+      "expression": "137 mm",
+      "model": false,
+      "name": "MOTOR_Z",
+      "unit": "mm",
+      "value": 137.0
+    },
+    {
+      "comment": "[C 端板] Z 端板电机孔中心 Y",
+      "error": null,
+      "expression": "9 mm",
+      "model": false,
+      "name": "Z_MOTOR_Y",
+      "unit": "mm",
+      "value": 9.0
+    },
+    {
+      "comment": "[C 端板] 端板安装孔半径（M3 过孔）",
+      "error": null,
+      "expression": "1.7 mm",
+      "model": false,
+      "name": "MOUNT_R",
+      "unit": "mm",
+      "value": 1.7
+    },
+    {
+      "comment": "[C 端板] X 端板安装孔中心 Y",
+      "error": null,
+      "expression": "-60 mm",
+      "model": false,
+      "name": "X_MOUNT_Y",
+      "unit": "mm",
+      "value": -60.0
+    },
+    {
+      "comment": "[C 端板] Z 端板安装孔中心 Y",
+      "error": null,
+      "expression": "-5 mm",
+      "model": false,
+      "name": "Z_MOUNT_Y",
+      "unit": "mm",
+      "value": -5.0
+    },
+    {
+      "comment": "[C 端板] 端板顶部皮带让位槽高度",
+      "error": null,
+      "expression": "7 mm",
+      "model": false,
+      "name": "BELT_SLOT_H",
+      "unit": "mm",
+      "value": 7.0
+    },
+    {
+      "comment": "[D X 端板] X 端板 L 起点 X",
+      "error": null,
+      "expression": "0 mm",
+      "model": false,
+      "name": "X_EP_L_X0",
+      "unit": "mm",
+      "value": 0.0
+    },
+    {
+      "comment": "[D X 端板] X 端板 L 长度（贴合型材 X50 端面）",
+      "error": null,
+      "expression": "50 mm",
+      "model": false,
+      "name": "X_EP_L_LEN",
+      "unit": "mm",
+      "value": 50.0
+    },
+    {
+      "comment": "[D X 端板] X 端板 R 起点 X",
+      "error": null,
+      "expression": "250 mm",
+      "model": false,
+      "name": "X_EP_R_X0",
+      "unit": "mm",
+      "value": 250.0
+    },
+    {
+      "comment": "[D X 端板] X 端板 R 长度",
+      "error": null,
+      "expression": "50 mm",
+      "model": false,
+      "name": "X_EP_R_LEN",
+      "unit": "mm",
+      "value": 50.0
+    },
+    {
+      "comment": "[D X 端板] X 端板 Y 起点",
+      "error": null,
+      "expression": "-79 mm",
+      "model": false,
+      "name": "X_EP_Y0",
+      "unit": "mm",
+      "value": -79.0
+    },
+    {
+      "comment": "[D X 端板] X 端板 Y 宽度",
+      "error": null,
+      "expression": "42 mm",
+      "model": false,
+      "name": "X_EP_W",
+      "unit": "mm",
+      "value": 42.0
+    },
+    {
+      "comment": "[D X 端板] X 端板 Z 起点",
+      "error": null,
+      "expression": "117 mm",
+      "model": false,
+      "name": "X_EP_Z0",
+      "unit": "mm",
+      "value": 117.0
+    },
+    {
+      "comment": "[D X 端板] X 端板 Z 高度",
+      "error": null,
+      "expression": "40 mm",
+      "model": false,
+      "name": "X_EP_H",
+      "unit": "mm",
+      "value": 40.0
+    },
+    {
+      "comment": "[D X 端板] 限位口袋起点 X",
+      "error": null,
+      "expression": "41.5 mm",
+      "model": false,
+      "name": "X_POCKET_X0",
+      "unit": "mm",
+      "value": 41.5
+    },
+    {
+      "comment": "[D X 端板] 限位口袋起点 Y",
+      "error": null,
+      "expression": "-79 mm",
+      "model": false,
+      "name": "X_POCKET_Y0",
+      "unit": "mm",
+      "value": -79.0
+    },
+    {
+      "comment": "[D X 端板] 限位口袋终点 Y（与 Ø6.10 孔留 0.05 间隙）",
+      "error": null,
+      "expression": "-71.1 mm",
+      "model": false,
+      "name": "X_POCKET_Y1",
+      "unit": "mm",
+      "value": -71.1
+    },
+    {
+      "comment": "[D X 端板] 限位口袋中心 Z",
+      "error": null,
+      "expression": "131.25 mm",
+      "model": false,
+      "name": "X_POCKET_ZC",
+      "unit": "mm",
+      "value": 131.25
+    },
+    {
+      "comment": "[E Z 端板] Z 端板 L 起点 X",
+      "error": null,
+      "expression": "105 mm",
+      "model": false,
+      "name": "Z_EP_L_X0",
+      "unit": "mm",
+      "value": 105.0
+    },
+    {
+      "comment": "[E Z 端板] Z 端板 L X 宽度",
+      "error": null,
+      "expression": "90 mm",
+      "model": false,
+      "name": "Z_EP_L_W",
+      "unit": "mm",
+      "value": 90.0
+    },
+    {
+      "comment": "[E Z 端板] Z 端板 L Y 起点",
+      "error": null,
+      "expression": "-30 mm",
+      "model": false,
+      "name": "Z_EP_L_Y0",
+      "unit": "mm",
+      "value": -30.0
+    },
+    {
+      "comment": "[E Z 端板] Z 端板 L Y 深度",
+      "error": null,
+      "expression": "49 mm",
+      "model": false,
+      "name": "Z_EP_L_D",
+      "unit": "mm",
+      "value": 49.0
+    },
+    {
+      "comment": "[E Z 端板] Z 端板 L Z 起点",
+      "error": null,
+      "expression": "12 mm",
+      "model": false,
+      "name": "Z_EP_L_Z0",
+      "unit": "mm",
+      "value": 12.0
+    },
+    {
+      "comment": "[E Z 端板] Z 端板 L 高度（贴合型材 Z62 端面）",
+      "error": null,
+      "expression": "50 mm",
+      "model": false,
+      "name": "Z_EP_L_H",
+      "unit": "mm",
+      "value": 50.0
+    },
+    {
+      "comment": "[E Z 端板] Z 端板 R 起点 X",
+      "error": null,
+      "expression": "130 mm",
+      "model": false,
+      "name": "Z_EP_R_X0",
+      "unit": "mm",
+      "value": 130.0
+    },
+    {
+      "comment": "[E Z 端板] Z 端板 R X 宽度",
+      "error": null,
+      "expression": "40 mm",
+      "model": false,
+      "name": "Z_EP_R_W",
+      "unit": "mm",
+      "value": 40.0
+    },
+    {
+      "comment": "[E Z 端板] Z 端板 R Y 起点",
+      "error": null,
+      "expression": "-23 mm",
+      "model": false,
+      "name": "Z_EP_R_Y0",
+      "unit": "mm",
+      "value": -23.0
+    },
+    {
+      "comment": "[E Z 端板] Z 端板 R Y 深度",
+      "error": null,
+      "expression": "42 mm",
+      "model": false,
+      "name": "Z_EP_R_D",
+      "unit": "mm",
+      "value": 42.0
+    },
+    {
+      "comment": "[E Z 端板] Z 端板 R 起点（贴合型材 Z212 端面）",
+      "error": null,
+      "expression": "212 mm",
+      "model": false,
+      "name": "Z_EP_R_Z0",
+      "unit": "mm",
+      "value": 212.0
+    },
+    {
+      "comment": "[E Z 端板] Z 端板 R 高度",
+      "error": null,
+      "expression": "50 mm",
+      "model": false,
+      "name": "Z_EP_R_H",
+      "unit": "mm",
+      "value": 50.0
+    },
+    {
+      "comment": "[E Z 端板] Z 限位槽中心 X",
+      "error": null,
+      "expression": "150 mm",
+      "model": false,
+      "name": "Z_SLOT_XC",
+      "unit": "mm",
+      "value": 150.0
+    },
+    {
+      "comment": "[E Z 端板] Z 限位槽起点 Y",
+      "error": null,
+      "expression": "-30 mm",
+      "model": false,
+      "name": "Z_SLOT_Y0",
+      "unit": "mm",
+      "value": -30.0
+    },
+    {
+      "comment": "[E Z 端板] Z 限位槽终点 Y",
+      "error": null,
+      "expression": "-10 mm",
+      "model": false,
+      "name": "Z_SLOT_Y1",
+      "unit": "mm",
+      "value": -10.0
+    },
+    {
+      "comment": "[E Z 端板] Z 限位槽起点 Z",
+      "error": null,
+      "expression": "52 mm",
+      "model": false,
+      "name": "Z_SLOT_Z0",
+      "unit": "mm",
+      "value": 52.0
+    },
+    {
+      "comment": "[F 滑车] 滑车沿运动轴长度",
+      "error": null,
+      "expression": "33 mm",
+      "model": false,
+      "name": "CAR_L",
+      "unit": "mm",
+      "value": 33.0
+    },
+    {
+      "comment": "[F 滑车] 滑车横向跨距（两导杆外侧）",
+      "error": null,
+      "expression": "50 mm",
+      "model": false,
+      "name": "CAR_SPAN",
+      "unit": "mm",
+      "value": 50.0
+    },
+    {
+      "comment": "[F 滑车] 下滑车半体厚度",
+      "error": null,
+      "expression": "10.5 mm",
+      "model": false,
+      "name": "CAR_T_LOWER",
+      "unit": "mm",
+      "value": 10.5
+    },
+    {
+      "comment": "[F 滑车] X 上滑车半体厚度",
+      "error": null,
+      "expression": "10 mm",
+      "model": false,
+      "name": "CAR_T_UPPER",
+      "unit": "mm",
+      "value": 10.0
+    },
+    {
+      "comment": "[F 滑车] Z 上滑车半体厚度",
+      "error": null,
+      "expression": "15 mm",
+      "model": false,
+      "name": "CAR_T_UPPER_Z",
+      "unit": "mm",
+      "value": 15.0
+    },
+    {
+      "comment": "[F 滑车] 滑车四角圆角半径",
+      "error": null,
+      "expression": "4 mm",
+      "model": false,
+      "name": "CAR_CORNER_R",
+      "unit": "mm",
+      "value": 4.0
+    },
+    {
+      "comment": "[F 滑车] M3 合拢通孔半径",
+      "error": null,
+      "expression": "1.7 mm",
+      "model": false,
+      "name": "CAR_M3_R",
+      "unit": "mm",
+      "value": 1.7
+    },
+    {
+      "comment": "[F 滑车] 上半体沉孔半径",
+      "error": null,
+      "expression": "3.2 mm",
+      "model": false,
+      "name": "CAR_CB_R_UPPER",
+      "unit": "mm",
+      "value": 3.2
+    },
+    {
+      "comment": "[F 滑车] 下半体沉孔半径",
+      "error": null,
+      "expression": "2.3 mm",
+      "model": false,
+      "name": "CAR_CB_R_LOWER",
+      "unit": "mm",
+      "value": 2.3
+    },
+    {
+      "comment": "[F 滑车] 上半体沉孔深度",
+      "error": null,
+      "expression": "3 mm",
+      "model": false,
+      "name": "CAR_CB_DEPTH_UPPER",
+      "unit": "mm",
+      "value": 3.0
+    },
+    {
+      "comment": "[F 滑车] 下半体沉孔深度",
+      "error": null,
+      "expression": "8 mm",
+      "model": false,
+      "name": "CAR_CB_DEPTH_LOWER",
+      "unit": "mm",
+      "value": 8.0
+    },
+    {
+      "comment": "[F 滑车] 两 M3 孔间距",
+      "error": null,
+      "expression": "12 mm",
+      "model": false,
+      "name": "CAR_M3_PITCH",
+      "unit": "mm",
+      "value": 12.0
+    },
+    {
+      "comment": "[F 滑车] 中央皮带让位腔边长",
+      "error": null,
+      "expression": "5 mm",
+      "model": false,
+      "name": "CAR_BELT_W",
+      "unit": "mm",
+      "value": 5.0
+    },
+    {
+      "comment": "[F 滑车] 中央皮带让位腔深度",
+      "error": null,
+      "expression": "2 mm",
+      "model": false,
+      "name": "CAR_BELT_D",
+      "unit": "mm",
+      "value": 2.0
+    },
+    {
+      "comment": "[F 滑车] X 滑车起点 X",
+      "error": null,
+      "expression": "133.5 mm",
+      "model": false,
+      "name": "X_CAR_X0",
+      "unit": "mm",
+      "value": 133.5
+    },
+    {
+      "comment": "[F 滑车] X 滑车起点 Z",
+      "error": null,
+      "expression": "112 mm",
+      "model": false,
+      "name": "X_CAR_Z0",
+      "unit": "mm",
+      "value": 112.0
+    },
+    {
+      "comment": "[F 滑车] Z 滑车起点 X",
+      "error": null,
+      "expression": "125 mm",
+      "model": false,
+      "name": "Z_CAR_X0",
+      "unit": "mm",
+      "value": 125.0
+    },
+    {
+      "comment": "[F 滑车] Z 滑车起点 Z",
+      "error": null,
+      "expression": "120.5 mm",
+      "model": false,
+      "name": "Z_CAR_Z0",
+      "unit": "mm",
+      "value": 120.5
+    },
+    {
+      "comment": "[F 滑车] X 下半体 Y 起点（= 分型面）",
+      "error": null,
+      "expression": "-68 mm",
+      "model": false,
+      "name": "X_CAR_LOWER_Y0",
+      "unit": "mm",
+      "value": -68.0
+    },
+    {
+      "comment": "[F 滑车] X 上半体 Y 起点",
+      "error": null,
+      "expression": "-78 mm",
+      "model": false,
+      "name": "X_CAR_UPPER_Y0",
+      "unit": "mm",
+      "value": -78.0
+    },
+    {
+      "comment": "[F 滑车] Z 下半体 Y 起点（= 分型面）",
+      "error": null,
+      "expression": "-12 mm",
+      "model": false,
+      "name": "Z_CAR_LOWER_Y0",
+      "unit": "mm",
+      "value": -12.0
+    },
+    {
+      "comment": "[F 滑车] Z 上半体 Y 起点",
+      "error": null,
+      "expression": "-27 mm",
+      "model": false,
+      "name": "Z_CAR_UPPER_Y0",
+      "unit": "mm",
+      "value": -27.0
+    },
+    {
+      "comment": "[H 辅助] 加料特征与主体的重叠量",
+      "error": null,
+      "expression": "0.2 mm",
+      "model": false,
+      "name": "OVL",
+      "unit": "mm",
+      "value": 0.2
+    },
+    {
+      "comment": "[H 辅助] 去料刀具外延长度",
+      "error": null,
+      "expression": "1 mm",
+      "model": false,
+      "name": "CUT_EXT",
+      "unit": "mm",
+      "value": 1.0
+    }
+  ],
+  "sketches": [
+    {
+      "curves": 344,
+      "dof": 688,
+      "id": 1,
+      "name": "Sketch1",
+      "profiles": 4,
+      "status": "solved",
+      "visible": false
+    },
+    {
+      "curves": 344,
+      "dof": 688,
+      "id": 3,
+      "name": "Sketch2",
+      "profiles": 4,
+      "status": "solved",
+      "visible": false
+    }
+  ],
+  "timeline": [
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 1,
+      "ms": 5.631200000000001,
+      "name": "Sketch1",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "Sketch",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 2,
+      "ms": 59.7417,
+      "name": "Extrude1",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "ExtrudeFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 3,
+      "ms": 4.9051,
+      "name": "Sketch2",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "Sketch",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 4,
+      "ms": 61.7421,
+      "name": "Extrude2",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "ExtrudeFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 5,
+      "ms": 0.4597,
+      "name": "XP_L_Blank",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "BoxFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 6,
+      "ms": 5.5527,
+      "name": "XP_L_FrameCavity",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "BoxFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 7,
+      "ms": 15.0627,
+      "name": "XP_L_MotorPad",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "BoxFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 8,
+      "ms": 46.1099,
+      "name": "XP_L_MotorBore",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 9,
+      "ms": 67.2519,
+      "name": "XP_L_RodBore1",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 10,
+      "ms": 69.64320000000001,
+      "name": "XP_L_RodBore2",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 11,
+      "ms": 98.8544,
+      "name": "XP_L_MountHole1",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 12,
+      "ms": 128.00300000000001,
+      "name": "XP_L_MountHole2",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 13,
+      "ms": 107.3649,
+      "name": "XP_L_BeltSlot",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "BoxFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 14,
+      "ms": 168.2,
+      "name": "XP_L_LimitPocket",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "BoxFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 15,
+      "ms": 0.467,
+      "name": "XP_R_Blank",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "BoxFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 16,
+      "ms": 12.1073,
+      "name": "XP_R_FrameCavity",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "BoxFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 17,
+      "ms": 17.8253,
+      "name": "XP_R_MotorPad",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "BoxFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 18,
+      "ms": 53.0826,
+      "name": "XP_R_MotorBore",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 19,
+      "ms": 69.84859999999999,
+      "name": "XP_R_RodBore1",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 20,
+      "ms": 107.1563,
+      "name": "XP_R_RodBore2",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 21,
+      "ms": 121.1533,
+      "name": "XP_R_MountHole1",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 22,
+      "ms": 193.4406,
+      "name": "XP_R_MountHole2",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 23,
+      "ms": 163.4275,
+      "name": "XP_R_BeltSlot",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "BoxFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 24,
+      "ms": 0.44670000000000004,
+      "name": "ZP_L_Blank",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "BoxFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 25,
+      "ms": 4.8667,
+      "name": "ZP_L_FrameCavity",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "BoxFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 26,
+      "ms": 16.6815,
+      "name": "ZP_L_MotorPad",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "BoxFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 27,
+      "ms": 57.0353,
+      "name": "ZP_L_MotorBore",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 28,
+      "ms": 89.19069999999999,
+      "name": "ZP_L_RodBore1",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 29,
+      "ms": 111.9377,
+      "name": "ZP_L_RodBore2",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 30,
+      "ms": 129.0676,
+      "name": "ZP_L_MountHole1",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 31,
+      "ms": 178.44989999999999,
+      "name": "ZP_L_MountHole2",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 32,
+      "ms": 162.7011,
+      "name": "ZP_L_BeltSlot",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "BoxFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 33,
+      "ms": 138.31740000000002,
+      "name": "ZP_L_LimitSlot",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "BoxFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 34,
+      "ms": 1.0285,
+      "name": "ZP_R_Blank",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "BoxFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 35,
+      "ms": 9.279,
+      "name": "ZP_R_FrameCavity",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "BoxFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 36,
+      "ms": 18.6645,
+      "name": "ZP_R_MotorPad",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "BoxFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 37,
+      "ms": 117.94069999999999,
+      "name": "ZP_R_MotorBore",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 38,
+      "ms": 112.3056,
+      "name": "ZP_R_RodBore1",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 39,
+      "ms": 106.0553,
+      "name": "ZP_R_RodBore2",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 40,
+      "ms": 103.5821,
+      "name": "ZP_R_MountHole1",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 41,
+      "ms": 144.671,
+      "name": "ZP_R_MountHole2",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 42,
+      "ms": 159.302,
+      "name": "ZP_R_BeltSlot",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "BoxFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 43,
+      "ms": 0.4765,
+      "name": "CA_X_Lower_Blank",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "BoxFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 44,
+      "ms": 119.26259999999999,
+      "name": "Fillet1",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "FilletFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [
+          {
+            "face_shift_mm": 1.3928114346529468,
+            "rotation_rad": 0.0,
+            "strategy": "coplanar_separation",
+            "tolerance_mm": 0.0,
+            "translation_mm": 0.0
+          }
+        ],
+        "truncated": false
+      },
+      "error": null,
+      "id": 45,
+      "ms": 496.85679999999996,
+      "name": "CA_X_Lower_Pilot1",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [
+          {
+            "face_shift_mm": 0.0,
+            "rotation_rad": 2e-6,
+            "strategy": "tool_nudge",
+            "tolerance_mm": 0.0,
+            "translation_mm": 0.00012243708874356657
+          }
+        ],
+        "truncated": false
+      },
+      "error": null,
+      "id": 46,
+      "ms": 1673.6544,
+      "name": "CA_X_Lower_Seat1",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": "Boolean retry: tool displacement 1.224371e-4 mm, rotation 2.000000e-6 rad"
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [
+          {
+            "face_shift_mm": 1.3928114346529468,
+            "rotation_rad": 0.0,
+            "strategy": "coplanar_separation",
+            "tolerance_mm": 0.0,
+            "translation_mm": 0.0
+          }
+        ],
+        "truncated": false
+      },
+      "error": null,
+      "id": 47,
+      "ms": 736.5301,
+      "name": "CA_X_Lower_Exit1",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [
+          {
+            "face_shift_mm": 1.3928114346529468,
+            "rotation_rad": 0.0,
+            "strategy": "coplanar_separation",
+            "tolerance_mm": 0.0,
+            "translation_mm": 0.0
+          }
+        ],
+        "truncated": false
+      },
+      "error": null,
+      "id": 48,
+      "ms": 719.1049,
+      "name": "CA_X_Lower_Pilot2",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [
+          {
+            "face_shift_mm": 0.0,
+            "rotation_rad": 2e-6,
+            "strategy": "tool_nudge",
+            "tolerance_mm": 0.0,
+            "translation_mm": 0.00012243708874356657
+          }
+        ],
+        "truncated": false
+      },
+      "error": null,
+      "id": 49,
+      "ms": 4710.2077,
+      "name": "CA_X_Lower_Seat2",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": "Boolean retry: tool displacement 1.224371e-4 mm, rotation 2.000000e-6 rad"
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [
+          {
+            "face_shift_mm": 1.3928114346529468,
+            "rotation_rad": 0.0,
+            "strategy": "coplanar_separation",
+            "tolerance_mm": 0.0,
+            "translation_mm": 0.0
+          }
+        ],
+        "truncated": false
+      },
+      "error": null,
+      "id": 50,
+      "ms": 903.3571000000001,
+      "name": "CA_X_Lower_Exit2",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 51,
+      "ms": 655.5591,
+      "name": "CA_X_Lower_M3Through1",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 52,
+      "ms": 749.7743,
+      "name": "CA_X_Lower_M3Through2",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 53,
+      "ms": 566.8904,
+      "name": "CA_X_Lower_M3Cbore1",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 54,
+      "ms": 668.3209,
+      "name": "CA_X_Lower_M3Cbore2",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 55,
+      "ms": 463.7288,
+      "name": "CA_X_Lower_BeltRelief",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "BoxFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 56,
+      "ms": 0.4244,
+      "name": "CA_X_Upper_Blank",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "BoxFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 57,
+      "ms": 125.3998,
+      "name": "Fillet2",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "FilletFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [
+          {
+            "face_shift_mm": 1.3908804729379156,
+            "rotation_rad": 0.0,
+            "strategy": "coplanar_separation",
+            "tolerance_mm": 0.0,
+            "translation_mm": 0.0
+          }
+        ],
+        "truncated": false
+      },
+      "error": null,
+      "id": 58,
+      "ms": 486.593,
+      "name": "CA_X_Upper_Pilot1",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [
+          {
+            "face_shift_mm": 0.0,
+            "rotation_rad": 2e-6,
+            "strategy": "tool_nudge",
+            "tolerance_mm": 0.0,
+            "translation_mm": 0.0001222673447818345
+          }
+        ],
+        "truncated": false
+      },
+      "error": null,
+      "id": 59,
+      "ms": 1554.4432000000002,
+      "name": "CA_X_Upper_Seat1",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": "Boolean retry: tool displacement 1.222673e-4 mm, rotation 2.000000e-6 rad"
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [
+          {
+            "face_shift_mm": 1.3908804729379156,
+            "rotation_rad": 0.0,
+            "strategy": "coplanar_separation",
+            "tolerance_mm": 0.0,
+            "translation_mm": 0.0
+          }
+        ],
+        "truncated": false
+      },
+      "error": null,
+      "id": 60,
+      "ms": 689.4780999999999,
+      "name": "CA_X_Upper_Exit1",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [
+          {
+            "face_shift_mm": 1.3908804729379156,
+            "rotation_rad": 0.0,
+            "strategy": "coplanar_separation",
+            "tolerance_mm": 0.0,
+            "translation_mm": 0.0
+          }
+        ],
+        "truncated": false
+      },
+      "error": null,
+      "id": 61,
+      "ms": 648.8758,
+      "name": "CA_X_Upper_Pilot2",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [
+          {
+            "face_shift_mm": 0.0,
+            "rotation_rad": 2e-6,
+            "strategy": "tool_nudge",
+            "tolerance_mm": 0.0,
+            "translation_mm": 0.0001222673447818345
+          }
+        ],
+        "truncated": false
+      },
+      "error": null,
+      "id": 62,
+      "ms": 4778.4989,
+      "name": "CA_X_Upper_Seat2",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": "Boolean retry: tool displacement 1.222673e-4 mm, rotation 2.000000e-6 rad"
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [
+          {
+            "face_shift_mm": 1.3908804729379156,
+            "rotation_rad": 0.0,
+            "strategy": "coplanar_separation",
+            "tolerance_mm": 0.0,
+            "translation_mm": 0.0
+          }
+        ],
+        "truncated": false
+      },
+      "error": null,
+      "id": 63,
+      "ms": 1329.8684,
+      "name": "CA_X_Upper_Exit2",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 64,
+      "ms": 589.1673,
+      "name": "CA_X_Upper_M3Through1",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 65,
+      "ms": 620.0185,
+      "name": "CA_X_Upper_M3Through2",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 66,
+      "ms": 631.5965,
+      "name": "CA_X_Upper_M3Cbore1",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 67,
+      "ms": 555.714,
+      "name": "CA_X_Upper_M3Cbore2",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 68,
+      "ms": 437.9576,
+      "name": "CA_X_Upper_BeltRelief",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "BoxFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 69,
+      "ms": 0.4281,
+      "name": "CA_Z_Lower_Blank",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "BoxFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 70,
+      "ms": 115.2212,
+      "name": "Fillet3",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "FilletFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [
+          {
+            "face_shift_mm": 1.3928114346529468,
+            "rotation_rad": 0.0,
+            "strategy": "coplanar_separation",
+            "tolerance_mm": 0.0,
+            "translation_mm": 0.0
+          }
+        ],
+        "truncated": false
+      },
+      "error": null,
+      "id": 71,
+      "ms": 465.0126,
+      "name": "CA_Z_Lower_Pilot1",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [
+          {
+            "face_shift_mm": 0.0,
+            "rotation_rad": 2e-6,
+            "strategy": "tool_nudge",
+            "tolerance_mm": 0.0,
+            "translation_mm": 0.00012243708874356657
+          }
+        ],
+        "truncated": false
+      },
+      "error": null,
+      "id": 72,
+      "ms": 2051.6407,
+      "name": "CA_Z_Lower_Seat1",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": "Boolean retry: tool displacement 1.224371e-4 mm, rotation 2.000000e-6 rad"
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [
+          {
+            "face_shift_mm": 1.3928114346529468,
+            "rotation_rad": 0.0,
+            "strategy": "coplanar_separation",
+            "tolerance_mm": 0.0,
+            "translation_mm": 0.0
+          }
+        ],
+        "truncated": false
+      },
+      "error": null,
+      "id": 73,
+      "ms": 792.7043,
+      "name": "CA_Z_Lower_Exit1",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 74,
+      "ms": 2039.1591,
+      "name": "CA_Z_Lower_Pilot2",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [
+          {
+            "face_shift_mm": 0.0,
+            "rotation_rad": 2e-6,
+            "strategy": "tool_nudge",
+            "tolerance_mm": 0.0,
+            "translation_mm": 0.00012243708874356657
+          }
+        ],
+        "truncated": false
+      },
+      "error": null,
+      "id": 75,
+      "ms": 2832.0116,
+      "name": "CA_Z_Lower_Seat2",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": "Boolean retry: tool displacement 1.224371e-4 mm, rotation 2.000000e-6 rad"
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [
+          {
+            "face_shift_mm": 0.0,
+            "rotation_rad": 2e-6,
+            "strategy": "tool_nudge",
+            "tolerance_mm": 0.0,
+            "translation_mm": 0.00012243708874356657
+          }
+        ],
+        "truncated": false
+      },
+      "error": null,
+      "id": 76,
+      "ms": 2554.0163,
+      "name": "CA_Z_Lower_Exit2",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": "Boolean retry: tool displacement 1.224371e-4 mm, rotation 2.000000e-6 rad"
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 77,
+      "ms": 561.3527,
+      "name": "CA_Z_Lower_M3Through1",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 78,
+      "ms": 641.7752,
+      "name": "CA_Z_Lower_M3Through2",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 79,
+      "ms": 615.325,
+      "name": "CA_Z_Lower_M3Cbore1",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 80,
+      "ms": 663.0231,
+      "name": "CA_Z_Lower_M3Cbore2",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 81,
+      "ms": 494.1224,
+      "name": "CA_Z_Lower_BeltRelief",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "BoxFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 82,
+      "ms": 0.4126,
+      "name": "CA_Z_Upper_Blank",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "BoxFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 83,
+      "ms": 122.82039999999999,
+      "name": "Fillet4",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "FilletFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [
+          {
+            "face_shift_mm": 1.4142488253486372,
+            "rotation_rad": 0.0,
+            "strategy": "coplanar_separation",
+            "tolerance_mm": 0.0,
+            "translation_mm": 0.0
+          }
+        ],
+        "truncated": false
+      },
+      "error": null,
+      "id": 84,
+      "ms": 478.8592,
+      "name": "CA_Z_Upper_Pilot1",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [
+          {
+            "face_shift_mm": 0.0,
+            "rotation_rad": 2e-6,
+            "strategy": "tool_nudge",
+            "tolerance_mm": 0.0,
+            "translation_mm": 0.0001243215733491175
+          }
+        ],
+        "truncated": false
+      },
+      "error": null,
+      "id": 85,
+      "ms": 1692.1947,
+      "name": "CA_Z_Upper_Seat1",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": "Boolean retry: tool displacement 1.243216e-4 mm, rotation 2.000000e-6 rad"
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [
+          {
+            "face_shift_mm": 1.4142488253486372,
+            "rotation_rad": 0.0,
+            "strategy": "coplanar_separation",
+            "tolerance_mm": 0.0,
+            "translation_mm": 0.0
+          }
+        ],
+        "truncated": false
+      },
+      "error": null,
+      "id": 86,
+      "ms": 761.3967,
+      "name": "CA_Z_Upper_Exit1",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 87,
+      "ms": 3529.4132,
+      "name": "CA_Z_Upper_Pilot2",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [
+          {
+            "face_shift_mm": 0.0,
+            "rotation_rad": 2e-6,
+            "strategy": "tool_nudge",
+            "tolerance_mm": 0.0,
+            "translation_mm": 0.0001243215733491175
+          }
+        ],
+        "truncated": false
+      },
+      "error": null,
+      "id": 88,
+      "ms": 2609.7107,
+      "name": "CA_Z_Upper_Seat2",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": "Boolean retry: tool displacement 1.243216e-4 mm, rotation 2.000000e-6 rad"
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [
+          {
+            "face_shift_mm": 0.0,
+            "rotation_rad": 0.0,
+            "strategy": "refined_tolerance",
+            "tolerance_mm": 0.030878795313289024,
+            "translation_mm": 0.0
+          },
+          {
+            "face_shift_mm": 0.0,
+            "rotation_rad": 2e-6,
+            "strategy": "tool_nudge",
+            "tolerance_mm": 0.0,
+            "translation_mm": 0.0001243215733491175
+          }
+        ],
+        "truncated": false
+      },
+      "error": null,
+      "id": 89,
+      "ms": 2858.6448,
+      "name": "CA_Z_Upper_Exit2",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": "Boolean retry: tool displacement 1.243216e-4 mm, rotation 2.000000e-6 rad"
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 90,
+      "ms": 597.152,
+      "name": "CA_Z_Upper_M3Through1",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 91,
+      "ms": 722.9668,
+      "name": "CA_Z_Upper_M3Through2",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 92,
+      "ms": 633.1173,
+      "name": "CA_Z_Upper_M3Cbore1",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 93,
+      "ms": 710.2509,
+      "name": "CA_Z_Upper_M3Cbore2",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 94,
+      "ms": 570.5673999999999,
+      "name": "CA_Z_Upper_BeltRelief",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "BoxFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 95,
+      "ms": 6.5833,
+      "name": "X_Rod1",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 96,
+      "ms": 7.538,
+      "name": "X_Rod2",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 97,
+      "ms": 5.988,
+      "name": "Z_Rod1",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 98,
+      "ms": 8.085099999999999,
+      "name": "Z_Rod2",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 99,
+      "ms": 3.0617,
+      "name": "X_Brg1_Outer",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 100,
+      "ms": 59.994,
+      "name": "X_Brg1_Bore",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 101,
+      "ms": 2.9465,
+      "name": "X_Brg2_Outer",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 102,
+      "ms": 67.0481,
+      "name": "X_Brg2_Bore",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 103,
+      "ms": 3.2432,
+      "name": "Z_Brg1_Outer",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 104,
+      "ms": 57.1398,
+      "name": "Z_Brg1_Bore",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 105,
+      "ms": 3.2127000000000003,
+      "name": "Z_Brg2_Outer",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 106,
+      "ms": 50.1956,
+      "name": "Z_Brg2_Bore",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CylinderFeature",
+      "warning": null
+    }
+  ],
+  "total": {
+    "area_mm2": 235183.13534401922,
+    "edges": 2742,
+    "faces": 976,
+    "mass_g": 366.4302975423525,
+    "open_bodies_skipped": 0,
+    "vertices": 1858,
+    "volume_mm3": 284054.4942188778
+  }
+}

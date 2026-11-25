@@ -1,0 +1,186 @@
+{
+ "status": "PASS",
+ "checks": [
+  {
+   "name": "commands",
+   "ok": true,
+   "detail": "43 / 43"
+  },
+  {
+   "name": "command_errors",
+   "ok": true,
+   "detail": "0 errors"
+  },
+  {
+   "name": "command_warnings",
+   "ok": true,
+   "detail": "0 warnings"
+  },
+  {
+   "name": "body_count",
+   "ok": true,
+   "detail": 2
+  },
+  {
+   "name": "open_bodies",
+   "ok": true,
+   "detail": 0
+  },
+  {
+   "name": "sketches_solved",
+   "ok": true,
+   "detail": [
+    [
+     "Sketch1",
+     "solved",
+     4
+    ],
+    [
+     "Sketch2",
+     "solved",
+     4
+    ]
+   ]
+  },
+  {
+   "name": "timeline_errors",
+   "ok": true,
+   "detail": 4
+  },
+  {
+   "name": "parameter_errors",
+   "ok": true,
+   "detail": "15 params"
+  },
+  {
+   "name": "X_Profile_closed",
+   "ok": true,
+   "detail": true
+  },
+  {
+   "name": "X_Profile_single_shell",
+   "ok": true,
+   "detail": 1
+  },
+  {
+   "name": "X_Profile_faces_346",
+   "ok": true,
+   "detail": 346
+  },
+  {
+   "name": "X_Profile_face_types",
+   "ok": true,
+   "detail": {
+    "cylinder": 6,
+    "plane": 340
+   }
+  },
+  {
+   "name": "X_Profile_volume_err_lt_0.01pct",
+   "ok": true,
+   "detail": "+0.002422 %"
+  },
+  {
+   "name": "X_Profile_section_area",
+   "ok": true,
+   "detail": "302.815268 mm2"
+  },
+  {
+   "name": "X_Profile_bbox",
+   "ok": true,
+   "detail": [
+    [
+     49.99999999999994,
+     -57.0,
+     116.99999999999878
+    ],
+    [
+     250.00000000000014,
+     -37.0,
+     157.00000000000108
+    ]
+   ]
+  },
+  {
+   "name": "Z_Profile_closed",
+   "ok": true,
+   "detail": true
+  },
+  {
+   "name": "Z_Profile_single_shell",
+   "ok": true,
+   "detail": 1
+  },
+  {
+   "name": "Z_Profile_faces_346",
+   "ok": true,
+   "detail": 346
+  },
+  {
+   "name": "Z_Profile_face_types",
+   "ok": true,
+   "detail": {
+    "cylinder": 6,
+    "plane": 340
+   }
+  },
+  {
+   "name": "Z_Profile_volume_err_lt_0.01pct",
+   "ok": true,
+   "detail": "+0.001306 %"
+  },
+  {
+   "name": "Z_Profile_section_area",
+   "ok": true,
+   "detail": "302.811887 mm2"
+  },
+  {
+   "name": "Z_Profile_bbox",
+   "ok": true,
+   "detail": [
+    [
+     129.9999999999955,
+     -1.0000000000013936,
+     61.99999999999995
+    ],
+    [
+     170.0,
+     19.00000000000246,
+     212.0000000000001
+    ]
+   ]
+  },
+  {
+   "name": "design_exists",
+   "ok": true,
+   "detail": "D:/ink/solidcraft/LM6UU_Profile_Exact.sc"
+  },
+  {
+   "name": "gui_copy_exists",
+   "ok": true,
+   "detail": "D:/mydocuments/SolidCraft/LM6UU_Profile_Exact.sc"
+  },
+  {
+   "name": "sha256_match",
+   "ok": true,
+   "detail": "b9cd20789a99c3e9ac93aa7d4f61932c27f14084dec6e2bea2619db7600cc6a9"
+  }
+ ],
+ "design": "D:/ink/solidcraft/LM6UU_Profile_Exact.sc",
+ "gui_copy": "D:/mydocuments/SolidCraft/LM6UU_Profile_Exact.sc",
+ "sha256": "b9cd20789a99c3e9ac93aa7d4f61932c27f14084dec6e2bea2619db7600cc6a9",
+ "bodies": {
+  "X_Profile": {
+   "volume_mm3": 60563.05350716782,
+   "faces": 346,
+   "shells": 1,
+   "closed": true
+  },
+  "Z_Profile": {
+   "volume_mm3": 45421.783053271065,
+   "faces": 346,
+   "shells": 1,
+   "closed": true
+  }
+ }
+}

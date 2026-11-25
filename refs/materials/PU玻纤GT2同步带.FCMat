@@ -1,0 +1,20 @@
+---
+General:
+  UUID: "8f205555-eb97-5ae1-bfc4-af80f46d5a82"
+  Name: "PU玻纤GT2同步带"
+  Author: "X-print"
+  License: "CC0-1.0"
+  Description: "GT2-6 开口同步带及夹持键（同材质皮带裁段），聚氨酯 + 玻纤芯"
+Models:
+  Density:
+    UUID: '454661e5-265b-4320-8e6f-fcf6223ac3af'
+    Density: "1200 kg/m^3"
+AppearanceModels:
+  BasicRendering:
+    UUID: 'f006c7e4-35b7-43d5-bbf9-c5d572309e6e'
+    AmbientColor: "(0.0600, 0.0600, 0.0700, 1)"
+    DiffuseColor: "(0.12, 0.12, 0.14, 1)"
+    EmissiveColor: "(0, 0, 0, 1)"
+    SpecularColor: "(0.35, 0.35, 0.35, 1)"
+    Shininess: "0.15"
+    Transparency: "0"

@@ -1,0 +1,20 @@
+---
+General:
+  UUID: "827b34ca-6bfe-51c8-8846-3efb8d5aa748"
+  Name: "NEMA17步进电机总成"
+  Author: "X-print"
+  License: "CC0-1.0"
+  Description: "42x42x40 双极步进电机，钢/铜/磁体复合外购总成，密度为等效估值"
+Models:
+  Density:
+    UUID: '454661e5-265b-4320-8e6f-fcf6223ac3af'
+    Density: "4500 kg/m^3"
+AppearanceModels:
+  BasicRendering:
+    UUID: 'f006c7e4-35b7-43d5-bbf9-c5d572309e6e'
+    AmbientColor: "(0.1200, 0.1350, 0.1700, 1)"
+    DiffuseColor: "(0.24, 0.27, 0.34, 1)"
+    EmissiveColor: "(0, 0, 0, 1)"
+    SpecularColor: "(0.35, 0.35, 0.35, 1)"
+    Shininess: "0.50"
+    Transparency: "0"

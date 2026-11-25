@@ -1,0 +1,4349 @@
+{
+ "commands": [
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "PW",
+    "expression": "20 mm",
+    "comment": "X 型材截面宽（2040 的 20）"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "PH",
+    "expression": "40 mm",
+    "comment": "X 型材截面高（2040 的 40）"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "PWZ",
+    "expression": "40 mm",
+    "comment": "Z 型材截面宽（旋转 90°）"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "PHZ",
+    "expression": "20 mm",
+    "comment": "Z 型材截面深（旋转 90°）"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "PROF_HOLE_R",
+    "expression": "2.5 mm",
+    "comment": "2040 型材两个中心孔半径（Ø5）"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "X_PROF_Y0",
+    "expression": "-57 mm",
+    "comment": "X 型材 Y 起点"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "X_PROF_Z0",
+    "expression": "117 mm",
+    "comment": "X 型材 Z 起点"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "X_PROF_LEN",
+    "expression": "200 mm",
+    "comment": "X 型材长度"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "Z_PROF_X0",
+    "expression": "130 mm",
+    "comment": "Z 型材 X 起点"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "Z_PROF_Y0",
+    "expression": "-1 mm",
+    "comment": "Z 型材 Y 起点"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "Z_PROF_LEN",
+    "expression": "150 mm",
+    "comment": "Z 型材长度"
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "plane": {
+     "origin": [
+      50,
+      0,
+      0
+     ],
+     "x_dir": [
+      0,
+      1,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      -43.9,
+      117.5
+     ],
+     [
+      -43.4,
+      117.0
+     ],
+     [
+      -38.5,
+      117.0
+     ]
+    ],
+    "closed": false,
+    "connect": true,
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.three_point",
+   "params": {
+    "start": [
+     -38.5,
+     117.0
+    ],
+    "end": [
+     -37.0,
+     118.5
+    ],
+    "through": [
+     -37.43934,
+     117.43934
+    ],
+    "connect": true
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      -37.0,
+      118.5
+     ],
+     [
+      -37.0,
+      123.4
+     ],
+     [
+      -37.5,
+      123.9
+     ],
+     [
+      -38.215,
+      123.9
+     ],
+     [
+      -38.395775,
+      123.871368
+     ],
+     [
+      -38.558854,
+      123.788275
+     ],
+     [
+      -38.688275,
+      123.658854
+     ],
+     [
+      -38.771368,
+      123.495775
+     ],
+     [
+      -38.8,
+      123.315
+     ],
+     [
+      -38.8,
+      122.238
+     ],
+     [
+      -38.83612,
+      122.009945
+     ],
+     [
+      -38.940945,
+      121.804214
+     ],
+     [
+      -39.104214,
+      121.640945
+     ],
+     [
+      -39.309945,
+      121.53612
+     ],
+     [
+      -39.538,
+      121.5
+     ],
+     [
+      -39.702,
+      121.5
+     ],
+     [
+      -39.980718,
+      121.521936
+     ],
+     [
+      -40.252572,
+      121.587202
+     ],
+     [
+      -40.51087,
+      121.694193
+     ],
+     [
+      -40.749251,
+      121.840272
+     ],
+     [
+      -40.961845,
+      122.021845
+     ],
+     [
+      -42.514214,
+      123.574214
+     ],
+     [
+      -42.718034,
+      123.812857
+     ],
+     [
+      -42.882013,
+      124.080446
+     ],
+     [
+      -43.002113,
+      124.370393
+     ],
+     [
+      -43.075377,
+      124.675558
+     ],
+     [
+      -43.1,
+      124.988427
+     ],
+     [
+      -43.1,
+      129.011573
+     ],
+     [
+      -43.075377,
+      129.324442
+     ],
+     [
+      -43.002113,
+      129.629607
+     ],
+     [
+      -42.882013,
+      129.919554
+     ],
+     [
+      -42.718034,
+      130.187143
+     ],
+     [
+      -42.514214,
+      130.425786
+     ],
+     [
+      -40.961845,
+      131.978155
+     ],
+     [
+      -40.749251,
+      132.159728
+     ],
+     [
+      -40.51087,
+      132.305807
+     ],
+     [
+      -40.252572,
+      132.412798
+     ],
+     [
+      -39.980718,
+      132.478064
+     ],
+     [
+      -39.702,
+      132.5
+     ],
+     [
+      -39.538,
+      132.5
+     ],
+     [
+      -39.309945,
+      132.46388
+     ],
+     [
+      -39.104214,
+      132.359055
+     ],
+     [
+      -38.940945,
+      132.195786
+     ],
+     [
+      -38.83612,
+      131.990055
+     ],
+     [
+      -38.8,
+      131.762
+     ],
+     [
+      -38.8,
+      130.1
+     ],
+     [
+      -37.5,
+      130.1
+     ],
+     [
+      -37.0,
+      130.6
+     ],
+     [
+      -37.0,
+      143.4
+     ],
+     [
+      -37.5,
+      143.9
+     ],
+     [
+      -38.215,
+      143.9
+     ],
+     [
+      -38.395775,
+      143.871368
+     ],
+     [
+      -38.558854,
+      143.788275
+     ],
+     [
+      -38.688275,
+      143.658854
+     ],
+     [
+      -38.771368,
+      143.495775
+     ],
+     [
+      -38.8,
+      143.315
+     ],
+     [
+      -38.8,
+      142.238
+     ],
+     [
+      -38.83612,
+      142.009945
+     ],
+     [
+      -38.940945,
+      141.804214
+     ],
+     [
+      -39.104214,
+      141.640945
+     ],
+     [
+      -39.309945,
+      141.53612
+     ],
+     [
+      -39.538,
+      141.5
+     ],
+     [
+      -39.702,
+      141.5
+     ],
+     [
+      -39.980718,
+      141.521936
+     ],
+     [
+      -40.252572,
+      141.587202
+     ],
+     [
+      -40.51087,
+      141.694193
+     ],
+     [
+      -40.749251,
+      141.840272
+     ],
+     [
+      -40.961845,
+      142.021845
+     ],
+     [
+      -42.514214,
+      143.574214
+     ],
+     [
+      -42.718034,
+      143.812857
+     ],
+     [
+      -42.882013,
+      144.080446
+     ],
+     [
+      -43.002113,
+      144.370393
+     ],
+     [
+      -43.075377,
+      144.675558
+     ],
+     [
+      -43.1,
+      144.988427
+     ],
+     [
+      -43.1,
+      149.011573
+     ],
+     [
+      -43.075377,
+      149.324442
+     ],
+     [
+      -43.002113,
+      149.629607
+     ],
+     [
+      -42.882013,
+      149.919554
+     ],
+     [
+      -42.718034,
+      150.187143
+     ],
+     [
+      -42.514214,
+      150.425786
+     ],
+     [
+      -40.961845,
+      151.978155
+     ],
+     [
+      -40.749251,
+      152.159728
+     ],
+     [
+      -40.51087,
+      152.305807
+     ],
+     [
+      -40.252572,
+      152.412798
+     ],
+     [
+      -39.980718,
+      152.478064
+     ],
+     [
+      -39.702,
+      152.5
+     ],
+     [
+      -39.538,
+      152.5
+     ],
+     [
+      -39.309945,
+      152.46388
+     ],
+     [
+      -39.104214,
+      152.359055
+     ],
+     [
+      -38.940945,
+      152.195786
+     ],
+     [
+      -38.83612,
+      151.990055
+     ],
+     [
+      -38.8,
+      151.762
+     ],
+     [
+      -38.8,
+      150.1
+     ],
+     [
+      -37.5,
+      150.1
+     ],
+     [
+      -37.0,
+      150.6
+     ],
+     [
+      -37.0,
+      155.5
+     ]
+    ],
+    "closed": false,
+    "connect": true,
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.three_point",
+   "params": {
+    "start": [
+     -37.0,
+     155.5
+    ],
+    "end": [
+     -38.5,
+     157.0
+    ],
+    "through": [
+     -37.43934,
+     156.56066
+    ],
+    "connect": true
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      -38.5,
+      157.0
+     ],
+     [
+      -43.4,
+      157.0
+     ],
+     [
+      -43.9,
+      156.5
+     ],
+     [
+      -43.9,
+      155.785
+     ],
+     [
+      -43.871368,
+      155.604225
+     ],
+     [
+      -43.788275,
+      155.441146
+     ],
+     [
+      -43.658854,
+      155.311725
+     ],
+     [
+      -43.495775,
+      155.228632
+     ],
+     [
+      -43.315,
+      155.2
+     ],
+     [
+      -42.238,
+      155.2
+     ],
+     [
+      -42.009945,
+      155.16388
+     ],
+     [
+      -41.804214,
+      155.059055
+     ],
+     [
+      -41.640945,
+      154.895786
+     ],
+     [
+      -41.53612,
+      154.690055
+     ],
+     [
+      -41.5,
+      154.462
+     ],
+     [
+      -41.5,
+      154.298
+     ],
+     [
+      -41.521936,
+      154.019282
+     ],
+     [
+      -41.587202,
+      153.747428
+     ],
+     [
+      -41.694193,
+      153.48913
+     ],
+     [
+      -41.840272,
+      153.250749
+     ],
+     [
+      -42.021845,
+      153.038155
+     ],
+     [
+      -43.574214,
+      151.485786
+     ],
+     [
+      -43.812857,
+      151.281966
+     ],
+     [
+      -44.080446,
+      151.117987
+     ],
+     [
+      -44.370393,
+      150.997887
+     ],
+     [
+      -44.675558,
+      150.924623
+     ],
+     [
+      -44.988427,
+      150.9
+     ],
+     [
+      -49.011573,
+      150.9
+     ],
+     [
+      -49.324442,
+      150.924623
+     ],
+     [
+      -49.629607,
+      150.997887
+     ],
+     [
+      -49.919554,
+      151.117987
+     ],
+     [
+      -50.187143,
+      151.281966
+     ],
+     [
+      -50.425786,
+      151.485786
+     ],
+     [
+      -51.978155,
+      153.038155
+     ],
+     [
+      -52.159728,
+      153.250749
+     ],
+     [
+      -52.305807,
+      153.48913
+     ],
+     [
+      -52.412798,
+      153.747428
+     ],
+     [
+      -52.478064,
+      154.019282
+     ],
+     [
+      -52.5,
+      154.298
+     ],
+     [
+      -52.5,
+      154.462
+     ],
+     [
+      -52.46388,
+      154.690055
+     ],
+     [
+      -52.359055,
+      154.895786
+     ],
+     [
+      -52.195786,
+      155.059055
+     ],
+     [
+      -51.990055,
+      155.16388
+     ],
+     [
+      -51.762,
+      155.2
+     ],
+     [
+      -50.1,
+      155.2
+     ],
+     [
+      -50.1,
+      156.5
+     ],
+     [
+      -50.6,
+      157.0
+     ],
+     [
+      -55.5,
+      157.0
+     ]
+    ],
+    "closed": false,
+    "connect": true,
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.three_point",
+   "params": {
+    "start": [
+     -55.5,
+     157.0
+    ],
+    "end": [
+     -57.0,
+     155.5
+    ],
+    "through": [
+     -56.56066,
+     156.56066
+    ],
+    "connect": true
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      -57.0,
+      155.5
+     ],
+     [
+      -57.0,
+      150.6
+     ],
+     [
+      -56.5,
+      150.1
+     ],
+     [
+      -55.2,
+      150.1
+     ],
+     [
+      -55.2,
+      151.762
+     ],
+     [
+      -55.16388,
+      151.990055
+     ],
+     [
+      -55.059055,
+      152.195786
+     ],
+     [
+      -54.895786,
+      152.359055
+     ],
+     [
+      -54.690055,
+      152.46388
+     ],
+     [
+      -54.462,
+      152.5
+     ],
+     [
+      -54.298,
+      152.5
+     ],
+     [
+      -54.019282,
+      152.478064
+     ],
+     [
+      -53.747428,
+      152.412798
+     ],
+     [
+      -53.48913,
+      152.305807
+     ],
+     [
+      -53.250749,
+      152.159728
+     ],
+     [
+      -53.038155,
+      151.978155
+     ],
+     [
+      -51.485786,
+      150.425786
+     ],
+     [
+      -51.281966,
+      150.187143
+     ],
+     [
+      -51.117987,
+      149.919554
+     ],
+     [
+      -50.997887,
+      149.629607
+     ],
+     [
+      -50.924623,
+      149.324442
+     ],
+     [
+      -50.9,
+      149.011573
+     ],
+     [
+      -50.9,
+      144.988427
+     ],
+     [
+      -50.924623,
+      144.675558
+     ],
+     [
+      -50.997887,
+      144.370393
+     ],
+     [
+      -51.117987,
+      144.080446
+     ],
+     [
+      -51.281966,
+      143.812857
+     ],
+     [
+      -51.485786,
+      143.574214
+     ],
+     [
+      -53.038155,
+      142.021845
+     ],
+     [
+      -53.250749,
+      141.840272
+     ],
+     [
+      -53.48913,
+      141.694193
+     ],
+     [
+      -53.747428,
+      141.587202
+     ],
+     [
+      -54.019282,
+      141.521936
+     ],
+     [
+      -54.298,
+      141.5
+     ],
+     [
+      -54.462,
+      141.5
+     ],
+     [
+      -54.690055,
+      141.53612
+     ],
+     [
+      -54.895786,
+      141.640945
+     ],
+     [
+      -55.059055,
+      141.804214
+     ],
+     [
+      -55.16388,
+      142.009945
+     ],
+     [
+      -55.2,
+      142.238
+     ],
+     [
+      -55.2,
+      143.315
+     ],
+     [
+      -55.228632,
+      143.495775
+     ],
+     [
+      -55.311725,
+      143.658854
+     ],
+     [
+      -55.441146,
+      143.788275
+     ],
+     [
+      -55.604225,
+      143.871368
+     ],
+     [
+      -55.785,
+      143.9
+     ],
+     [
+      -56.5,
+      143.9
+     ],
+     [
+      -57.0,
+      143.4
+     ],
+     [
+      -57.0,
+      130.6
+     ],
+     [
+      -56.5,
+      130.1
+     ],
+     [
+      -55.2,
+      130.1
+     ],
+     [
+      -55.2,
+      131.762
+     ],
+     [
+      -55.16388,
+      131.990055
+     ],
+     [
+      -55.059055,
+      132.195786
+     ],
+     [
+      -54.895786,
+      132.359055
+     ],
+     [
+      -54.690055,
+      132.46388
+     ],
+     [
+      -54.462,
+      132.5
+     ],
+     [
+      -54.298,
+      132.5
+     ],
+     [
+      -54.019282,
+      132.478064
+     ],
+     [
+      -53.747428,
+      132.412798
+     ],
+     [
+      -53.48913,
+      132.305807
+     ],
+     [
+      -53.250749,
+      132.159728
+     ],
+     [
+      -53.038155,
+      131.978155
+     ],
+     [
+      -51.485786,
+      130.425786
+     ],
+     [
+      -51.281966,
+      130.187143
+     ],
+     [
+      -51.117987,
+      129.919554
+     ],
+     [
+      -50.997887,
+      129.629607
+     ],
+     [
+      -50.924623,
+      129.324442
+     ],
+     [
+      -50.9,
+      129.011573
+     ],
+     [
+      -50.9,
+      124.988427
+     ],
+     [
+      -50.924623,
+      124.675558
+     ],
+     [
+      -50.997887,
+      124.370393
+     ],
+     [
+      -51.117987,
+      124.080446
+     ],
+     [
+      -51.281966,
+      123.812857
+     ],
+     [
+      -51.485786,
+      123.574214
+     ],
+     [
+      -53.038155,
+      122.021845
+     ],
+     [
+      -53.250749,
+      121.840272
+     ],
+     [
+      -53.48913,
+      121.694193
+     ],
+     [
+      -53.747428,
+      121.587202
+     ],
+     [
+      -54.019282,
+      121.521936
+     ],
+     [
+      -54.298,
+      121.5
+     ],
+     [
+      -54.462,
+      121.5
+     ],
+     [
+      -54.690055,
+      121.53612
+     ],
+     [
+      -54.895786,
+      121.640945
+     ],
+     [
+      -55.059055,
+      121.804214
+     ],
+     [
+      -55.16388,
+      122.009945
+     ],
+     [
+      -55.2,
+      122.238
+     ],
+     [
+      -55.2,
+      123.315
+     ],
+     [
+      -55.228632,
+      123.495775
+     ],
+     [
+      -55.311725,
+      123.658854
+     ],
+     [
+      -55.441146,
+      123.788275
+     ],
+     [
+      -55.604225,
+      123.871368
+     ],
+     [
+      -55.785,
+      123.9
+     ],
+     [
+      -56.5,
+      123.9
+     ],
+     [
+      -57.0,
+      123.4
+     ],
+     [
+      -57.0,
+      118.5
+     ]
+    ],
+    "closed": false,
+    "connect": true,
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.arc.three_point",
+   "params": {
+    "start": [
+     -57.0,
+     118.5
+    ],
+    "end": [
+     -55.5,
+     117.0
+    ],
+    "through": [
+     -56.56066,
+     117.43934
+    ],
+    "connect": true
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      -55.5,
+      117.0
+     ],
+     [
+      -50.6,
+      117.0
+     ],
+     [
+      -50.1,
+      117.5
+     ],
+     [
+      -50.1,
+      118.8
+     ],
+     [
+      -51.762,
+      118.8
+     ],
+     [
+      -51.990055,
+      118.83612
+     ],
+     [
+      -52.195786,
+      118.940945
+     ],
+     [
+      -52.359055,
+      119.104214
+     ],
+     [
+      -52.46388,
+      119.309945
+     ],
+     [
+      -52.5,
+      119.538
+     ],
+     [
+      -52.5,
+      119.702
+     ],
+     [
+      -52.478064,
+      119.980718
+     ],
+     [
+      -52.412798,
+      120.252572
+     ],
+     [
+      -52.305807,
+      120.51087
+     ],
+     [
+      -52.159728,
+      120.749251
+     ],
+     [
+      -51.978155,
+      120.961845
+     ],
+     [
+      -50.425786,
+      122.514214
+     ],
+     [
+      -50.187143,
+      122.718034
+     ],
+     [
+      -49.919554,
+      122.882013
+     ],
+     [
+      -49.629607,
+      123.002113
+     ],
+     [
+      -49.324442,
+      123.075377
+     ],
+     [
+      -49.011573,
+      123.1
+     ],
+     [
+      -44.988427,
+      123.1
+     ],
+     [
+      -44.675558,
+      123.075377
+     ],
+     [
+      -44.370393,
+      123.002113
+     ],
+     [
+      -44.080446,
+      122.882013
+     ],
+     [
+      -43.812857,
+      122.718034
+     ],
+     [
+      -43.574214,
+      122.514214
+     ],
+     [
+      -42.021845,
+      120.961845
+     ],
+     [
+      -41.840272,
+      120.749251
+     ],
+     [
+      -41.694193,
+      120.51087
+     ],
+     [
+      -41.587202,
+      120.252572
+     ],
+     [
+      -41.521936,
+      119.980718
+     ],
+     [
+      -41.5,
+      119.702
+     ],
+     [
+      -41.5,
+      119.538
+     ],
+     [
+      -41.53612,
+      119.309945
+     ],
+     [
+      -41.640945,
+      119.104214
+     ],
+     [
+      -41.804214,
+      118.940945
+     ],
+     [
+      -42.009945,
+      118.83612
+     ],
+     [
+      -42.238,
+      118.8
+     ],
+     [
+      -43.315,
+      118.8
+     ],
+     [
+      -43.495775,
+      118.771368
+     ],
+     [
+      -43.658854,
+      118.688275
+     ],
+     [
+      -43.788275,
+      118.558854
+     ],
+     [
+      -43.871368,
+      118.395775
+     ],
+     [
+      -43.9,
+      118.215
+     ],
+     [
+      -43.9,
+      117.5
+     ]
+    ],
+    "closed": false,
+    "connect": true,
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      -54.028427,
+      134.3
+     ],
+     [
+      -55.2,
+      134.3
+     ],
+     [
+      -55.2,
+      139.7
+     ],
+     [
+      -54.028427,
+      139.7
+     ],
+     [
+      -53.715558,
+      139.724623
+     ],
+     [
+      -53.410393,
+      139.797887
+     ],
+     [
+      -53.120446,
+      139.917987
+     ],
+     [
+      -52.852857,
+      140.081966
+     ],
+     [
+      -52.614214,
+      140.285786
+     ],
+     [
+      -50.435786,
+      142.464214
+     ],
+     [
+      -50.197143,
+      142.668034
+     ],
+     [
+      -49.929554,
+      142.832013
+     ],
+     [
+      -49.639607,
+      142.952113
+     ],
+     [
+      -49.334442,
+      143.025377
+     ],
+     [
+      -49.021573,
+      143.05
+     ],
+     [
+      -44.978427,
+      143.05
+     ],
+     [
+      -44.665558,
+      143.025377
+     ],
+     [
+      -44.360393,
+      142.952113
+     ],
+     [
+      -44.070446,
+      142.832013
+     ],
+     [
+      -43.802857,
+      142.668034
+     ],
+     [
+      -43.564214,
+      142.464214
+     ],
+     [
+      -41.385786,
+      140.285786
+     ],
+     [
+      -41.147143,
+      140.081966
+     ],
+     [
+      -40.879554,
+      139.917987
+     ],
+     [
+      -40.589607,
+      139.797887
+     ],
+     [
+      -40.284442,
+      139.724623
+     ],
+     [
+      -39.971573,
+      139.7
+     ],
+     [
+      -38.8,
+      139.7
+     ],
+     [
+      -38.8,
+      134.3
+     ],
+     [
+      -39.971573,
+      134.3
+     ],
+     [
+      -40.284442,
+      134.275377
+     ],
+     [
+      -40.589607,
+      134.202113
+     ],
+     [
+      -40.879554,
+      134.082013
+     ],
+     [
+      -41.147143,
+      133.918034
+     ],
+     [
+      -41.385786,
+      133.714214
+     ],
+     [
+      -43.564214,
+      131.535786
+     ],
+     [
+      -43.802857,
+      131.331966
+     ],
+     [
+      -44.070446,
+      131.167987
+     ],
+     [
+      -44.360393,
+      131.047887
+     ],
+     [
+      -44.665558,
+      130.974623
+     ],
+     [
+      -44.978427,
+      130.95
+     ],
+     [
+      -49.021573,
+      130.95
+     ],
+     [
+      -49.334442,
+      130.974623
+     ],
+     [
+      -49.639607,
+      131.047887
+     ],
+     [
+      -49.929554,
+      131.167987
+     ],
+     [
+      -50.197143,
+      131.331966
+     ],
+     [
+      -50.435786,
+      131.535786
+     ],
+     [
+      -52.614214,
+      133.714214
+     ],
+     [
+      -52.852857,
+      133.918034
+     ],
+     [
+      -53.120446,
+      134.082013
+     ],
+     [
+      -53.410393,
+      134.202113
+     ],
+     [
+      -53.715558,
+      134.275377
+     ]
+    ],
+    "closed": true,
+    "connect": true,
+    "infer": false
+   }
+  },
+  {
+   "command": "sketch.circle.center",
+   "params": {
+    "center": [
+     "X_PROF_Y0 + PW / 2",
+     "X_PROF_Z0 + PH / 4"
+    ],
+    "radius": "PROF_HOLE_R",
+    "connect": true
+   }
+  },
+  {
+   "command": "sketch.circle.center",
+   "params": {
+    "center": [
+     "X_PROF_Y0 + PW / 2",
+     "X_PROF_Z0 + 3 * PH / 4"
+    ],
+    "radius": "PROF_HOLE_R",
+    "connect": true
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "distance": "X_PROF_LEN",
+    "operation": "new",
+    "body_name": "X_Profile"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "ROD_D",
+    "expression": "6 mm",
+    "comment": "[导轨轴承] Ø6 导轨直径",
+    "favorite": true
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "ROD_LEN",
+    "expression": "215 mm",
+    "comment": "[导轨轴承] X 导轨长度"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "ROD_X0",
+    "expression": "42.5 mm",
+    "comment": "[导轨轴承] X 导轨起点"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "ROD_Y",
+    "expression": "-68 mm",
+    "comment": "[导轨轴承] 双导轨中心 Y（滑车分型面）",
+    "favorite": true
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "ROD_Z1",
+    "expression": "122 mm",
+    "comment": "[导轨轴承] 下导轨中心 Z",
+    "favorite": true
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "ROD_Z2",
+    "expression": "152 mm",
+    "comment": "[导轨轴承] 上导轨中心 Z",
+    "favorite": true
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "BRG_OD",
+    "expression": "12 mm",
+    "comment": "[导轨轴承] LM6UU 外径",
+    "favorite": true
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "BRG_ID",
+    "expression": "6 mm",
+    "comment": "[导轨轴承] LM6UU 内孔",
+    "favorite": true
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "BRG_L",
+    "expression": "19 mm",
+    "comment": "[导轨轴承] LM6UU 长度",
+    "favorite": true
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "SEAT_R",
+    "expression": "BRG_OD / 2 + 0.05 mm",
+    "comment": "[导轨轴承] LM6UU 主座半径 R6.05",
+    "favorite": true
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "SEAT_L",
+    "expression": "BRG_L + 0.2 mm",
+    "comment": "[导轨轴承] LM6UU 主座长度 19.20",
+    "favorite": true
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "ROD_HOLE_R",
+    "expression": "ROD_D / 2 + 0.05 mm",
+    "comment": "[导轨轴承] 端板导杆孔 R3.05",
+    "favorite": true
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "PILOT_R",
+    "expression": "4.7 mm",
+    "comment": "[导轨轴承] 轴承座导入段半径"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "EXIT_R",
+    "expression": "5.1 mm",
+    "comment": "[导轨轴承] 轴承座出口段半径"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "X_SEAT_X0",
+    "expression": "140.4 mm",
+    "comment": "[导轨轴承] X 滑车主座起点"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "EB_L_X0",
+    "expression": "0 mm",
+    "comment": "[端结构] 左端打印结构 X 起点"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "EB_L_LEN",
+    "expression": "53 mm",
+    "comment": "[端结构] 左端打印结构 X 长度"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "EB_R_X0",
+    "expression": "249.8 mm",
+    "comment": "[端结构] 右端打印结构 X 起点"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "EB_R_LEN",
+    "expression": "50.2 mm",
+    "comment": "[端结构] 右端打印结构 X 长度"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "EB_Y0",
+    "expression": "-79 mm",
+    "comment": "[端结构] 端结构 Y 起点"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "EB_W",
+    "expression": "42 mm",
+    "comment": "[端结构] 端结构 Y 宽度"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "EB_Z0",
+    "expression": "117 mm",
+    "comment": "[端结构] 端结构 Z 起点"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "EB_H",
+    "expression": "40 mm",
+    "comment": "[端结构] 端结构 Z 高度"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "EB_WALL",
+    "expression": "2 mm",
+    "comment": "[端结构] 打印框架壁厚"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "X_POCKET_W",
+    "expression": "20.8 mm",
+    "comment": "[冻结项] X 限位口袋宽（禁止改动）",
+    "favorite": true
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "X_POCKET_Y1",
+    "expression": "-71.1 mm",
+    "comment": "[冻结项] X 限位口袋终点（与 Ø6.10 孔留 0.05）"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "X_POCKET_ZC",
+    "expression": "131.25 mm",
+    "comment": "[冻结项] X 限位口袋中心 Z"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "CAR_X0",
+    "expression": "133.5 mm",
+    "comment": "[滑车] 滑车 X 起点"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "CAR_L",
+    "expression": "33 mm",
+    "comment": "[滑车] 滑车 X 长度",
+    "favorite": true
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "CAR_SPAN",
+    "expression": "50 mm",
+    "comment": "[滑车] 滑车 Z 跨距",
+    "favorite": true
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "CAR_Z0",
+    "expression": "112 mm",
+    "comment": "[滑车] 滑车 Z 起点"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "CAR_T_LOWER",
+    "expression": "10.5 mm",
+    "comment": "[滑车] 下滑车厚度"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "CAR_T_UPPER",
+    "expression": "10 mm",
+    "comment": "[滑车] 上滑车厚度"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "CAR_LOWER_Y0",
+    "expression": "-68 mm",
+    "comment": "[滑车] 下滑车 Y 起点"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "CAR_UPPER_Y0",
+    "expression": "-78 mm",
+    "comment": "[滑车] 上滑车 Y 起点"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "CAR_CORNER_R",
+    "expression": "4 mm",
+    "comment": "[滑车] 滑车外角圆角"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "CAR_M3_R",
+    "expression": "1.7 mm",
+    "comment": "[滑车] 滑车 M3 孔半径"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "CAR_M3_PITCH",
+    "expression": "12 mm",
+    "comment": "[滑车] 滑车 M3 孔距"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "CUT_EXT",
+    "expression": "1 mm",
+    "comment": "[辅助] 刀具外扩"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "PULLEY_CX_L",
+    "expression": "21 mm",
+    "comment": "[同步带] 主动轮中心 X"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "PULLEY_CX_R",
+    "expression": "279 mm",
+    "comment": "[同步带] 惰轮中心 X"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "PULLEY_CZ",
+    "expression": "137 mm",
+    "comment": "[同步带] 同步轮中心 Z"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "PULLEY_PITCH_R",
+    "expression": "5.95 mm",
+    "comment": "[同步带] GT2 节圆半径",
+    "favorite": true
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "BELT_T",
+    "expression": "1.4 mm",
+    "comment": "[同步带] 同步带厚度"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "BELT_W",
+    "expression": "6 mm",
+    "comment": "[同步带] 同步带宽度（沿 Y）",
+    "favorite": true
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "BELT_Y0",
+    "expression": "-65 mm",
+    "comment": "[同步带] 同步带上表面 Y（向 -Y 拉伸 6）"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "PULLEY_R",
+    "expression": "5.2 mm",
+    "comment": "[同步带] 同步轮轮毂半径"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "PULLEY_FLANGE_R",
+    "expression": "8 mm",
+    "comment": "[同步带] 同步轮挡边半径"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "PULLEY_FLANGE_T",
+    "expression": "1 mm",
+    "comment": "[同步带] 同步轮挡边厚度"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "PULLEY_W",
+    "expression": "12 mm",
+    "comment": "[同步带] 同步轮总宽（Y-74..-62）"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "SHAFT_R",
+    "expression": "2.5 mm",
+    "comment": "[同步带] 同步轮/电机轴半径"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "MOTOR_SIZE",
+    "expression": "42 mm",
+    "comment": "[电机] 42 步进电机截面",
+    "favorite": true
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "MOTOR_LEN",
+    "expression": "42 mm",
+    "comment": "[电机] 42 步进电机机身长度"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "MOTOR_X0",
+    "expression": "0 mm",
+    "comment": "[电机] 电机机身 X 起点"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "MOTOR_Y0",
+    "expression": "-59 mm",
+    "comment": "[电机] 电机机身 Y 起点"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "MOTOR_HOLE_PITCH",
+    "expression": "31 mm",
+    "comment": "[电机] 电机安装孔距"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "MOTOR_BOSS_R",
+    "expression": "11 mm",
+    "comment": "[电机] 前端定位凸台半径"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "MOTOR_BOSS_L",
+    "expression": "2 mm",
+    "comment": "[电机] 前端定位凸台长度"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "MOTOR_RECESS_Y0",
+    "expression": "MOTOR_Y0 - 1 mm",
+    "comment": "[电机] 左端板电机沉腔起点 Y"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "MOTOR_RECESS_Y1",
+    "expression": "EB_Y0 + EB_W + 1 mm",
+    "comment": "[电机] 左端板电机沉腔终点 Y"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "MOTOR_RECESS_Z0",
+    "expression": "PULLEY_CZ - MOTOR_SIZE / 2 - 1 mm",
+    "comment": "[电机] 左端板电机沉腔起点 Z"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "MOTOR_RECESS_Z1",
+    "expression": "PULLEY_CZ + MOTOR_SIZE / 2 + 1 mm",
+    "comment": "[电机] 左端板电机沉腔终点 Z"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "BOSS_RELIEF_R",
+    "expression": "MOTOR_BOSS_R + 0.05 mm",
+    "comment": "[电机] 电机定位凸台让位孔半径"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "BOSS_RELIEF_Y0",
+    "expression": "MOTOR_Y0 - 3 mm",
+    "comment": "[电机] 电机定位凸台让位孔起点 Y"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "BOSS_RELIEF_L",
+    "expression": "3 mm + CUT_EXT",
+    "comment": "[电机] 电机定位凸台让位孔长度"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "BELT_CLEAR_Y0",
+    "expression": "-72 mm",
+    "comment": "[同步带] 同步带避让槽起点 Y"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "BELT_CLEAR_Y1",
+    "expression": "-64 mm",
+    "comment": "[同步带] 同步带避让槽终点 Y"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "BELT_CLEAR_ZPAD",
+    "expression": "1 mm",
+    "comment": "[同步带] 同步带避让槽 Z 单侧余量"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "IDLER_SHAFT_R",
+    "expression": "4.75 mm",
+    "comment": "[同步带] 惰轮轴半径（与参考模型一致）",
+    "favorite": true
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "MP_Y0",
+    "expression": "-71.4 mm",
+    "comment": "[端结构] 框架前沿 Y"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "MP_Y1",
+    "expression": "-37 mm",
+    "comment": "[端结构] 框架后沿 Y"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "MP_T",
+    "expression": "MP_Y1 - MP_Y0",
+    "comment": "[端结构] 框架 Y 向深度"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "FL_Y0",
+    "expression": "-82 mm",
+    "comment": "[端结构] 回折法兰前沿 Y"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "FL_Y1",
+    "expression": "-37 mm",
+    "comment": "[端结构] 回折法兰后沿 Y"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "FL_L_X0",
+    "expression": "49 mm",
+    "comment": "[端结构] 左回折法兰 X 起点"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "FL_L_W",
+    "expression": "4 mm",
+    "comment": "[端结构] 左回折法兰厚度"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "FL_R_X0",
+    "expression": "249 mm",
+    "comment": "[端结构] 右回折法兰 X 起点"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "FL_R_W",
+    "expression": "8.5 mm",
+    "comment": "[端结构] 右回折法兰厚度"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "FL_PF_W",
+    "expression": "7.4 mm",
+    "comment": "[端结构] 前框横梁 Y 宽度（-82..-74.6）"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "ROD_BOSS_R",
+    "expression": "5 mm",
+    "comment": "[端结构] 导杆孔外凸台半径"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "MOTOR_HOLE_R",
+    "expression": "2.75 mm",
+    "comment": "[端结构] 42 电机安装孔半径"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "MOTOR_BORE_R",
+    "expression": "11.4 mm",
+    "comment": "[端结构] 电机定位大孔半径"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "IDLER_BOSS_R",
+    "expression": "8.5 mm",
+    "comment": "[端结构] 惰轮定位凸台半径"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "ROUND_END_R",
+    "expression": "20 mm",
+    "comment": "[端结构] 右端板圆弧外轮廓半径"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "TAB_Z0",
+    "expression": "119 mm",
+    "comment": "[端结构] 限位开关耳 Z 起点"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "TAB_H",
+    "expression": "27 mm",
+    "comment": "[端结构] 限位开关耳 Z 高度"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "SW_L_X0",
+    "expression": "41.6 mm",
+    "comment": "[限位开关] 左开关本体 X 起点"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "SW_R_X0",
+    "expression": "249 mm",
+    "comment": "[限位开关] 右开关本体 X 起点"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "SW_W",
+    "expression": "12.2 mm",
+    "comment": "[限位开关] 开关本体 X 宽度（含钮）"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "SW_D",
+    "expression": "6.5 mm",
+    "comment": "[限位开关] 开关本体 Y 深度"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "SW_Y0",
+    "expression": "-81 mm",
+    "comment": "[限位开关] 开关本体 Y 起点"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "SW_Z0",
+    "expression": "121.35 mm",
+    "comment": "[限位开关] 开关本体 Z 起点"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "SW_H",
+    "expression": "19.8 mm",
+    "comment": "[限位开关] 开关本体 Z 高度"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "SW_XC_L",
+    "expression": "46.9 mm",
+    "comment": "[限位开关] 左开关安装孔中心 X"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "SW_XC_R",
+    "expression": "255.9 mm",
+    "comment": "[限位开关] 右开关安装孔中心 X"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "SW_HOLE_R",
+    "expression": "2.4 mm",
+    "comment": "[限位开关] 开关安装孔半径"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "SW_HOLE_Z1",
+    "expression": "126.5 mm",
+    "comment": "[限位开关] 下安装孔中心 Z"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "SW_HOLE_Z2",
+    "expression": "136 mm",
+    "comment": "[限位开关] 上安装孔中心 Z"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "SW_SCREW_R",
+    "expression": "2.35 mm",
+    "comment": "[限位开关] 安装螺钉半径"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "SW_SCREW_Y0",
+    "expression": "-83.5 mm",
+    "comment": "[限位开关] 安装螺钉 Y 起点"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "SW_SCREW_L",
+    "expression": "10.1 mm",
+    "comment": "[限位开关] 安装螺钉长度"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "SW_HOLE_Y0_L",
+    "expression": "-74.8 mm",
+    "comment": "[限位开关] 左端板开关孔起刀 Y（口袋底内侧）"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "SW_HOLE_LEN_L",
+    "expression": "3.2 mm",
+    "comment": "[限位开关] 左端板开关孔深度（盲孔）"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "SW_HOLE_Y0_R",
+    "expression": "-75.2 mm",
+    "comment": "[限位开关] 右端板开关孔起刀 Y（口袋底内侧）"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "SW_HOLE_LEN_R",
+    "expression": "3.6 mm",
+    "comment": "[限位开关] 右端板开关孔深度（盲孔）"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "53 mm - 42.5 mm",
+    "width": "FL_Y1 - FL_Y0",
+    "height": "EB_H",
+    "corner": [
+     "42.5 mm",
+     "FL_Y0",
+     "EB_Z0"
+    ],
+    "name": "XL_Flange",
+    "operation": "new",
+    "body_name": "X_EndPlate_L"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "53 mm",
+    "width": "FL_PF_W",
+    "height": "5 mm",
+    "corner": [
+     "EB_L_X0",
+     "FL_Y0",
+     "EB_Z0"
+    ],
+    "name": "XL_RailBot",
+    "operation": "join",
+    "targets": [
+     "X_EndPlate_L"
+    ]
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "53 mm",
+    "width": "FL_PF_W",
+    "height": "5 mm",
+    "corner": [
+     "EB_L_X0",
+     "FL_Y0",
+     "152 mm"
+    ],
+    "name": "XL_RailTop",
+    "operation": "join",
+    "targets": [
+     "X_EndPlate_L"
+    ]
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "5 mm",
+    "width": "FL_PF_W",
+    "height": "40 mm",
+    "corner": [
+     "EB_L_X0",
+     "FL_Y0",
+     "EB_Z0"
+    ],
+    "name": "XL_PostFront",
+    "operation": "join",
+    "targets": [
+     "X_EndPlate_L"
+    ]
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "4 mm",
+    "width": "FL_PF_W",
+    "height": "40 mm",
+    "corner": [
+     "40 mm",
+     "FL_Y0",
+     "EB_Z0"
+    ],
+    "name": "XL_PostMid",
+    "operation": "join",
+    "targets": [
+     "X_EndPlate_L"
+    ]
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "53 mm - 41.6 mm",
+    "width": "MP_Y0 - FL_Y0",
+    "height": "TAB_H",
+    "corner": [
+     "41.6 mm",
+     "FL_Y0",
+     "TAB_Z0"
+    ],
+    "name": "XL_SwitchTab",
+    "operation": "join",
+    "targets": [
+     "X_EndPlate_L"
+    ]
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "6 mm",
+    "width": "25 mm",
+    "height": "12 mm",
+    "corner": [
+     "43.5 mm",
+     "-70 mm",
+     "120 mm"
+    ],
+    "name": "XL_Win1",
+    "operation": "cut",
+    "targets": [
+     "X_EndPlate_L"
+    ]
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "6 mm",
+    "width": "25 mm",
+    "height": "12 mm",
+    "corner": [
+     "43.5 mm",
+     "-70 mm",
+     "144 mm"
+    ],
+    "name": "XL_Win2",
+    "operation": "cut",
+    "targets": [
+     "X_EndPlate_L"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "MOTOR_HOLE_R",
+    "height": "13 mm",
+    "base": [
+     "PULLEY_CX_L + -1 * MOTOR_HOLE_PITCH / 2",
+     "-58 mm",
+     "PULLEY_CZ + -1 * MOTOR_HOLE_PITCH / 2"
+    ],
+    "axis": "Y",
+    "name": "XL_MotorHole_-1_-1",
+    "operation": "cut",
+    "targets": [
+     "X_EndPlate_L"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "MOTOR_HOLE_R",
+    "height": "13 mm",
+    "base": [
+     "PULLEY_CX_L + -1 * MOTOR_HOLE_PITCH / 2",
+     "-58 mm",
+     "PULLEY_CZ + 1 * MOTOR_HOLE_PITCH / 2"
+    ],
+    "axis": "Y",
+    "name": "XL_MotorHole_-1_1",
+    "operation": "cut",
+    "targets": [
+     "X_EndPlate_L"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "MOTOR_HOLE_R",
+    "height": "13 mm",
+    "base": [
+     "PULLEY_CX_L + 1 * MOTOR_HOLE_PITCH / 2",
+     "-58 mm",
+     "PULLEY_CZ + -1 * MOTOR_HOLE_PITCH / 2"
+    ],
+    "axis": "Y",
+    "name": "XL_MotorHole_1_-1",
+    "operation": "cut",
+    "targets": [
+     "X_EndPlate_L"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "MOTOR_HOLE_R",
+    "height": "13 mm",
+    "base": [
+     "PULLEY_CX_L + 1 * MOTOR_HOLE_PITCH / 2",
+     "-58 mm",
+     "PULLEY_CZ + 1 * MOTOR_HOLE_PITCH / 2"
+    ],
+    "axis": "Y",
+    "name": "XL_MotorHole_1_1",
+    "operation": "cut",
+    "targets": [
+     "X_EndPlate_L"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "ROD_HOLE_R",
+    "height": "54 mm",
+    "base": [
+     "-0.5 mm",
+     "ROD_Y",
+     "ROD_Z1"
+    ],
+    "axis": "X",
+    "name": "XL_RodThru1",
+    "operation": "cut",
+    "targets": [
+     "X_EndPlate_L"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "ROD_HOLE_R",
+    "height": "54 mm",
+    "base": [
+     "-0.5 mm",
+     "ROD_Y",
+     "ROD_Z2"
+    ],
+    "axis": "X",
+    "name": "XL_RodThru2",
+    "operation": "cut",
+    "targets": [
+     "X_EndPlate_L"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "MOTOR_BOSS_R + 0.2 mm",
+    "height": "4 mm",
+    "base": [
+     "PULLEY_CX_L",
+     "-60 mm",
+     "PULLEY_CZ"
+    ],
+    "axis": "Y",
+    "name": "XL_MotorBossHole",
+    "operation": "cut",
+    "targets": [
+     "X_EndPlate_L"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "PULLEY_FLANGE_R + 0.2 mm",
+    "height": "54 mm",
+    "base": [
+     "-0.5 mm",
+     "-68 mm",
+     "PULLEY_CZ"
+    ],
+    "axis": "X",
+    "name": "XL_PulleyClear",
+    "operation": "cut",
+    "targets": [
+     "X_EndPlate_L"
+    ]
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "53 mm + 2 * CUT_EXT",
+    "width": "9.4 mm",
+    "height": "18 mm",
+    "corner": [
+     "EB_L_X0 - CUT_EXT",
+     "-72 mm",
+     "128 mm"
+    ],
+    "name": "XL_BeltSlot",
+    "operation": "cut",
+    "targets": [
+     "X_EndPlate_L"
+    ]
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "SW_W + 0.4 mm",
+    "width": "MP_Y0 - FL_Y0",
+    "height": "X_POCKET_W",
+    "corner": [
+     "SW_L_X0 - 0.3 mm",
+     "FL_Y0",
+     "X_POCKET_ZC - X_POCKET_W / 2"
+    ],
+    "name": "XL_SwitchPocket",
+    "operation": "cut",
+    "targets": [
+     "X_EndPlate_L"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "SW_HOLE_R",
+    "height": "SW_HOLE_LEN_L",
+    "base": [
+     "SW_XC_L",
+     "SW_HOLE_Y0_L",
+     "SW_HOLE_Z1"
+    ],
+    "axis": "Y",
+    "name": "XL_SwitchHole1",
+    "operation": "cut",
+    "targets": [
+     "X_EndPlate_L"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "SW_HOLE_R",
+    "height": "SW_HOLE_LEN_L",
+    "base": [
+     "SW_XC_L",
+     "SW_HOLE_Y0_L",
+     "SW_HOLE_Z2"
+    ],
+    "axis": "Y",
+    "name": "XL_SwitchHole2",
+    "operation": "cut",
+    "targets": [
+     "X_EndPlate_L"
+    ]
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "53 mm - 50 mm + 2 * CUT_EXT",
+    "width": "20 mm",
+    "height": "40 mm",
+    "corner": [
+     "50 mm - CUT_EXT",
+     "-57 mm",
+     "117 mm"
+    ],
+    "name": "XL_ProfileClear",
+    "operation": "cut",
+    "targets": [
+     "X_EndPlate_L"
+    ]
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "257.5 mm - 249 mm",
+    "width": "FL_Y1 - FL_Y0",
+    "height": "EB_H",
+    "corner": [
+     "249 mm",
+     "FL_Y0",
+     "EB_Z0"
+    ],
+    "name": "XR_Flange",
+    "operation": "new",
+    "body_name": "X_EndPlate_R"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "300 mm - 257 mm",
+    "width": "MP_Y1 - (-65 mm)",
+    "height": "EB_H",
+    "corner": [
+     "257 mm",
+     "-65 mm",
+     "EB_Z0"
+    ],
+    "name": "XR_IdlerPlate",
+    "operation": "join",
+    "targets": [
+     "X_EndPlate_R"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "ROUND_END_R",
+    "height": "MP_Y1 - (-65 mm)",
+    "base": [
+     "280 mm",
+     "-65 mm",
+     "PULLEY_CZ"
+    ],
+    "axis": "Y",
+    "name": "XR_RoundEnd",
+    "operation": "join",
+    "targets": [
+     "X_EndPlate_R"
+    ]
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "261.2 mm - 249 mm",
+    "width": "MP_Y0 - FL_Y0",
+    "height": "TAB_H",
+    "corner": [
+     "249 mm",
+     "FL_Y0",
+     "TAB_Z0"
+    ],
+    "name": "XR_SwitchTab",
+    "operation": "join",
+    "targets": [
+     "X_EndPlate_R"
+    ]
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "6.5 mm",
+    "width": "40 mm",
+    "height": "14 mm",
+    "corner": [
+     "249.5 mm",
+     "-77 mm",
+     "119 mm"
+    ],
+    "name": "XR_Win1",
+    "operation": "cut",
+    "targets": [
+     "X_EndPlate_R"
+    ]
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "6.5 mm",
+    "width": "40 mm",
+    "height": "14 mm",
+    "corner": [
+     "249.5 mm",
+     "-77 mm",
+     "143 mm"
+    ],
+    "name": "XR_Win2",
+    "operation": "cut",
+    "targets": [
+     "X_EndPlate_R"
+    ]
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "28 mm",
+    "width": "30 mm",
+    "height": "15 mm",
+    "corner": [
+     "261 mm",
+     "-66 mm",
+     "120 mm"
+    ],
+    "name": "XR_Win3",
+    "operation": "cut",
+    "targets": [
+     "X_EndPlate_R"
+    ]
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "28 mm",
+    "width": "30 mm",
+    "height": "15 mm",
+    "corner": [
+     "261 mm",
+     "-66 mm",
+     "142 mm"
+    ],
+    "name": "XR_Win4",
+    "operation": "cut",
+    "targets": [
+     "X_EndPlate_R"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "PULLEY_FLANGE_R + 0.2 mm",
+    "height": "8 mm",
+    "base": [
+     "PULLEY_CX_R",
+     "-66 mm",
+     "PULLEY_CZ"
+    ],
+    "axis": "Y",
+    "name": "XR_IdlerPocket",
+    "operation": "cut",
+    "targets": [
+     "X_EndPlate_R"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "IDLER_SHAFT_R + 0.05 mm",
+    "height": "5 mm",
+    "base": [
+     "PULLEY_CX_R",
+     "-61 mm",
+     "PULLEY_CZ"
+    ],
+    "axis": "Y",
+    "name": "XR_IdlerBore",
+    "operation": "cut",
+    "targets": [
+     "X_EndPlate_R"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "IDLER_SHAFT_R + 0.05 mm",
+    "height": "15 mm",
+    "base": [
+     "PULLEY_CX_R",
+     "-61 mm",
+     "PULLEY_CZ"
+    ],
+    "axis": "Y",
+    "name": "XR_IdlerThru",
+    "operation": "cut",
+    "targets": [
+     "X_EndPlate_R"
+    ]
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "257.5 mm - 248 mm + CUT_EXT",
+    "width": "9.4 mm",
+    "height": "18 mm",
+    "corner": [
+     "248 mm",
+     "-72 mm",
+     "128 mm"
+    ],
+    "name": "XR_BeltSlot",
+    "operation": "cut",
+    "targets": [
+     "X_EndPlate_R"
+    ]
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "SW_W + 0.4 mm",
+    "width": "MP_Y0 - FL_Y0 + CUT_EXT",
+    "height": "X_POCKET_W",
+    "corner": [
+     "SW_R_X0 - 0.2 mm",
+     "FL_Y0 - CUT_EXT",
+     "X_POCKET_ZC - X_POCKET_W / 2"
+    ],
+    "name": "XR_SwitchPocket",
+    "operation": "cut",
+    "targets": [
+     "X_EndPlate_R"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "SW_HOLE_R",
+    "height": "SW_HOLE_LEN_R",
+    "base": [
+     "SW_XC_R",
+     "SW_HOLE_Y0_R",
+     "SW_HOLE_Z1"
+    ],
+    "axis": "Y",
+    "name": "XR_SwitchHole1",
+    "operation": "cut",
+    "targets": [
+     "X_EndPlate_R"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "SW_HOLE_R",
+    "height": "SW_HOLE_LEN_R",
+    "base": [
+     "SW_XC_R",
+     "SW_HOLE_Y0_R",
+     "SW_HOLE_Z2"
+    ],
+    "axis": "Y",
+    "name": "XR_SwitchHole2",
+    "operation": "cut",
+    "targets": [
+     "X_EndPlate_R"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "ROD_HOLE_R",
+    "height": "52.5 mm",
+    "base": [
+     "248 mm",
+     "ROD_Y",
+     "ROD_Z1"
+    ],
+    "axis": "X",
+    "name": "XR_RodThru1",
+    "operation": "cut",
+    "targets": [
+     "X_EndPlate_R"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "ROD_HOLE_R",
+    "height": "52.5 mm",
+    "base": [
+     "248 mm",
+     "ROD_Y",
+     "ROD_Z2"
+    ],
+    "axis": "X",
+    "name": "XR_RodThru2",
+    "operation": "cut",
+    "targets": [
+     "X_EndPlate_R"
+    ]
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "250 mm - 249 mm + 2 * CUT_EXT",
+    "width": "20 mm",
+    "height": "40 mm",
+    "corner": [
+     "249 mm - CUT_EXT",
+     "-57 mm",
+     "117 mm"
+    ],
+    "name": "XR_ProfileClear",
+    "operation": "cut",
+    "targets": [
+     "X_EndPlate_R"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "ROD_D / 2",
+    "height": "ROD_LEN",
+    "base": [
+     "ROD_X0",
+     "ROD_Y",
+     "ROD_Z1"
+    ],
+    "axis": "X",
+    "name": "XR_Rod1",
+    "operation": "new",
+    "body_name": "X_GuideRod_LM6_1"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "ROD_D / 2",
+    "height": "ROD_LEN",
+    "base": [
+     "ROD_X0",
+     "ROD_Y",
+     "ROD_Z2"
+    ],
+    "axis": "X",
+    "name": "XR_Rod2",
+    "operation": "new",
+    "body_name": "X_GuideRod_LM6_2"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "BRG_OD / 2",
+    "height": "BRG_L",
+    "base": [
+     "X_SEAT_X0",
+     "ROD_Y",
+     "ROD_Z1"
+    ],
+    "axis": "X",
+    "name": "X_Brg1_Outer",
+    "operation": "new",
+    "body_name": "X_LM6UU_1"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "BRG_ID / 2",
+    "height": "BRG_L",
+    "base": [
+     "X_SEAT_X0",
+     "ROD_Y",
+     "ROD_Z1"
+    ],
+    "axis": "X",
+    "name": "X_Brg1_Bore",
+    "operation": "cut",
+    "targets": [
+     "X_LM6UU_1"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "BRG_OD / 2",
+    "height": "BRG_L",
+    "base": [
+     "X_SEAT_X0",
+     "ROD_Y",
+     "ROD_Z2"
+    ],
+    "axis": "X",
+    "name": "X_Brg2_Outer",
+    "operation": "new",
+    "body_name": "X_LM6UU_2"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "BRG_ID / 2",
+    "height": "BRG_L",
+    "base": [
+     "X_SEAT_X0",
+     "ROD_Y",
+     "ROD_Z2"
+    ],
+    "axis": "X",
+    "name": "X_Brg2_Bore",
+    "operation": "cut",
+    "targets": [
+     "X_LM6UU_2"
+    ]
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "CAR_L",
+    "width": "CAR_T_LOWER",
+    "height": "CAR_SPAN",
+    "corner": [
+     "CAR_X0",
+     "CAR_LOWER_Y0",
+     "CAR_Z0"
+    ],
+    "name": "XC_Lower_Blank",
+    "operation": "new",
+    "body_name": "X_Carriage_Lower"
+   }
+  },
+  {
+   "command": "solid.fillet",
+   "params": {
+    "body": "X_Carriage_Lower",
+    "radius": "CAR_CORNER_R",
+    "edges": [
+     {
+      "body": "X_Carriage_Lower",
+      "index": 0
+     },
+     {
+      "body": "X_Carriage_Lower",
+      "index": 2
+     },
+     {
+      "body": "X_Carriage_Lower",
+      "index": 8
+     },
+     {
+      "body": "X_Carriage_Lower",
+      "index": 11
+     }
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "PILOT_R",
+    "height": "X_SEAT_X0 - CAR_X0 + CUT_EXT",
+    "base": [
+     "CAR_X0",
+     "ROD_Y",
+     "ROD_Z1"
+    ],
+    "axis": "X",
+    "name": "XC_Lower_Pilot1",
+    "operation": "cut",
+    "targets": [
+     "X_Carriage_Lower"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "SEAT_R",
+    "height": "SEAT_L",
+    "base": [
+     "X_SEAT_X0",
+     "ROD_Y",
+     "ROD_Z1"
+    ],
+    "axis": "X",
+    "name": "XC_Lower_Seat1",
+    "operation": "cut",
+    "targets": [
+     "X_Carriage_Lower"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "EXIT_R",
+    "height": "CAR_X0 + CAR_L - X_SEAT_X0 - SEAT_L + CUT_EXT",
+    "base": [
+     "X_SEAT_X0 + SEAT_L - CUT_EXT",
+     "ROD_Y",
+     "ROD_Z1"
+    ],
+    "axis": "X",
+    "name": "XC_Lower_Exit1",
+    "operation": "cut",
+    "targets": [
+     "X_Carriage_Lower"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "PILOT_R",
+    "height": "X_SEAT_X0 - CAR_X0 + CUT_EXT",
+    "base": [
+     "CAR_X0",
+     "ROD_Y",
+     "ROD_Z2"
+    ],
+    "axis": "X",
+    "name": "XC_Lower_Pilot2",
+    "operation": "cut",
+    "targets": [
+     "X_Carriage_Lower"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "SEAT_R",
+    "height": "SEAT_L",
+    "base": [
+     "X_SEAT_X0",
+     "ROD_Y",
+     "ROD_Z2"
+    ],
+    "axis": "X",
+    "name": "XC_Lower_Seat2",
+    "operation": "cut",
+    "targets": [
+     "X_Carriage_Lower"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "EXIT_R",
+    "height": "CAR_X0 + CAR_L - X_SEAT_X0 - SEAT_L + CUT_EXT",
+    "base": [
+     "X_SEAT_X0 + SEAT_L - CUT_EXT",
+     "ROD_Y",
+     "ROD_Z2"
+    ],
+    "axis": "X",
+    "name": "XC_Lower_Exit2",
+    "operation": "cut",
+    "targets": [
+     "X_Carriage_Lower"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "CAR_M3_R",
+    "height": "CAR_T_LOWER + 2 * CUT_EXT",
+    "base": [
+     "CAR_X0 + CAR_L / 2 - CAR_M3_PITCH / 2",
+     "CAR_LOWER_Y0 - CUT_EXT",
+     "CAR_Z0 + CAR_SPAN / 2"
+    ],
+    "axis": "Y",
+    "name": "XC_Lower_M3_1",
+    "operation": "cut",
+    "targets": [
+     "X_Carriage_Lower"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "CAR_M3_R",
+    "height": "CAR_T_LOWER + 2 * CUT_EXT",
+    "base": [
+     "CAR_X0 + CAR_L / 2 + CAR_M3_PITCH / 2",
+     "CAR_LOWER_Y0 - CUT_EXT",
+     "CAR_Z0 + CAR_SPAN / 2"
+    ],
+    "axis": "Y",
+    "name": "XC_Lower_M3_2",
+    "operation": "cut",
+    "targets": [
+     "X_Carriage_Lower"
+    ]
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "CAR_L + 2 * CUT_EXT",
+    "width": "BELT_CLEAR_Y1 - BELT_CLEAR_Y0",
+    "height": "2 * (PULLEY_PITCH_R + BELT_T / 2 + BELT_CLEAR_ZPAD)",
+    "corner": [
+     "CAR_X0 - CUT_EXT",
+     "BELT_CLEAR_Y0",
+     "PULLEY_CZ - PULLEY_PITCH_R - BELT_T / 2 - BELT_CLEAR_ZPAD"
+    ],
+    "name": "XC_Lower_BeltClear",
+    "operation": "cut",
+    "targets": [
+     "X_Carriage_Lower"
+    ]
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "CAR_L",
+    "width": "CAR_T_UPPER",
+    "height": "CAR_SPAN",
+    "corner": [
+     "CAR_X0",
+     "CAR_UPPER_Y0",
+     "CAR_Z0"
+    ],
+    "name": "XC_Upper_Blank",
+    "operation": "new",
+    "body_name": "X_Carriage_Upper"
+   }
+  },
+  {
+   "command": "solid.fillet",
+   "params": {
+    "body": "X_Carriage_Upper",
+    "radius": "CAR_CORNER_R",
+    "edges": [
+     {
+      "body": "X_Carriage_Upper",
+      "index": 0
+     },
+     {
+      "body": "X_Carriage_Upper",
+      "index": 2
+     },
+     {
+      "body": "X_Carriage_Upper",
+      "index": 8
+     },
+     {
+      "body": "X_Carriage_Upper",
+      "index": 11
+     }
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "PILOT_R",
+    "height": "X_SEAT_X0 - CAR_X0 + CUT_EXT",
+    "base": [
+     "CAR_X0",
+     "ROD_Y",
+     "ROD_Z1"
+    ],
+    "axis": "X",
+    "name": "XC_Upper_Pilot1",
+    "operation": "cut",
+    "targets": [
+     "X_Carriage_Upper"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "SEAT_R",
+    "height": "SEAT_L",
+    "base": [
+     "X_SEAT_X0",
+     "ROD_Y",
+     "ROD_Z1"
+    ],
+    "axis": "X",
+    "name": "XC_Upper_Seat1",
+    "operation": "cut",
+    "targets": [
+     "X_Carriage_Upper"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "EXIT_R",
+    "height": "CAR_X0 + CAR_L - X_SEAT_X0 - SEAT_L + CUT_EXT",
+    "base": [
+     "X_SEAT_X0 + SEAT_L - CUT_EXT",
+     "ROD_Y",
+     "ROD_Z1"
+    ],
+    "axis": "X",
+    "name": "XC_Upper_Exit1",
+    "operation": "cut",
+    "targets": [
+     "X_Carriage_Upper"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "PILOT_R",
+    "height": "X_SEAT_X0 - CAR_X0 + CUT_EXT",
+    "base": [
+     "CAR_X0",
+     "ROD_Y",
+     "ROD_Z2"
+    ],
+    "axis": "X",
+    "name": "XC_Upper_Pilot2",
+    "operation": "cut",
+    "targets": [
+     "X_Carriage_Upper"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "SEAT_R",
+    "height": "SEAT_L",
+    "base": [
+     "X_SEAT_X0",
+     "ROD_Y",
+     "ROD_Z2"
+    ],
+    "axis": "X",
+    "name": "XC_Upper_Seat2",
+    "operation": "cut",
+    "targets": [
+     "X_Carriage_Upper"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "EXIT_R",
+    "height": "CAR_X0 + CAR_L - X_SEAT_X0 - SEAT_L + CUT_EXT",
+    "base": [
+     "X_SEAT_X0 + SEAT_L - CUT_EXT",
+     "ROD_Y",
+     "ROD_Z2"
+    ],
+    "axis": "X",
+    "name": "XC_Upper_Exit2",
+    "operation": "cut",
+    "targets": [
+     "X_Carriage_Upper"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "CAR_M3_R",
+    "height": "CAR_T_UPPER + 2 * CUT_EXT",
+    "base": [
+     "CAR_X0 + CAR_L / 2 - CAR_M3_PITCH / 2",
+     "CAR_UPPER_Y0 - CUT_EXT",
+     "CAR_Z0 + CAR_SPAN / 2"
+    ],
+    "axis": "Y",
+    "name": "XC_Upper_M3_1",
+    "operation": "cut",
+    "targets": [
+     "X_Carriage_Upper"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "CAR_M3_R",
+    "height": "CAR_T_UPPER + 2 * CUT_EXT",
+    "base": [
+     "CAR_X0 + CAR_L / 2 + CAR_M3_PITCH / 2",
+     "CAR_UPPER_Y0 - CUT_EXT",
+     "CAR_Z0 + CAR_SPAN / 2"
+    ],
+    "axis": "Y",
+    "name": "XC_Upper_M3_2",
+    "operation": "cut",
+    "targets": [
+     "X_Carriage_Upper"
+    ]
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "CAR_L + 2 * CUT_EXT",
+    "width": "BELT_CLEAR_Y1 - BELT_CLEAR_Y0",
+    "height": "2 * (PULLEY_PITCH_R + BELT_T / 2 + BELT_CLEAR_ZPAD)",
+    "corner": [
+     "CAR_X0 - CUT_EXT",
+     "BELT_CLEAR_Y0",
+     "PULLEY_CZ - PULLEY_PITCH_R - BELT_T / 2 - BELT_CLEAR_ZPAD"
+    ],
+    "name": "XC_Upper_BeltClear",
+    "operation": "cut",
+    "targets": [
+     "X_Carriage_Upper"
+    ]
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "PULLEY_CX_R - PULLEY_CX_L",
+    "width": "BELT_W",
+    "height": "BELT_T",
+    "corner": [
+     "PULLEY_CX_L",
+     "-71 mm",
+     "PULLEY_CZ + PULLEY_PITCH_R - BELT_T / 2"
+    ],
+    "name": "X_Belt_Top",
+    "operation": "new",
+    "body_name": "X_Belt_GT2"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "PULLEY_PITCH_R + BELT_T / 2",
+    "height": "BELT_W",
+    "base": [
+     "PULLEY_CX_L",
+     "-71 mm",
+     "PULLEY_CZ"
+    ],
+    "axis": "Y",
+    "name": "X_Belt_Wrap_L",
+    "operation": "join",
+    "targets": [
+     "X_Belt_GT2"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "PULLEY_PITCH_R + BELT_T / 2",
+    "height": "BELT_W",
+    "base": [
+     "PULLEY_CX_R",
+     "-71 mm",
+     "PULLEY_CZ"
+    ],
+    "axis": "Y",
+    "name": "X_Belt_Wrap_R",
+    "operation": "join",
+    "targets": [
+     "X_Belt_GT2"
+    ]
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "PULLEY_CX_R - PULLEY_CX_L",
+    "width": "BELT_W",
+    "height": "BELT_T",
+    "corner": [
+     "PULLEY_CX_L",
+     "-71 mm",
+     "PULLEY_CZ - PULLEY_PITCH_R - BELT_T / 2"
+    ],
+    "name": "X_Belt_Bottom",
+    "operation": "join",
+    "targets": [
+     "X_Belt_GT2"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "PULLEY_PITCH_R - BELT_T / 2",
+    "height": "BELT_W",
+    "base": [
+     "PULLEY_CX_L",
+     "-71 mm",
+     "PULLEY_CZ"
+    ],
+    "axis": "Y",
+    "name": "X_Belt_Inner_L",
+    "operation": "cut",
+    "targets": [
+     "X_Belt_GT2"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "PULLEY_PITCH_R - BELT_T / 2",
+    "height": "BELT_W",
+    "base": [
+     "PULLEY_CX_R",
+     "-71 mm",
+     "PULLEY_CZ"
+    ],
+    "axis": "Y",
+    "name": "X_Belt_Inner_R",
+    "operation": "cut",
+    "targets": [
+     "X_Belt_GT2"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "PULLEY_R",
+    "height": "PULLEY_W",
+    "base": [
+     "PULLEY_CX_L",
+     "-74 mm",
+     "PULLEY_CZ"
+    ],
+    "axis": "Y",
+    "name": "XPUL_Drive_Hub",
+    "operation": "new",
+    "body_name": "X_Pulley_Drive"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "PULLEY_FLANGE_R",
+    "height": "PULLEY_FLANGE_T",
+    "base": [
+     "PULLEY_CX_L",
+     "-75 mm",
+     "PULLEY_CZ"
+    ],
+    "axis": "Y",
+    "name": "XPUL_Drive_Flange0",
+    "operation": "join",
+    "targets": [
+     "X_Pulley_Drive"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "PULLEY_FLANGE_R",
+    "height": "PULLEY_FLANGE_T",
+    "base": [
+     "PULLEY_CX_L",
+     "-62 mm - PULLEY_FLANGE_T",
+     "PULLEY_CZ"
+    ],
+    "axis": "Y",
+    "name": "XPUL_Drive_Flange1",
+    "operation": "join",
+    "targets": [
+     "X_Pulley_Drive"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "SHAFT_R",
+    "height": "PULLEY_W + 2 * PULLEY_FLANGE_T",
+    "base": [
+     "PULLEY_CX_L",
+     "-75 mm",
+     "PULLEY_CZ"
+    ],
+    "axis": "Y",
+    "name": "XPUL_Drive_Bore",
+    "operation": "cut",
+    "targets": [
+     "X_Pulley_Drive"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "PULLEY_R",
+    "height": "PULLEY_W",
+    "base": [
+     "PULLEY_CX_R",
+     "-74 mm",
+     "PULLEY_CZ"
+    ],
+    "axis": "Y",
+    "name": "XPUL_Idler_Hub",
+    "operation": "new",
+    "body_name": "X_Pulley_Idler"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "PULLEY_FLANGE_R",
+    "height": "PULLEY_FLANGE_T",
+    "base": [
+     "PULLEY_CX_R",
+     "-75 mm",
+     "PULLEY_CZ"
+    ],
+    "axis": "Y",
+    "name": "XPUL_Idler_Flange0",
+    "operation": "join",
+    "targets": [
+     "X_Pulley_Idler"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "PULLEY_FLANGE_R",
+    "height": "PULLEY_FLANGE_T",
+    "base": [
+     "PULLEY_CX_R",
+     "-62 mm - PULLEY_FLANGE_T",
+     "PULLEY_CZ"
+    ],
+    "axis": "Y",
+    "name": "XPUL_Idler_Flange1",
+    "operation": "join",
+    "targets": [
+     "X_Pulley_Idler"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "IDLER_SHAFT_R",
+    "height": "PULLEY_W + 2 * PULLEY_FLANGE_T",
+    "base": [
+     "PULLEY_CX_R",
+     "-75 mm",
+     "PULLEY_CZ"
+    ],
+    "axis": "Y",
+    "name": "XPUL_Idler_Bore",
+    "operation": "cut",
+    "targets": [
+     "X_Pulley_Idler"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "IDLER_SHAFT_R",
+    "height": "31.5 mm",
+    "base": [
+     "PULLEY_CX_R",
+     "-79.5 mm",
+     "PULLEY_CZ"
+    ],
+    "axis": "Y",
+    "name": "X_Screw_Idler",
+    "operation": "new",
+    "body_name": "X_Screw_Idler"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "MOTOR_SIZE",
+    "width": "MOTOR_LEN",
+    "height": "MOTOR_SIZE",
+    "corner": [
+     "MOTOR_X0",
+     "MOTOR_Y0",
+     "PULLEY_CZ - MOTOR_SIZE / 2"
+    ],
+    "name": "X_Motor_Blank",
+    "operation": "new",
+    "body_name": "X_Motor_NEMA17"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "MOTOR_BOSS_R",
+    "height": "MOTOR_BOSS_L",
+    "base": [
+     "PULLEY_CX_L",
+     "MOTOR_Y0 - MOTOR_BOSS_L",
+     "PULLEY_CZ"
+    ],
+    "axis": "Y",
+    "name": "X_Motor_Boss",
+    "operation": "join",
+    "targets": [
+     "X_Motor_NEMA17"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "SHAFT_R",
+    "height": "18 mm",
+    "base": [
+     "PULLEY_CX_L",
+     "-73 mm",
+     "PULLEY_CZ"
+    ],
+    "axis": "Y",
+    "name": "X_Motor_Shaft",
+    "operation": "join",
+    "targets": [
+     "X_Motor_NEMA17"
+    ]
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "SW_W",
+    "width": "SW_D",
+    "height": "SW_H",
+    "corner": [
+     "SW_L_X0",
+     "SW_Y0",
+     "SW_Z0"
+    ],
+    "name": "XLS_L_Body",
+    "operation": "new",
+    "body_name": "X_LimitSwitch_L"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "SW_HOLE_R",
+    "height": "SW_D + 2 * CUT_EXT",
+    "base": [
+     "SW_XC_L",
+     "SW_Y0 - CUT_EXT",
+     "SW_HOLE_Z1"
+    ],
+    "axis": "Y",
+    "name": "XLS_L_Hole1",
+    "operation": "cut",
+    "targets": [
+     "X_LimitSwitch_L"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "SW_HOLE_R",
+    "height": "SW_D + 2 * CUT_EXT",
+    "base": [
+     "SW_XC_L",
+     "SW_Y0 - CUT_EXT",
+     "SW_HOLE_Z2"
+    ],
+    "axis": "Y",
+    "name": "XLS_L_Hole2",
+    "operation": "cut",
+    "targets": [
+     "X_LimitSwitch_L"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "SW_SCREW_R",
+    "height": "SW_SCREW_L",
+    "base": [
+     "SW_XC_L",
+     "SW_SCREW_Y0",
+     "SW_HOLE_Z1"
+    ],
+    "axis": "Y",
+    "name": "X_LimitScrew_L_1",
+    "operation": "new",
+    "body_name": "X_LimitScrew_L_1"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "SW_SCREW_R",
+    "height": "SW_SCREW_L",
+    "base": [
+     "SW_XC_L",
+     "SW_SCREW_Y0",
+     "SW_HOLE_Z2"
+    ],
+    "axis": "Y",
+    "name": "X_LimitScrew_L_2",
+    "operation": "new",
+    "body_name": "X_LimitScrew_L_2"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "SW_W",
+    "width": "SW_D",
+    "height": "SW_H",
+    "corner": [
+     "SW_R_X0",
+     "SW_Y0",
+     "SW_Z0"
+    ],
+    "name": "XLS_R_Body",
+    "operation": "new",
+    "body_name": "X_LimitSwitch_R"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "SW_HOLE_R",
+    "height": "SW_D + 2 * CUT_EXT",
+    "base": [
+     "SW_XC_R",
+     "SW_Y0 - CUT_EXT",
+     "SW_HOLE_Z1"
+    ],
+    "axis": "Y",
+    "name": "XLS_R_Hole1",
+    "operation": "cut",
+    "targets": [
+     "X_LimitSwitch_R"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "SW_HOLE_R",
+    "height": "SW_D + 2 * CUT_EXT",
+    "base": [
+     "SW_XC_R",
+     "SW_Y0 - CUT_EXT",
+     "SW_HOLE_Z2"
+    ],
+    "axis": "Y",
+    "name": "XLS_R_Hole2",
+    "operation": "cut",
+    "targets": [
+     "X_LimitSwitch_R"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "SW_SCREW_R",
+    "height": "SW_SCREW_L",
+    "base": [
+     "SW_XC_R",
+     "SW_SCREW_Y0",
+     "SW_HOLE_Z1"
+    ],
+    "axis": "Y",
+    "name": "X_LimitScrew_R_1",
+    "operation": "new",
+    "body_name": "X_LimitScrew_R_1"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "SW_SCREW_R",
+    "height": "SW_SCREW_L",
+    "base": [
+     "SW_XC_R",
+     "SW_SCREW_Y0",
+     "SW_HOLE_Z2"
+    ],
+    "axis": "Y",
+    "name": "X_LimitScrew_R_2",
+    "operation": "new",
+    "body_name": "X_LimitScrew_R_2"
+   }
+  },
+  {
+   "command": "appearance.assign",
+   "params": {
+    "name": "4020 铝型材 / 真实截面",
+    "bodies": [
+     "X_Profile"
+    ],
+    "color": "#b0b7bf",
+    "pbr": {
+     "metallic": 0.75,
+     "roughness": 0.35,
+     "dielectric_ior": 1.5
+    }
+   }
+  },
+  {
+   "command": "appearance.assign",
+   "params": {
+    "name": "PETG / 铝型材端面 3D 打印结构",
+    "bodies": [
+     "X_EndPlate_L",
+     "X_EndPlate_R",
+     "X_Carriage_Lower",
+     "X_Carriage_Upper"
+    ],
+    "color": "#e8923e",
+    "pbr": {
+     "metallic": 0.0,
+     "roughness": 0.45,
+     "dielectric_ior": 1.5
+    }
+   }
+  },
+  {
+   "command": "appearance.assign",
+   "params": {
+    "name": "Ø6 导轨 / 轴承钢",
+    "bodies": [
+     "X_GuideRod_LM6_1",
+     "X_GuideRod_LM6_2"
+    ],
+    "color": "#e1e4e8",
+    "pbr": {
+     "metallic": 0.85,
+     "roughness": 0.22,
+     "dielectric_ior": 1.5
+    }
+   }
+  },
+  {
+   "command": "appearance.assign",
+   "params": {
+    "name": "LM6UU / 轴承钢",
+    "bodies": [
+     "X_LM6UU_1",
+     "X_LM6UU_2"
+    ],
+    "color": "#5a606a",
+    "pbr": {
+     "metallic": 0.9,
+     "roughness": 0.28,
+     "dielectric_ior": 1.5
+    }
+   }
+  },
+  {
+   "command": "appearance.assign",
+   "params": {
+    "name": "GT2 同步带",
+    "bodies": [
+     "X_Belt_GT2"
+    ],
+    "color": "#17191d",
+    "pbr": {
+     "metallic": 0.0,
+     "roughness": 0.75,
+     "dielectric_ior": 1.5
+    }
+   }
+  },
+  {
+   "command": "appearance.assign",
+   "params": {
+    "name": "GT2 同步轮 / 惰轮轴",
+    "bodies": [
+     "X_Pulley_Drive",
+     "X_Pulley_Idler",
+     "X_Screw_Idler"
+    ],
+    "color": "#8a909a",
+    "pbr": {
+     "metallic": 0.8,
+     "roughness": 0.3,
+     "dielectric_ior": 1.5
+    }
+   }
+  },
+  {
+   "command": "appearance.assign",
+   "params": {
+    "name": "42 步进电机",
+    "bodies": [
+     "X_Motor_NEMA17"
+    ],
+    "color": "#2f343c",
+    "pbr": {
+     "metallic": 0.65,
+     "roughness": 0.4,
+     "dielectric_ior": 1.5
+    }
+   }
+  },
+  {
+   "command": "appearance.assign",
+   "params": {
+    "name": "KW11-3Z-A-1 限位开关",
+    "bodies": [
+     "X_LimitSwitch_L",
+     "X_LimitSwitch_R"
+    ],
+    "color": "#20252d",
+    "pbr": {
+     "metallic": 0.1,
+     "roughness": 0.6,
+     "dielectric_ior": 1.5
+    }
+   }
+  },
+  {
+   "command": "appearance.assign",
+   "params": {
+    "name": "限位开关安装螺钉",
+    "bodies": [
+     "X_LimitScrew_L_1",
+     "X_LimitScrew_L_2",
+     "X_LimitScrew_R_1",
+     "X_LimitScrew_R_2"
+    ],
+    "color": "#9aa0a8",
+    "pbr": {
+     "metallic": 0.85,
+     "roughness": 0.3,
+     "dielectric_ior": 1.5
+    }
+   }
+  },
+  {
+   "command": "file.save",
+   "params": {
+    "path": "D:/ink/solidcraft/X_Axis_Slide.sc",
+    "format": "container",
+    "overwrite": true
+   }
+  }
+ ]
+}

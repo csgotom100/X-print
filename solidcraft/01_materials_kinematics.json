@@ -1,0 +1,5275 @@
+{
+ "commands": [
+  {
+   "command": "material.create",
+   "params": {
+    "name": "PETG-FDM 异型结构件",
+    "density_g_cm3": 1.27,
+    "color": [
+     51,
+     140,
+     204
+    ],
+    "pbr": {
+     "metallic": 0.0,
+     "roughness": 0.55,
+     "dielectric_ior": 1.57
+    }
+   }
+  },
+  {
+   "command": "material.create",
+   "params": {
+    "name": "6061-T6 铝合金板",
+    "density_g_cm3": 2.7,
+    "color": [
+     173,
+     181,
+     189
+    ],
+    "pbr": {
+     "metallic": 0.8,
+     "roughness": 0.35,
+     "dielectric_ior": 1.45
+    }
+   }
+  },
+  {
+   "command": "material.create",
+   "params": {
+    "name": "6063-T5 铝型材2040",
+    "density_g_cm3": 2.7,
+    "color": [
+     199,
+     204,
+     209
+    ],
+    "pbr": {
+     "metallic": 0.8,
+     "roughness": 0.35,
+     "dielectric_ior": 1.45
+    }
+   }
+  },
+  {
+   "command": "material.create",
+   "params": {
+    "name": "铝合金GT2同步轮",
+    "density_g_cm3": 2.7,
+    "color": [
+     184,
+     189,
+     196
+    ],
+    "pbr": {
+     "metallic": 0.85,
+     "roughness": 0.3,
+     "dielectric_ior": 1.45
+    }
+   }
+  },
+  {
+   "command": "material.create",
+   "params": {
+    "name": "8.8级碳钢紧固件",
+    "density_g_cm3": 7.85,
+    "color": [
+     82,
+     87,
+     97
+    ],
+    "pbr": {
+     "metallic": 0.85,
+     "roughness": 0.35,
+     "dielectric_ior": 1.45
+    }
+   }
+  },
+  {
+   "command": "material.create",
+   "params": {
+    "name": "GCr15淬硬导杆与轴",
+    "density_g_cm3": 7.83,
+    "color": [
+     153,
+     161,
+     168
+    ],
+    "pbr": {
+     "metallic": 0.9,
+     "roughness": 0.22,
+     "dielectric_ior": 1.45
+    }
+   }
+  },
+  {
+   "command": "material.create",
+   "params": {
+    "name": "GCr15直线轴承LM5UU",
+    "density_g_cm3": 7.83,
+    "color": [
+     122,
+     130,
+     140
+    ],
+    "pbr": {
+     "metallic": 0.9,
+     "roughness": 0.25,
+     "dielectric_ior": 1.45
+    }
+   }
+  },
+  {
+   "command": "material.create",
+   "params": {
+    "name": "黄铜热熔螺母与针套",
+    "density_g_cm3": 8.5,
+    "color": [
+     209,
+     163,
+     66
+    ],
+    "pbr": {
+     "metallic": 0.85,
+     "roughness": 0.3,
+     "dielectric_ior": 1.45
+    }
+   }
+  },
+  {
+   "command": "material.create",
+   "params": {
+    "name": "琴钢丝与不锈钢弹片",
+    "density_g_cm3": 7.9,
+    "color": [
+     178,
+     184,
+     191
+    ],
+    "pbr": {
+     "metallic": 0.9,
+     "roughness": 0.25,
+     "dielectric_ior": 1.45
+    }
+   }
+  },
+  {
+   "command": "material.create",
+   "params": {
+    "name": "PU玻纤GT2同步带",
+    "density_g_cm3": 1.2,
+    "color": [
+     31,
+     31,
+     36
+    ],
+    "pbr": {
+     "metallic": 0.0,
+     "roughness": 0.8,
+     "dielectric_ior": 1.5
+    }
+   }
+  },
+  {
+   "command": "material.create",
+   "params": {
+    "name": "NEMA17步进电机总成",
+    "density_g_cm3": 4.5,
+    "color": [
+     61,
+     69,
+     87
+    ],
+    "pbr": {
+     "metallic": 0.5,
+     "roughness": 0.5,
+     "dielectric_ior": 1.5
+    }
+   }
+  },
+  {
+   "command": "material.create",
+   "params": {
+    "name": "机械式限位开关",
+    "density_g_cm3": 1.4,
+    "color": [
+     38,
+     41,
+     46
+    ],
+    "pbr": {
+     "metallic": 0.0,
+     "roughness": 0.6,
+     "dielectric_ior": 1.5
+    }
+   }
+  },
+  {
+   "command": "material.create",
+   "params": {
+    "name": "HP45墨盒ABS-PP壳体",
+    "density_g_cm3": 1.05,
+    "color": [
+     46,
+     51,
+     59
+    ],
+    "pbr": {
+     "metallic": 0.0,
+     "roughness": 0.5,
+     "dielectric_ior": 1.52
+    }
+   }
+  },
+  {
+   "command": "material.create",
+   "params": {
+    "name": "POM注塑探针座与侧盖板",
+    "density_g_cm3": 1.41,
+    "color": [
+     232,
+     224,
+     201
+    ],
+    "pbr": {
+     "metallic": 0.0,
+     "roughness": 0.45,
+     "dielectric_ior": 1.48
+    }
+   }
+  },
+  {
+   "command": "material.create",
+   "params": {
+    "name": "PA66-GF30注塑探针臂",
+    "density_g_cm3": 1.36,
+    "color": [
+     87,
+     107,
+     130
+    ],
+    "pbr": {
+     "metallic": 0.0,
+     "roughness": 0.55,
+     "dielectric_ior": 1.53
+    }
+   }
+  },
+  {
+   "command": "material.create",
+   "params": {
+    "name": "N35钕铁硼镀镍磁环",
+    "density_g_cm3": 7.5,
+    "color": [
+     204,
+     209,
+     217
+    ],
+    "pbr": {
+     "metallic": 0.9,
+     "roughness": 0.28,
+     "dielectric_ior": 1.45
+    }
+   }
+  },
+  {
+   "command": "material.create",
+   "params": {
+    "name": "FR-4霍尔PCB与盖板",
+    "density_g_cm3": 1.85,
+    "color": [
+     41,
+     122,
+     71
+    ],
+    "pbr": {
+     "metallic": 0.0,
+     "roughness": 0.65,
+     "dielectric_ior": 1.55
+    }
+   }
+  },
+  {
+   "command": "material.create",
+   "params": {
+    "name": "A1324霍尔环氧封装",
+    "density_g_cm3": 1.5,
+    "color": [
+     26,
+     26,
+     31
+    ],
+    "pbr": {
+     "metallic": 0.0,
+     "roughness": 0.5,
+     "dielectric_ior": 1.55
+    }
+   }
+  },
+  {
+   "command": "material.create",
+   "params": {
+    "name": "硅胶TPU密封与护线",
+    "density_g_cm3": 1.15,
+    "color": [
+     235,
+     140,
+     61
+    ],
+    "pbr": {
+     "metallic": 0.0,
+     "roughness": 0.8,
+     "dielectric_ior": 1.43
+    }
+   }
+  },
+  {
+   "command": "material.create",
+   "params": {
+    "name": "保湿海绵",
+    "density_g_cm3": 0.1,
+    "color": [
+     237,
+     219,
+     158
+    ],
+    "pbr": {
+     "metallic": 0.0,
+     "roughness": 0.9,
+     "dielectric_ior": 1.4
+    }
+   }
+  },
+  {
+   "command": "material.create",
+   "params": {
+    "name": "工艺辅助几何非零件",
+    "density_g_cm3": 1.0,
+    "color": [
+     217,
+     217,
+     217
+    ],
+    "opacity": 0.35
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Z_BaseBlock",
+     "Z_EndPlate_L",
+     "Z_EndPlate_R",
+     "Z_Carriage_Lower",
+     "Z_Carriage_Upper",
+     "X_EndPlate_L",
+     "X_EndPlate_R",
+     "X_Carriage_Lower",
+     "X_Carriage_Upper",
+     "HP45CAR_P01",
+     "HP45CAR_P03",
+     "HP45CAR_P04",
+     "HP45CAR_P02_R",
+     "HP45CAR_P02_L",
+     "HP45_CarriageAdapter",
+     "Cap_Tray"
+    ],
+    "material": "PETG-FDM 异型结构件"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "XZ_Plate"
+    ],
+    "material": "6061-T6 铝合金板"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Z_Profile",
+     "X_Profile"
+    ],
+    "material": "6063-T5 铝型材2040"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Z_Pulley_Drive",
+     "Z_Pulley_Idler",
+     "X_Pulley_Drive",
+     "X_Pulley_Idler"
+    ],
+    "material": "铝合金GT2同步轮"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Bench_Screw_0",
+     "Bench_Screw_1",
+     "Bench_Screw_2",
+     "Bench_Screw_3",
+     "Z_Screw_Core_0",
+     "Z_Screw_Core_1",
+     "Z_Screw_Idler",
+     "Z_Washer_Idler",
+     "Z_Washer_Nut_Idler",
+     "Z_Nut_Idler",
+     "Z_Screw_Car_0",
+     "Z_Screw_Car_1",
+     "Z_Screw_Motor_0",
+     "Z_Screw_Motor_1",
+     "Z_Screw_Motor_2",
+     "Z_Screw_Motor_3",
+     "Z_BaseScrew_0",
+     "Z_BaseScrew_1",
+     "Z_BaseScrew_2",
+     "Z_BaseScrew_3",
+     "X_Screw_Core_0",
+     "X_Screw_Core_1",
+     "X_Screw_Idler",
+     "X_Washer_Idler",
+     "X_Washer_Nut_Idler",
+     "X_Nut_Idler",
+     "X_Screw_Car_0",
+     "X_Screw_Car_1",
+     "X_Screw_Motor_0",
+     "X_Screw_Motor_1",
+     "X_Screw_Motor_2",
+     "X_Screw_Motor_3",
+     "Plate_M3_0",
+     "Plate_M3_1",
+     "Plate_M3_2",
+     "Plate_M3_3",
+     "Plate_M5_0",
+     "Plate_M5_1",
+     "Plate_M5_2",
+     "Plate_M5_3",
+     "TNut_M5_0",
+     "TNut_M5_1",
+     "TNut_M5_2",
+     "TNut_M5_3",
+     "Z_rod_fix_screw_1",
+     "Z_rod_fix_screw_2",
+     "X_rod_fix_screw_1",
+     "X_rod_fix_screw_2",
+     "LimitScrew_1",
+     "LimitScrew_2",
+     "LimitScrew_3",
+     "LimitScrew_4",
+     "LimitScrew_5",
+     "LimitScrew_6",
+     "LimitScrew_7",
+     "LimitScrew_8",
+     "HP45_AdptScrew_0",
+     "HP45_AdptScrew_1",
+     "HP45_AdptScrew_2",
+     "HP45_AdptScrew_3",
+     "HP45_P01Screw_0",
+     "HP45_P01Screw_1",
+     "HP45_P01Screw_2",
+     "HP45_P01Screw_3",
+     "HP45_ProbeScrew_0",
+     "HP45_ProbeScrew_1",
+     "Cap_BaseScrew_1",
+     "Cap_BaseScrew_2",
+     "HP45_HousingScrew_0",
+     "HP45_HousingScrew_1"
+    ],
+    "material": "8.8级碳钢紧固件"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Z_GuideRod_1",
+     "Z_GuideRod_2",
+     "Z_Motor_Shaft",
+     "X_GuideRod_1",
+     "X_GuideRod_2",
+     "X_Motor_Shaft"
+    ],
+    "material": "GCr15淬硬导杆与轴"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Z_LM5UU_1",
+     "Z_LM5UU_2",
+     "X_LM5UU_1",
+     "X_LM5UU_2"
+    ],
+    "material": "GCr15直线轴承LM5UU"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Z_Insert_Car_0",
+     "Z_Insert_Car_1",
+     "X_Insert_Car_0",
+     "X_Insert_Car_1",
+     "HP45_PogoPin",
+     "HP45_SocketR125"
+    ],
+    "material": "黄铜热熔螺母与针套"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Cap_Spring",
+     "Cap_Spring (2)",
+     "Cap_Spring (3)",
+     "Cap_Spring (4)",
+     "Cap_Spring (5)",
+     "HP45_PogoSpring"
+    ],
+    "material": "琴钢丝与不锈钢弹片"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Z_Belt_GT2",
+     "Z_Clamp_Key_A",
+     "Z_Clamp_Key_B",
+     "X_Belt_GT2",
+     "X_Clamp_Key_A",
+     "X_Clamp_Key_B"
+    ],
+    "material": "PU玻纤GT2同步带"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Z_Motor_NEMA17",
+     "X_Motor_NEMA17"
+    ],
+    "material": "NEMA17步进电机总成"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Z_LimitSwitch_Bot",
+     "Z_LimitSwitch_Top",
+     "X_LimitSwitch_L",
+     "X_LimitSwitch_R"
+    ],
+    "material": "机械式限位开关"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "HP45_Real"
+    ],
+    "material": "HP45墨盒ABS-PP壳体"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "HP45_ProbeHousing",
+     "HP45_SpringSpacer"
+    ],
+    "material": "POM注塑探针座与侧盖板"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "HP45_ProbeArm"
+    ],
+    "material": "PA66-GF30注塑探针臂"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "HP45_PogoMagnet"
+    ],
+    "material": "N35钕铁硼镀镍磁环"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "HP45_HallPCB",
+     "HP45_HallCover"
+    ],
+    "material": "FR-4霍尔PCB与盖板"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "HP45_HallSensor"
+    ],
+    "material": "A1324霍尔环氧封装"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Cap_Seal",
+     "HP45_DustSeal",
+     "HP45_CableClamp"
+    ],
+    "material": "硅胶TPU密封与护线"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Cap_Sponge"
+    ],
+    "material": "保湿海绵"
+   }
+  },
+  {
+   "command": "material.assign",
+   "params": {
+    "bodies": [
+     "Z_rod_1_tap",
+     "Z_rod_2_tap",
+     "X_rod_1_tap",
+     "X_rod_2_tap",
+     "Part__Feature"
+    ],
+    "material": "工艺辅助几何非零件"
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 303,
+    "type": "slider",
+    "a": {
+     "occurrence": 2,
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "Z_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "name": "Z 升降 / Z approach",
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.limits",
+   "params": {
+    "joint": "Z 升降 / Z approach",
+    "min": -30.0,
+    "max": 30.0
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 338,
+    "type": "slider",
+    "a": {
+     "occurrence": "X_Profile:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       1,
+       0,
+       0
+      ],
+      "x": [
+       0,
+       1,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "X_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       1,
+       0,
+       0
+      ],
+      "x": [
+       0,
+       1,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "name": "X 扫描 / X scan",
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.limits",
+   "params": {
+    "joint": "X 扫描 / X scan",
+    "min": -85.0,
+    "max": 85.0
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 411,
+    "type": "slider",
+    "a": {
+     "occurrence": "HP45_ProbeHousing:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "HP45_PogoPin:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "name": "探针压缩 / probe stroke",
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.limits",
+   "params": {
+    "joint": "探针压缩 / probe stroke",
+    "min": 0.0,
+    "max": 3.0
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 381,
+    "a": {
+     "occurrence": "Z_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "LimitScrew_5:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 382,
+    "a": {
+     "occurrence": "Z_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "LimitScrew_6:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 384,
+    "a": {
+     "occurrence": "Z_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "LimitScrew_7:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 385,
+    "a": {
+     "occurrence": "Z_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "LimitScrew_8:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 423,
+    "a": {
+     "occurrence": "Z_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "Part__Feature:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 354,
+    "a": {
+     "occurrence": "Z_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "Plate_M3_0:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 355,
+    "a": {
+     "occurrence": "Z_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "Plate_M3_1:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 356,
+    "a": {
+     "occurrence": "Z_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "Plate_M3_2:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 357,
+    "a": {
+     "occurrence": "Z_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "Plate_M3_3:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 358,
+    "a": {
+     "occurrence": "Z_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "Plate_M5_0:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 359,
+    "a": {
+     "occurrence": "Z_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "Plate_M5_1:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 360,
+    "a": {
+     "occurrence": "Z_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "Plate_M5_2:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 361,
+    "a": {
+     "occurrence": "Z_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "Plate_M5_3:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 362,
+    "a": {
+     "occurrence": "Z_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "TNut_M5_0:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 363,
+    "a": {
+     "occurrence": "Z_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "TNut_M5_1:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 364,
+    "a": {
+     "occurrence": "Z_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "TNut_M5_2:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 365,
+    "a": {
+     "occurrence": "Z_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "TNut_M5_3:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 323,
+    "a": {
+     "occurrence": "Z_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "XZ_Plate:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 337,
+    "a": {
+     "occurrence": "Z_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "X_Belt_GT2:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 325,
+    "a": {
+     "occurrence": "Z_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "X_EndPlate_L:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 326,
+    "a": {
+     "occurrence": "Z_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "X_EndPlate_R:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 329,
+    "a": {
+     "occurrence": "Z_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "X_GuideRod_1:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 330,
+    "a": {
+     "occurrence": "Z_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "X_GuideRod_2:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 380,
+    "a": {
+     "occurrence": "Z_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "X_LimitSwitch_L:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 383,
+    "a": {
+     "occurrence": "Z_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "X_LimitSwitch_R:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 348,
+    "a": {
+     "occurrence": "Z_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "X_Motor_NEMA17:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 349,
+    "a": {
+     "occurrence": "Z_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "X_Motor_Shaft:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 336,
+    "a": {
+     "occurrence": "Z_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "X_Nut_Idler:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 324,
+    "a": {
+     "occurrence": "Z_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "X_Profile:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 331,
+    "a": {
+     "occurrence": "Z_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "X_Pulley_Drive:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 332,
+    "a": {
+     "occurrence": "Z_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "X_Pulley_Idler:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 327,
+    "a": {
+     "occurrence": "Z_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "X_Screw_Core_0:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 328,
+    "a": {
+     "occurrence": "Z_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "X_Screw_Core_1:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 333,
+    "a": {
+     "occurrence": "Z_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "X_Screw_Idler:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 350,
+    "a": {
+     "occurrence": "Z_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "X_Screw_Motor_0:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 351,
+    "a": {
+     "occurrence": "Z_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "X_Screw_Motor_1:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 352,
+    "a": {
+     "occurrence": "Z_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "X_Screw_Motor_2:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 353,
+    "a": {
+     "occurrence": "Z_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "X_Screw_Motor_3:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 334,
+    "a": {
+     "occurrence": "Z_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "X_Washer_Idler:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 335,
+    "a": {
+     "occurrence": "Z_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "X_Washer_Nut_Idler:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 368,
+    "a": {
+     "occurrence": "Z_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "X_rod_1_tap:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 369,
+    "a": {
+     "occurrence": "Z_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "X_rod_2_tap:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 372,
+    "a": {
+     "occurrence": "Z_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "X_rod_fix_screw_1:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 373,
+    "a": {
+     "occurrence": "Z_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "X_rod_fix_screw_2:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 304,
+    "a": {
+     "occurrence": "Z_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "Z_Carriage_Upper:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 309,
+    "a": {
+     "occurrence": "Z_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "Z_Clamp_Key_A:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 310,
+    "a": {
+     "occurrence": "Z_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "Z_Clamp_Key_B:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 305,
+    "a": {
+     "occurrence": "Z_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "Z_Insert_Car_0:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 307,
+    "a": {
+     "occurrence": "Z_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "Z_Insert_Car_1:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 311,
+    "a": {
+     "occurrence": "Z_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "Z_LM5UU_1:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 312,
+    "a": {
+     "occurrence": "Z_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "Z_LM5UU_2:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 306,
+    "a": {
+     "occurrence": "Z_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "Z_Screw_Car_0:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 308,
+    "a": {
+     "occurrence": "Z_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "Z_Screw_Car_1:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 387,
+    "a": {
+     "occurrence": "X_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "HP45CAR_P01:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 391,
+    "a": {
+     "occurrence": "X_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "HP45CAR_P02_L:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 390,
+    "a": {
+     "occurrence": "X_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "HP45CAR_P02_R:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 388,
+    "a": {
+     "occurrence": "X_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "HP45CAR_P03:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 389,
+    "a": {
+     "occurrence": "X_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "HP45CAR_P04:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 393,
+    "a": {
+     "occurrence": "X_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "HP45_AdptScrew_0:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 394,
+    "a": {
+     "occurrence": "X_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "HP45_AdptScrew_1:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 395,
+    "a": {
+     "occurrence": "X_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "HP45_AdptScrew_2:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 396,
+    "a": {
+     "occurrence": "X_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "HP45_AdptScrew_3:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 421,
+    "a": {
+     "occurrence": "X_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "HP45_CableClamp:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 392,
+    "a": {
+     "occurrence": "X_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "HP45_CarriageAdapter:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 419,
+    "a": {
+     "occurrence": "X_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "HP45_DustSeal:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 420,
+    "a": {
+     "occurrence": "X_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "HP45_HallCover:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 415,
+    "a": {
+     "occurrence": "X_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "HP45_HallPCB:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 414,
+    "a": {
+     "occurrence": "X_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "HP45_HallSensor:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 416,
+    "a": {
+     "occurrence": "X_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "HP45_HousingScrew_0:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 417,
+    "a": {
+     "occurrence": "X_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "HP45_HousingScrew_1:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 397,
+    "a": {
+     "occurrence": "X_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "HP45_P01Screw_0:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 398,
+    "a": {
+     "occurrence": "X_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "HP45_P01Screw_1:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 399,
+    "a": {
+     "occurrence": "X_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "HP45_P01Screw_2:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 400,
+    "a": {
+     "occurrence": "X_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "HP45_P01Screw_3:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 413,
+    "a": {
+     "occurrence": "X_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "HP45_PogoSpring:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 401,
+    "a": {
+     "occurrence": "X_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "HP45_ProbeArm:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 410,
+    "a": {
+     "occurrence": "X_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "HP45_ProbeHousing:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 402,
+    "a": {
+     "occurrence": "X_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "HP45_ProbeScrew_0:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 403,
+    "a": {
+     "occurrence": "X_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "HP45_ProbeScrew_1:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 386,
+    "a": {
+     "occurrence": "X_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "HP45_Real:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 422,
+    "a": {
+     "occurrence": "X_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "HP45_SpringSpacer:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 339,
+    "a": {
+     "occurrence": "X_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "X_Carriage_Upper:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 344,
+    "a": {
+     "occurrence": "X_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "X_Clamp_Key_A:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 345,
+    "a": {
+     "occurrence": "X_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "X_Clamp_Key_B:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 340,
+    "a": {
+     "occurrence": "X_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "X_Insert_Car_0:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 342,
+    "a": {
+     "occurrence": "X_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "X_Insert_Car_1:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 346,
+    "a": {
+     "occurrence": "X_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "X_LM5UU_1:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 347,
+    "a": {
+     "occurrence": "X_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "X_LM5UU_2:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 341,
+    "a": {
+     "occurrence": "X_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "X_Screw_Car_0:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 343,
+    "a": {
+     "occurrence": "X_Carriage_Lower:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "X_Screw_Car_1:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 412,
+    "a": {
+     "occurrence": "HP45_PogoPin:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "HP45_PogoMagnet:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 418,
+    "a": {
+     "occurrence": "HP45_PogoPin:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "HP45_SocketR125:1",
+     "frame": {
+      "origin": [
+       0,
+       0,
+       0
+      ],
+      "z": [
+       0,
+       0,
+       1
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "quiet": true
+   }
+  },
+  {
+   "command": "browser.visibility",
+   "params": {
+    "items": [
+     "Part__Feature"
+    ],
+    "visible": false
+   }
+  },
+  {
+   "command": "browser.visibility",
+   "params": {
+    "folder": "joints",
+    "visible": false
+   }
+  }
+ ]
+}

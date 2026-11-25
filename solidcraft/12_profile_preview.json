@@ -1,0 +1,786 @@
+{
+ "commands": [
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "PW",
+    "expression": "20 mm",
+    "comment": "X 型材截面宽（2040 的 20，沿 Y）"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "PH",
+    "expression": "40 mm",
+    "comment": "X 型材截面高（2040 的 40，沿 Z）"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "PWZ",
+    "expression": "40 mm",
+    "comment": "Z 型材截面宽（旋转 90° 后为 40，沿 X）"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "PHZ",
+    "expression": "20 mm",
+    "comment": "Z 型材截面深（旋转 90° 后为 20，沿 Y）"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "SLOT_W",
+    "expression": "6 mm",
+    "comment": "T 槽槽口宽"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "SLOT_D",
+    "expression": "2 mm",
+    "comment": "T 槽槽口深（外窄段）"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "CAV_W",
+    "expression": "11 mm",
+    "comment": "T 槽内部腔宽（内宽段）"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "CAV_D",
+    "expression": "5 mm",
+    "comment": "T 槽内部腔深"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "CORE_U",
+    "expression": "2 mm",
+    "comment": "中心腔沿 20 方向半宽（与 T 槽内腔留 WALL 筋）"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "CORE_V",
+    "expression": "12 mm",
+    "comment": "中心腔沿 40 方向半长"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "CORNER_U",
+    "expression": "2.6 mm",
+    "comment": "四角减重腔沿 20 方向尺寸"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "CORNER_V",
+    "expression": "5.5 mm",
+    "comment": "四角减重腔沿 40 方向尺寸"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "WALL",
+    "expression": "1 mm",
+    "comment": "中心腔到 T 槽内腔的最小材料筋"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "CUT_EXT",
+    "expression": "1 mm",
+    "comment": "切割刀具两端外伸量（避免共面）"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "X_PROF_X0",
+    "expression": "50 mm",
+    "comment": "X 型材起点 X"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "X_PROF_Y0",
+    "expression": "-57 mm",
+    "comment": "X 型材起点 Y"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "X_PROF_Z0",
+    "expression": "117 mm",
+    "comment": "X 型材起点 Z"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "X_PROF_LEN",
+    "expression": "200 mm",
+    "comment": "X 型材长度"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "Z_PROF_X0",
+    "expression": "130 mm",
+    "comment": "Z 型材起点 X"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "Z_PROF_Y0",
+    "expression": "-1 mm",
+    "comment": "Z 型材起点 Y"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "Z_PROF_Z0",
+    "expression": "62 mm",
+    "comment": "Z 型材起点 Z"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "Z_PROF_LEN",
+    "expression": "150 mm",
+    "comment": "Z 型材长度"
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "plane": {
+     "origin": [
+      50,
+      -57,
+      117
+     ],
+     "x_dir": [
+      0,
+      1,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      0,
+      0
+     ],
+     [
+      "PW",
+      0
+     ],
+     [
+      "PW",
+      "PH"
+     ],
+     [
+      0,
+      "PH"
+     ]
+    ],
+    "closed": true
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "distance": "X_PROF_LEN",
+    "operation": "new",
+    "body_name": "X_Profile"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "X_PROF_LEN + 2 * CUT_EXT",
+    "width": "(PW / 2 + SLOT_W / 2) - (PW / 2 - SLOT_W / 2)",
+    "height": "(SLOT_D) - (0 mm)",
+    "corner": [
+     "X_PROF_X0 - CUT_EXT",
+     "X_PROF_Y0 + (PW / 2 - SLOT_W / 2)",
+     "X_PROF_Z0 + (0 mm)"
+    ],
+    "operation": "cut",
+    "targets": [
+     "X_Profile"
+    ],
+    "name": "X_Profile_TSlot01"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "X_PROF_LEN + 2 * CUT_EXT",
+    "width": "(PW / 2 + CAV_W / 2) - (PW / 2 - CAV_W / 2)",
+    "height": "(SLOT_D + CAV_D) - (SLOT_D)",
+    "corner": [
+     "X_PROF_X0 - CUT_EXT",
+     "X_PROF_Y0 + (PW / 2 - CAV_W / 2)",
+     "X_PROF_Z0 + (SLOT_D)"
+    ],
+    "operation": "cut",
+    "targets": [
+     "X_Profile"
+    ],
+    "name": "X_Profile_TSlot02"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "X_PROF_LEN + 2 * CUT_EXT",
+    "width": "(PW / 2 + SLOT_W / 2) - (PW / 2 - SLOT_W / 2)",
+    "height": "(PH) - (PH - SLOT_D)",
+    "corner": [
+     "X_PROF_X0 - CUT_EXT",
+     "X_PROF_Y0 + (PW / 2 - SLOT_W / 2)",
+     "X_PROF_Z0 + (PH - SLOT_D)"
+    ],
+    "operation": "cut",
+    "targets": [
+     "X_Profile"
+    ],
+    "name": "X_Profile_TSlot03"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "X_PROF_LEN + 2 * CUT_EXT",
+    "width": "(PW / 2 + CAV_W / 2) - (PW / 2 - CAV_W / 2)",
+    "height": "(PH - SLOT_D) - (PH - SLOT_D - CAV_D)",
+    "corner": [
+     "X_PROF_X0 - CUT_EXT",
+     "X_PROF_Y0 + (PW / 2 - CAV_W / 2)",
+     "X_PROF_Z0 + (PH - SLOT_D - CAV_D)"
+    ],
+    "operation": "cut",
+    "targets": [
+     "X_Profile"
+    ],
+    "name": "X_Profile_TSlot04"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "X_PROF_LEN + 2 * CUT_EXT",
+    "width": "(SLOT_D) - (0 mm)",
+    "height": "(PH / 2 + SLOT_W / 2) - (PH / 2 - SLOT_W / 2)",
+    "corner": [
+     "X_PROF_X0 - CUT_EXT",
+     "X_PROF_Y0 + (0 mm)",
+     "X_PROF_Z0 + (PH / 2 - SLOT_W / 2)"
+    ],
+    "operation": "cut",
+    "targets": [
+     "X_Profile"
+    ],
+    "name": "X_Profile_TSlot05"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "X_PROF_LEN + 2 * CUT_EXT",
+    "width": "(SLOT_D + CAV_D) - (SLOT_D)",
+    "height": "(PH / 2 + CAV_W / 2) - (PH / 2 - CAV_W / 2)",
+    "corner": [
+     "X_PROF_X0 - CUT_EXT",
+     "X_PROF_Y0 + (SLOT_D)",
+     "X_PROF_Z0 + (PH / 2 - CAV_W / 2)"
+    ],
+    "operation": "cut",
+    "targets": [
+     "X_Profile"
+    ],
+    "name": "X_Profile_TSlot06"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "X_PROF_LEN + 2 * CUT_EXT",
+    "width": "(PW) - (PW - SLOT_D)",
+    "height": "(PH / 2 + SLOT_W / 2) - (PH / 2 - SLOT_W / 2)",
+    "corner": [
+     "X_PROF_X0 - CUT_EXT",
+     "X_PROF_Y0 + (PW - SLOT_D)",
+     "X_PROF_Z0 + (PH / 2 - SLOT_W / 2)"
+    ],
+    "operation": "cut",
+    "targets": [
+     "X_Profile"
+    ],
+    "name": "X_Profile_TSlot07"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "X_PROF_LEN + 2 * CUT_EXT",
+    "width": "(PW - SLOT_D) - (PW - SLOT_D - CAV_D)",
+    "height": "(PH / 2 + CAV_W / 2) - (PH / 2 - CAV_W / 2)",
+    "corner": [
+     "X_PROF_X0 - CUT_EXT",
+     "X_PROF_Y0 + (PW - SLOT_D - CAV_D)",
+     "X_PROF_Z0 + (PH / 2 - CAV_W / 2)"
+    ],
+    "operation": "cut",
+    "targets": [
+     "X_Profile"
+    ],
+    "name": "X_Profile_TSlot08"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "X_PROF_LEN + 2 * CUT_EXT",
+    "width": "(PW / 2 + CORE_U) - (PW / 2 - CORE_U)",
+    "height": "(PH / 2 + CORE_V) - (PH / 2 - CORE_V)",
+    "corner": [
+     "X_PROF_X0 - CUT_EXT",
+     "X_PROF_Y0 + (PW / 2 - CORE_U)",
+     "X_PROF_Z0 + (PH / 2 - CORE_V)"
+    ],
+    "operation": "cut",
+    "targets": [
+     "X_Profile"
+    ],
+    "name": "X_Profile_CoreCavity"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "X_PROF_LEN + 2 * CUT_EXT",
+    "width": "(WALL + CORNER_U) - (WALL)",
+    "height": "(SLOT_D + CAV_D + WALL + CORNER_V) - (SLOT_D + CAV_D + WALL)",
+    "corner": [
+     "X_PROF_X0 - CUT_EXT",
+     "X_PROF_Y0 + (WALL)",
+     "X_PROF_Z0 + (SLOT_D + CAV_D + WALL)"
+    ],
+    "operation": "cut",
+    "targets": [
+     "X_Profile"
+    ],
+    "name": "X_Profile_CornerCavity01"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "X_PROF_LEN + 2 * CUT_EXT",
+    "width": "(PW - WALL) - (PW - WALL - CORNER_U)",
+    "height": "(SLOT_D + CAV_D + WALL + CORNER_V) - (SLOT_D + CAV_D + WALL)",
+    "corner": [
+     "X_PROF_X0 - CUT_EXT",
+     "X_PROF_Y0 + (PW - WALL - CORNER_U)",
+     "X_PROF_Z0 + (SLOT_D + CAV_D + WALL)"
+    ],
+    "operation": "cut",
+    "targets": [
+     "X_Profile"
+    ],
+    "name": "X_Profile_CornerCavity02"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "X_PROF_LEN + 2 * CUT_EXT",
+    "width": "(WALL + CORNER_U) - (WALL)",
+    "height": "(PH - SLOT_D - CAV_D - WALL) - (PH - SLOT_D - CAV_D - WALL - CORNER_V)",
+    "corner": [
+     "X_PROF_X0 - CUT_EXT",
+     "X_PROF_Y0 + (WALL)",
+     "X_PROF_Z0 + (PH - SLOT_D - CAV_D - WALL - CORNER_V)"
+    ],
+    "operation": "cut",
+    "targets": [
+     "X_Profile"
+    ],
+    "name": "X_Profile_CornerCavity03"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "X_PROF_LEN + 2 * CUT_EXT",
+    "width": "(PW - WALL) - (PW - WALL - CORNER_U)",
+    "height": "(PH - SLOT_D - CAV_D - WALL) - (PH - SLOT_D - CAV_D - WALL - CORNER_V)",
+    "corner": [
+     "X_PROF_X0 - CUT_EXT",
+     "X_PROF_Y0 + (PW - WALL - CORNER_U)",
+     "X_PROF_Z0 + (PH - SLOT_D - CAV_D - WALL - CORNER_V)"
+    ],
+    "operation": "cut",
+    "targets": [
+     "X_Profile"
+    ],
+    "name": "X_Profile_CornerCavity04"
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "plane": {
+     "origin": [
+      130,
+      -1,
+      62
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      1,
+      0
+     ]
+    }
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      0,
+      0
+     ],
+     [
+      "PWZ",
+      0
+     ],
+     [
+      "PWZ",
+      "PHZ"
+     ],
+     [
+      0,
+      "PHZ"
+     ]
+    ],
+    "closed": true
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "distance": "Z_PROF_LEN",
+    "operation": "new",
+    "body_name": "Z_Profile"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "(PWZ / 2 + SLOT_W / 2) - (PWZ / 2 - SLOT_W / 2)",
+    "width": "(SLOT_D) - (0 mm)",
+    "height": "Z_PROF_LEN + 2 * CUT_EXT",
+    "corner": [
+     "Z_PROF_X0 + (PWZ / 2 - SLOT_W / 2)",
+     "Z_PROF_Y0 + (0 mm)",
+     "Z_PROF_Z0 - CUT_EXT"
+    ],
+    "operation": "cut",
+    "targets": [
+     "Z_Profile"
+    ],
+    "name": "Z_Profile_TSlot01"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "(PWZ / 2 + CAV_W / 2) - (PWZ / 2 - CAV_W / 2)",
+    "width": "(SLOT_D + CAV_D) - (SLOT_D)",
+    "height": "Z_PROF_LEN + 2 * CUT_EXT",
+    "corner": [
+     "Z_PROF_X0 + (PWZ / 2 - CAV_W / 2)",
+     "Z_PROF_Y0 + (SLOT_D)",
+     "Z_PROF_Z0 - CUT_EXT"
+    ],
+    "operation": "cut",
+    "targets": [
+     "Z_Profile"
+    ],
+    "name": "Z_Profile_TSlot02"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "(PWZ / 2 + SLOT_W / 2) - (PWZ / 2 - SLOT_W / 2)",
+    "width": "(PHZ) - (PHZ - SLOT_D)",
+    "height": "Z_PROF_LEN + 2 * CUT_EXT",
+    "corner": [
+     "Z_PROF_X0 + (PWZ / 2 - SLOT_W / 2)",
+     "Z_PROF_Y0 + (PHZ - SLOT_D)",
+     "Z_PROF_Z0 - CUT_EXT"
+    ],
+    "operation": "cut",
+    "targets": [
+     "Z_Profile"
+    ],
+    "name": "Z_Profile_TSlot03"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "(PWZ / 2 + CAV_W / 2) - (PWZ / 2 - CAV_W / 2)",
+    "width": "(PHZ - SLOT_D) - (PHZ - SLOT_D - CAV_D)",
+    "height": "Z_PROF_LEN + 2 * CUT_EXT",
+    "corner": [
+     "Z_PROF_X0 + (PWZ / 2 - CAV_W / 2)",
+     "Z_PROF_Y0 + (PHZ - SLOT_D - CAV_D)",
+     "Z_PROF_Z0 - CUT_EXT"
+    ],
+    "operation": "cut",
+    "targets": [
+     "Z_Profile"
+    ],
+    "name": "Z_Profile_TSlot04"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "(SLOT_D) - (0 mm)",
+    "width": "(PHZ / 2 + SLOT_W / 2) - (PHZ / 2 - SLOT_W / 2)",
+    "height": "Z_PROF_LEN + 2 * CUT_EXT",
+    "corner": [
+     "Z_PROF_X0 + (0 mm)",
+     "Z_PROF_Y0 + (PHZ / 2 - SLOT_W / 2)",
+     "Z_PROF_Z0 - CUT_EXT"
+    ],
+    "operation": "cut",
+    "targets": [
+     "Z_Profile"
+    ],
+    "name": "Z_Profile_TSlot05"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "(SLOT_D + CAV_D) - (SLOT_D)",
+    "width": "(PHZ / 2 + CAV_W / 2) - (PHZ / 2 - CAV_W / 2)",
+    "height": "Z_PROF_LEN + 2 * CUT_EXT",
+    "corner": [
+     "Z_PROF_X0 + (SLOT_D)",
+     "Z_PROF_Y0 + (PHZ / 2 - CAV_W / 2)",
+     "Z_PROF_Z0 - CUT_EXT"
+    ],
+    "operation": "cut",
+    "targets": [
+     "Z_Profile"
+    ],
+    "name": "Z_Profile_TSlot06"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "(PWZ) - (PWZ - SLOT_D)",
+    "width": "(PHZ / 2 + SLOT_W / 2) - (PHZ / 2 - SLOT_W / 2)",
+    "height": "Z_PROF_LEN + 2 * CUT_EXT",
+    "corner": [
+     "Z_PROF_X0 + (PWZ - SLOT_D)",
+     "Z_PROF_Y0 + (PHZ / 2 - SLOT_W / 2)",
+     "Z_PROF_Z0 - CUT_EXT"
+    ],
+    "operation": "cut",
+    "targets": [
+     "Z_Profile"
+    ],
+    "name": "Z_Profile_TSlot07"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "(PWZ - SLOT_D) - (PWZ - SLOT_D - CAV_D)",
+    "width": "(PHZ / 2 + CAV_W / 2) - (PHZ / 2 - CAV_W / 2)",
+    "height": "Z_PROF_LEN + 2 * CUT_EXT",
+    "corner": [
+     "Z_PROF_X0 + (PWZ - SLOT_D - CAV_D)",
+     "Z_PROF_Y0 + (PHZ / 2 - CAV_W / 2)",
+     "Z_PROF_Z0 - CUT_EXT"
+    ],
+    "operation": "cut",
+    "targets": [
+     "Z_Profile"
+    ],
+    "name": "Z_Profile_TSlot08"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "(PWZ / 2 + CORE_V) - (PWZ / 2 - CORE_V)",
+    "width": "(PHZ / 2 + CORE_U) - (PHZ / 2 - CORE_U)",
+    "height": "Z_PROF_LEN + 2 * CUT_EXT",
+    "corner": [
+     "Z_PROF_X0 + (PWZ / 2 - CORE_V)",
+     "Z_PROF_Y0 + (PHZ / 2 - CORE_U)",
+     "Z_PROF_Z0 - CUT_EXT"
+    ],
+    "operation": "cut",
+    "targets": [
+     "Z_Profile"
+    ],
+    "name": "Z_Profile_CoreCavity"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "(SLOT_D + CAV_D + WALL + CORNER_V) - (SLOT_D + CAV_D + WALL)",
+    "width": "(WALL + CORNER_U) - (WALL)",
+    "height": "Z_PROF_LEN + 2 * CUT_EXT",
+    "corner": [
+     "Z_PROF_X0 + (SLOT_D + CAV_D + WALL)",
+     "Z_PROF_Y0 + (WALL)",
+     "Z_PROF_Z0 - CUT_EXT"
+    ],
+    "operation": "cut",
+    "targets": [
+     "Z_Profile"
+    ],
+    "name": "Z_Profile_CornerCavity01"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "(PWZ - SLOT_D - CAV_D - WALL) - (PWZ - SLOT_D - CAV_D - WALL - CORNER_V)",
+    "width": "(WALL + CORNER_U) - (WALL)",
+    "height": "Z_PROF_LEN + 2 * CUT_EXT",
+    "corner": [
+     "Z_PROF_X0 + (PWZ - SLOT_D - CAV_D - WALL - CORNER_V)",
+     "Z_PROF_Y0 + (WALL)",
+     "Z_PROF_Z0 - CUT_EXT"
+    ],
+    "operation": "cut",
+    "targets": [
+     "Z_Profile"
+    ],
+    "name": "Z_Profile_CornerCavity02"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "(SLOT_D + CAV_D + WALL + CORNER_V) - (SLOT_D + CAV_D + WALL)",
+    "width": "(PHZ - WALL) - (PHZ - WALL - CORNER_U)",
+    "height": "Z_PROF_LEN + 2 * CUT_EXT",
+    "corner": [
+     "Z_PROF_X0 + (SLOT_D + CAV_D + WALL)",
+     "Z_PROF_Y0 + (PHZ - WALL - CORNER_U)",
+     "Z_PROF_Z0 - CUT_EXT"
+    ],
+    "operation": "cut",
+    "targets": [
+     "Z_Profile"
+    ],
+    "name": "Z_Profile_CornerCavity03"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "(PWZ - SLOT_D - CAV_D - WALL) - (PWZ - SLOT_D - CAV_D - WALL - CORNER_V)",
+    "width": "(PHZ - WALL) - (PHZ - WALL - CORNER_U)",
+    "height": "Z_PROF_LEN + 2 * CUT_EXT",
+    "corner": [
+     "Z_PROF_X0 + (PWZ - SLOT_D - CAV_D - WALL - CORNER_V)",
+     "Z_PROF_Y0 + (PHZ - WALL - CORNER_U)",
+     "Z_PROF_Z0 - CUT_EXT"
+    ],
+    "operation": "cut",
+    "targets": [
+     "Z_Profile"
+    ],
+    "name": "Z_Profile_CornerCavity04"
+   }
+  },
+  {
+   "command": "appearance.assign",
+   "params": {
+    "bodies": [
+     "X_Profile",
+     "Z_Profile"
+    ],
+    "color": "#b0b7bf",
+    "name": "2040 铝型材 / 原生参数化截面",
+    "pbr": {
+     "metallic": 0.75,
+     "roughness": 0.35,
+     "dielectric_ior": 1.5
+    }
+   }
+  },
+  {
+   "command": "file.save",
+   "params": {
+    "path": "D:/ink/solidcraft/LM6UU_Profile_Preview.sc"
+   }
+  }
+ ]
+}

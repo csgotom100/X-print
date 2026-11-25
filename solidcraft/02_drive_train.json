@@ -1,0 +1,352 @@
+{
+ "commands": [
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 296,
+    "type": "revolute",
+    "a": {
+     "occurrence": 2,
+     "frame": {
+      "origin": [
+       150,
+       -12,
+       33
+      ],
+      "z": [
+       0,
+       1,
+       0
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "Z_Pulley_Drive:1",
+     "frame": {
+      "origin": [
+       150,
+       -12,
+       33
+      ],
+      "z": [
+       0,
+       1,
+       0
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "name": "Z 主动轮 / Z drive pulley",
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 297,
+    "type": "revolute",
+    "a": {
+     "occurrence": 2,
+     "frame": {
+      "origin": [
+       150,
+       -12,
+       241
+      ],
+      "z": [
+       0,
+       1,
+       0
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "Z_Pulley_Idler:1",
+     "frame": {
+      "origin": [
+       150,
+       -12,
+       241
+      ],
+      "z": [
+       0,
+       1,
+       0
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "name": "Z 惰轮 / Z idler",
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 314,
+    "type": "revolute",
+    "a": {
+     "occurrence": 2,
+     "frame": {
+      "origin": [
+       150,
+       -12,
+       33
+      ],
+      "z": [
+       0,
+       1,
+       0
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "Z_Motor_Shaft:1",
+     "frame": {
+      "origin": [
+       150,
+       -12,
+       33
+      ],
+      "z": [
+       0,
+       1,
+       0
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "name": "Z 电机轴 / Z motor shaft",
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 331,
+    "type": "revolute",
+    "a": {
+     "occurrence": "X_EndPlate_L:1",
+     "frame": {
+      "origin": [
+       21,
+       -68,
+       137
+      ],
+      "z": [
+       0,
+       1,
+       0
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "X_Pulley_Drive:1",
+     "frame": {
+      "origin": [
+       21,
+       -68,
+       137
+      ],
+      "z": [
+       0,
+       1,
+       0
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "name": "X 主动轮 / X drive pulley",
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 332,
+    "type": "revolute",
+    "a": {
+     "occurrence": "X_EndPlate_R:1",
+     "frame": {
+      "origin": [
+       279,
+       -68,
+       137
+      ],
+      "z": [
+       0,
+       1,
+       0
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "X_Pulley_Idler:1",
+     "frame": {
+      "origin": [
+       279,
+       -68,
+       137
+      ],
+      "z": [
+       0,
+       1,
+       0
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "name": "X 惰轮 / X idler",
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.edit",
+   "params": {
+    "joint": 349,
+    "type": "revolute",
+    "a": {
+     "occurrence": "X_EndPlate_L:1",
+     "frame": {
+      "origin": [
+       21,
+       -68,
+       137
+      ],
+      "z": [
+       0,
+       1,
+       0
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "b": {
+     "occurrence": "X_Motor_Shaft:1",
+     "frame": {
+      "origin": [
+       21,
+       -68,
+       137
+      ],
+      "z": [
+       0,
+       1,
+       0
+      ],
+      "x": [
+       1,
+       0,
+       0
+      ]
+     }
+    },
+    "flip": true,
+    "name": "X 电机轴 / X motor shaft",
+    "quiet": true
+   }
+  },
+  {
+   "command": "joint.motion_link",
+   "params": {
+    "a": "Z 升降 / Z approach",
+    "b": "Z 主动轮 / Z drive pulley",
+    "ratio": 11.25
+   }
+  },
+  {
+   "command": "joint.motion_link",
+   "params": {
+    "a": "Z 主动轮 / Z drive pulley",
+    "b": "Z 惰轮 / Z idler",
+    "ratio": 1.0
+   }
+  },
+  {
+   "command": "joint.motion_link",
+   "params": {
+    "a": "Z 主动轮 / Z drive pulley",
+    "b": "Z 电机轴 / Z motor shaft",
+    "ratio": 1.0
+   }
+  },
+  {
+   "command": "joint.motion_link",
+   "params": {
+    "a": "X 扫描 / X scan",
+    "b": "X 主动轮 / X drive pulley",
+    "ratio": 11.25
+   }
+  },
+  {
+   "command": "joint.motion_link",
+   "params": {
+    "a": "X 主动轮 / X drive pulley",
+    "b": "X 惰轮 / X idler",
+    "ratio": 1.0
+   }
+  },
+  {
+   "command": "joint.motion_link",
+   "params": {
+    "a": "X 主动轮 / X drive pulley",
+    "b": "X 电机轴 / X motor shaft",
+    "ratio": 1.0
+   }
+  }
+ ]
+}

@@ -1,0 +1,20 @@
+---
+General:
+  UUID: "319257ff-fbfa-5a8f-a926-45e53b04334a"
+  Name: "机械式限位开关"
+  Author: "X-print"
+  License: "CC0-1.0"
+  Description: "19.80 本体机械微动开关，PA66 壳 + 铜触点外购件"
+Models:
+  Density:
+    UUID: '454661e5-265b-4320-8e6f-fcf6223ac3af'
+    Density: "1400 kg/m^3"
+AppearanceModels:
+  BasicRendering:
+    UUID: 'f006c7e4-35b7-43d5-bbf9-c5d572309e6e'
+    AmbientColor: "(0.0750, 0.0800, 0.0900, 1)"
+    DiffuseColor: "(0.15, 0.16, 0.18, 1)"
+    EmissiveColor: "(0, 0, 0, 1)"
+    SpecularColor: "(0.35, 0.35, 0.35, 1)"
+    Shininess: "0.25"
+    Transparency: "0"

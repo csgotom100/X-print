@@ -19,6 +19,9 @@ __pycache__/
 *.log
 *.pyc
 
+# SolidCraft auto-backups of in-progress designs (intermediate, regenerable)
+*.sc.bak
+
 # ---------------- Intermediate check images ----------------
 # Everything under refs/ is ignored by default; curated images are
 # re-included below so the repo stays readable and small.
@@ -38,6 +41,8 @@ refs/vis_*.json
 !refs/final_L_iso.png
 !refs/final_R_iso.png
 !refs/pk_iso2.png
+!refs/pogo_parts_drawing.png
+!refs/hall_probe_assembly_3view.png
 
 # ---------------- Third-party reference material ----------------
 # HP45 机械/电子原始资料属第三方项目（GPL-3.0 等），不复制进本仓库，

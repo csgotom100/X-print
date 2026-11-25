@@ -1,0 +1,12 @@
+name,expression,comment
+PW,20 mm,X 型材截面宽（2040 的 20）
+PH,40 mm,X 型材截面高（2040 的 40）
+PWZ,40 mm,Z 型材截面宽（旋转 90°）
+PHZ,20 mm,Z 型材截面深（旋转 90°）
+PROF_HOLE_R,2.5 mm,2040 型材两个中心孔半径（Ø5）
+X_PROF_Y0,-57 mm,X 型材 Y 起点
+X_PROF_Z0,117 mm,X 型材 Z 起点
+X_PROF_LEN,200 mm,X 型材长度
+Z_PROF_X0,130 mm,Z 型材 X 起点
+Z_PROF_Y0,-1 mm,Z 型材 Y 起点
+Z_PROF_LEN,150 mm,Z 型材长度

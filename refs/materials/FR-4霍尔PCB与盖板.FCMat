@@ -1,0 +1,24 @@
+---
+General:
+  UUID: "5686775e-6429-54f1-9fcd-555043262090"
+  Name: "FR-4霍尔PCB与盖板"
+  Author: "X-print"
+  License: "CC0-1.0"
+  Description: "0.6 mm 霍尔转接 PCB / 0.3 mm 霍尔盖板（FR-4 或铝片），环氧封边"
+Models:
+  Density:
+    UUID: '454661e5-265b-4320-8e6f-fcf6223ac3af'
+    Density: "1850 kg/m^3"
+  LinearElastic:
+    UUID: '7b561d1d-fb9b-44f6-9da9-56a4f74d7536'
+    YoungsModulus: "22000 MPa"
+    PoissonRatio: "0.15"
+AppearanceModels:
+  BasicRendering:
+    UUID: 'f006c7e4-35b7-43d5-bbf9-c5d572309e6e'
+    AmbientColor: "(0.0800, 0.2400, 0.1400, 1)"
+    DiffuseColor: "(0.16, 0.48, 0.28, 1)"
+    EmissiveColor: "(0, 0, 0, 1)"
+    SpecularColor: "(0.35, 0.35, 0.35, 1)"
+    Shininess: "0.35"
+    Transparency: "0"

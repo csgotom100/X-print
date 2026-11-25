@@ -1,0 +1,274 @@
+[
+  {
+    "component": 107,
+    "grounded": true,
+    "name": "X_Base",
+    "occurrence": 108,
+    "parent": 0
+  },
+  {
+    "bodies": [
+      "X_Profile",
+      "X_EndPlate_L",
+      "X_EndPlate_R",
+      "X_GuideRod_1",
+      "X_GuideRod_2"
+    ],
+    "component": 107,
+    "features": [
+      109,
+      110,
+      111,
+      112,
+      113
+    ]
+  },
+  {
+    "component": 114,
+    "grounded": false,
+    "name": "X_Stage",
+    "occurrence": 115,
+    "parent": 0
+  },
+  {
+    "bodies": [
+      "X_Carriage_Lower",
+      "X_Carriage_Upper",
+      "X_LM6UU_1",
+      "X_LM6UU_2",
+      "Z_Profile",
+      "Z_EndPlate_L",
+      "Z_EndPlate_R",
+      "Z_GuideRod_1",
+      "Z_GuideRod_2"
+    ],
+    "component": 114,
+    "features": [
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124
+    ]
+  },
+  {
+    "component": 125,
+    "grounded": false,
+    "name": "Z_Stage",
+    "occurrence": 126,
+    "parent": 0
+  },
+  {
+    "bodies": [
+      "Z_Carriage_Lower",
+      "Z_Carriage_Upper",
+      "Z_LM6UU_1",
+      "Z_LM6UU_2"
+    ],
+    "component": 125,
+    "features": [
+      127,
+      128,
+      129,
+      130
+    ]
+  },
+  {
+    "grounded": true,
+    "occurrence": 108
+  },
+  {
+    "conflicts": [],
+    "dof": [
+      {
+        "dof": 0,
+        "occurrence": 0
+      },
+      {
+        "dof": 0,
+        "occurrence": 108
+      },
+      {
+        "dof": 1,
+        "occurrence": 115
+      },
+      {
+        "dof": 6,
+        "occurrence": 126
+      }
+    ],
+    "errors": [],
+    "fixed": [
+      0,
+      108
+    ],
+    "joint": 131,
+    "name": "X_Travel"
+  },
+  {
+    "conflicts": [],
+    "dof": [
+      {
+        "dof": 0,
+        "occurrence": 0
+      },
+      {
+        "dof": 0,
+        "occurrence": 108
+      },
+      {
+        "dof": 1,
+        "occurrence": 115
+      },
+      {
+        "dof": 2,
+        "occurrence": 126
+      }
+    ],
+    "errors": [],
+    "fixed": [
+      0,
+      108
+    ],
+    "joint": 132,
+    "name": "Z_Travel"
+  },
+  {
+    "keys": 2,
+    "name": "CrossSlide_Cycle",
+    "steps": 10,
+    "study": 133
+  },
+  {
+    "conflicts": [],
+    "dof": [
+      {
+        "dof": 0,
+        "occurrence": 0
+      },
+      {
+        "dof": 0,
+        "occurrence": 108
+      },
+      {
+        "dof": 1,
+        "occurrence": 115
+      },
+      {
+        "dof": 2,
+        "occurrence": 126
+      }
+    ],
+    "errors": [],
+    "fixed": [
+      0,
+      108
+    ],
+    "floating": [],
+    "joints": [
+      {
+        "a": 108,
+        "b": 115,
+        "flip": true,
+        "frame_a": {
+          "origin": [
+            150.0,
+            -68.0,
+            137.0
+          ],
+          "z": [
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        "frame_b": {
+          "origin": [
+            150.0,
+            -68.0,
+            137.0
+          ],
+          "z": [
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        "id": 131,
+        "name": "X_Travel",
+        "offset": 0.0,
+        "suppressed": false,
+        "type": "slider",
+        "values": [
+          {
+            "limits": [
+              -80.0,
+              80.0
+            ],
+            "name": "distance",
+            "unit": "mm",
+            "value": 0.0
+          }
+        ],
+        "visible": true
+      },
+      {
+        "a": 115,
+        "b": 126,
+        "flip": true,
+        "frame_a": {
+          "origin": [
+            150.0,
+            -12.0,
+            137.0
+          ],
+          "z": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        "frame_b": {
+          "origin": [
+            150.0,
+            -12.0,
+            137.0
+          ],
+          "z": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        "id": 132,
+        "name": "Z_Travel",
+        "offset": 0.0,
+        "suppressed": false,
+        "type": "slider",
+        "values": [
+          {
+            "limits": [
+              -55.0,
+              55.0
+            ],
+            "name": "distance",
+            "unit": "mm",
+            "value": 0.0
+          }
+        ],
+        "visible": true
+      }
+    ],
+    "links": [],
+    "origins": []
+  },
+  {
+    "bytes": 1034890,
+    "name": "CrossSlide_XZ_mech",
+    "path": "D:/ink/solidcraft/CrossSlide_XZ_mech.sc"
+  }
+]

@@ -1,0 +1,67 @@
+{
+ "commands": [
+  {
+   "command": "inspect.measure",
+   "params": {
+    "items": [
+     {
+      "type": "face",
+      "body": "X_EndPlate_L",
+      "point": [
+       46.0,
+       -76.0,
+       120.85
+      ]
+     },
+     {
+      "type": "face",
+      "body": "X_EndPlate_L",
+      "point": [
+       46.0,
+       -76.0,
+       141.65
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "command": "inspect.interference",
+   "params": {
+    "bodies": [
+     "X_Profile",
+     "X_EndPlate_L",
+     "X_EndPlate_R",
+     "X_GuideRod_LM6_1",
+     "X_GuideRod_LM6_2",
+     "X_LM6UU_1",
+     "X_LM6UU_2",
+     "X_Carriage_Lower",
+     "X_Carriage_Upper",
+     "X_Belt_GT2",
+     "X_Pulley_Drive",
+     "X_Pulley_Idler",
+     "X_Screw_Idler",
+     "X_Motor_NEMA17",
+     "X_LimitSwitch_L",
+     "X_LimitSwitch_R",
+     "X_LimitScrew_L_1",
+     "X_LimitScrew_L_2",
+     "X_LimitScrew_R_1",
+     "X_LimitScrew_R_2"
+    ],
+    "budget_s": 900
+   }
+  },
+  {
+   "command": "parameters.list",
+   "params": {
+    "filter": "user"
+   }
+  },
+  {
+   "command": "appearance.list",
+   "params": {}
+  }
+ ]
+}

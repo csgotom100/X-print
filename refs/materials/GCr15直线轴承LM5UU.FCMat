@@ -1,0 +1,24 @@
+---
+General:
+  UUID: "d0b089b3-2d4d-5e3f-bacf-8c3a20d8e356"
+  Name: "GCr15直线轴承LM5UU"
+  Author: "X-print"
+  License: "CC0-1.0"
+  Description: "LM5UU D10x15 直线轴承总成，轴承钢外购件"
+Models:
+  Density:
+    UUID: '454661e5-265b-4320-8e6f-fcf6223ac3af'
+    Density: "7830 kg/m^3"
+  LinearElastic:
+    UUID: '7b561d1d-fb9b-44f6-9da9-56a4f74d7536'
+    YoungsModulus: "210000 MPa"
+    PoissonRatio: "0.3"
+AppearanceModels:
+  BasicRendering:
+    UUID: 'f006c7e4-35b7-43d5-bbf9-c5d572309e6e'
+    AmbientColor: "(0.2400, 0.2550, 0.2750, 1)"
+    DiffuseColor: "(0.48, 0.51, 0.55, 1)"
+    EmissiveColor: "(0, 0, 0, 1)"
+    SpecularColor: "(0.35, 0.35, 0.35, 1)"
+    Shininess: "0.70"
+    Transparency: "0"

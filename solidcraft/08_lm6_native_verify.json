@@ -1,0 +1,86 @@
+{
+ "commands": [
+  {
+   "command": "inspect.measure",
+   "params": {
+    "items": [
+     {
+      "type": "face",
+      "body": "Z_EndPlate_L",
+      "point": [
+       139.0,
+       -21.2,
+       58.25
+      ]
+     },
+     {
+      "type": "face",
+      "body": "Z_EndPlate_L",
+      "point": [
+       161.0,
+       -21.2,
+       58.25
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "command": "inspect.measure",
+   "params": {
+    "items": [
+     {
+      "type": "face",
+      "body": "X_EndPlate_L",
+      "point": [
+       46.7,
+       -76.275,
+       120.85
+      ]
+     },
+     {
+      "type": "face",
+      "body": "X_EndPlate_L",
+      "point": [
+       46.7,
+       -76.275,
+       141.65
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "command": "inspect.interference",
+   "params": {
+    "bodies": [
+     "X_EndPlate_L",
+     "X_EndPlate_R",
+     "Z_EndPlate_L",
+     "Z_EndPlate_R",
+     "X_Carriage_Lower",
+     "X_Carriage_Upper",
+     "Z_Carriage_Lower",
+     "Z_Carriage_Upper",
+     "X_Profile",
+     "Z_Profile",
+     "X_GuideRod_1",
+     "X_GuideRod_2",
+     "Z_GuideRod_1",
+     "Z_GuideRod_2",
+     "X_LM6UU_1",
+     "X_LM6UU_2",
+     "Z_LM6UU_1",
+     "Z_LM6UU_2"
+    ],
+    "budget_s": 420
+   }
+  },
+  {
+   "command": "parameters.list",
+   "params": {
+    "filter": "user"
+   }
+  }
+ ]
+}

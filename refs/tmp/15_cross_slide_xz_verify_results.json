@@ -1,0 +1,2217 @@
+[
+  {
+    "angle_deg": 180.0,
+    "delta": [
+      0.0,
+      -0.0,
+      -0.0
+    ],
+    "distance_mm": 22.0,
+    "from": [
+      139.0,
+      0.0,
+      0.0
+    ],
+    "items": [
+      {
+        "area_mm2": 153.7500000000025,
+        "planar": true,
+        "type": "face"
+      },
+      {
+        "area_mm2": 153.74999999997902,
+        "planar": true,
+        "type": "face"
+      }
+    ],
+    "max": 31.368774282717563,
+    "max_delta": [
+      22.0,
+      20.000000000001883,
+      10.000000000000377
+    ],
+    "max_from": [
+      139.0,
+      -30.00000000000184,
+      51.99999999999908
+    ],
+    "max_to": [
+      161.0,
+      -9.999999999999957,
+      61.99999999999946
+    ],
+    "measure": "min",
+    "min": 22.0,
+    "to": [
+      139.0,
+      -0.0,
+      -0.0
+    ]
+  },
+  {
+    "angle_deg": 180.0,
+    "delta": [
+      1.2935092787765078e-9,
+      -6.468335792902767e-10,
+      0.0
+    ],
+    "distance_mm": 20.80000000081833,
+    "from": [
+      -1.1035693352564944e-9,
+      5.518520159315256e-10,
+      120.84999999918156
+    ],
+    "items": [
+      {
+        "area_mm2": 60.74999999897767,
+        "planar": true,
+        "type": "face"
+      },
+      {
+        "area_mm2": 60.749999999068244,
+        "planar": true,
+        "type": "face"
+      }
+    ],
+    "max": 23.818060374487857,
+    "max_delta": [
+      8.499999999977177,
+      7.899999999991536,
+      20.80000000007861
+    ],
+    "max_from": [
+      41.50000000000204,
+      -78.99999999998934,
+      120.84999999992128
+    ],
+    "max_to": [
+      49.99999999997922,
+      -71.0999999999978,
+      141.6499999999999
+    ],
+    "measure": "min",
+    "min": 20.80000000081833,
+    "to": [
+      1.8993994352001342e-10,
+      -9.498156335875107e-11,
+      120.84999999918156
+    ]
+  },
+  {
+    "boolean_ms": 220935.736,
+    "budget_exceeded": false,
+    "budget_s": 420.0,
+    "checked": 18,
+    "count": 0,
+    "interferences": [],
+    "ms": 63681.04,
+    "pairs_candidate": 35,
+    "pairs_cleared": 0,
+    "pairs_intersected": 35,
+    "pairs_not_checked": 0,
+    "skipped_pairs": 0,
+    "slowest": [
+      {
+        "a": "Z_Carriage_Upper",
+        "b": "Z_LM6UU_2",
+        "boolean_ms": 19424.152,
+        "ms": 21275.447,
+        "tessellate_ms": 793.423
+      },
+      {
+        "a": "Z_Carriage_Lower",
+        "b": "Z_GuideRod_1",
+        "boolean_ms": 18055.678,
+        "ms": 18280.184,
+        "tessellate_ms": 0.0
+      },
+      {
+        "a": "Z_Carriage_Lower",
+        "b": "Z_LM6UU_2",
+        "boolean_ms": 15229.09,
+        "ms": 17148.407,
+        "tessellate_ms": 939.319
+      },
+      {
+        "a": "Z_Carriage_Upper",
+        "b": "Z_GuideRod_1",
+        "boolean_ms": 16796.905,
+        "ms": 17033.793,
+        "tessellate_ms": 0.0
+      },
+      {
+        "a": "X_Carriage_Lower",
+        "b": "X_LM6UU_2",
+        "boolean_ms": 13823.985,
+        "ms": 15943.618,
+        "tessellate_ms": 1042.275
+      },
+      {
+        "a": "Z_Carriage_Lower",
+        "b": "Z_LM6UU_1",
+        "boolean_ms": 13692.81,
+        "ms": 15529.113,
+        "tessellate_ms": 830.573
+      },
+      {
+        "a": "Z_Carriage_Upper",
+        "b": "Z_LM6UU_1",
+        "boolean_ms": 13474.001,
+        "ms": 15369.36,
+        "tessellate_ms": 871.992
+      },
+      {
+        "a": "X_Carriage_Lower",
+        "b": "X_LM6UU_1",
+        "boolean_ms": 13189.005,
+        "ms": 15002.992,
+        "tessellate_ms": 765.438
+      }
+    ],
+    "tessellate_ms": 12871.142,
+    "threads": 4,
+    "truncated": false,
+    "unchecked": [
+      {
+        "a": "X_Carriage_Lower",
+        "b": "X_GuideRod_1",
+        "reason": "not verified: the bodies' facets pass through each other by more than 1.472130e-2 mm, but they could not be intersected there; that part is ignored"
+      },
+      {
+        "a": "X_Carriage_Lower",
+        "b": "X_GuideRod_2",
+        "reason": "not verified: the bodies' facets pass through each other by more than 1.472130e-2 mm, but they could not be intersected there; that part is ignored"
+      },
+      {
+        "a": "X_Carriage_Upper",
+        "b": "X_GuideRod_1",
+        "reason": "not verified: the bodies' facets pass through each other by more than 1.472321e-2 mm, but they could not be intersected there; that part is ignored"
+      },
+      {
+        "a": "X_Carriage_Upper",
+        "b": "X_GuideRod_2",
+        "reason": "not verified: the bodies' facets pass through each other by more than 1.472321e-2 mm, but they could not be intersected there; that part is ignored"
+      },
+      {
+        "a": "Z_Carriage_Lower",
+        "b": "Z_GuideRod_1",
+        "reason": "not verified: the bodies' facets pass through each other by more than 1.035682e-2 mm, but they could not be intersected there; that part is ignored"
+      },
+      {
+        "a": "Z_Carriage_Lower",
+        "b": "Z_GuideRod_2",
+        "reason": "not verified: the bodies' facets pass through each other by more than 1.035682e-2 mm, but they could not be intersected there; that part is ignored"
+      },
+      {
+        "a": "Z_Carriage_Upper",
+        "b": "Z_GuideRod_1",
+        "reason": "not verified: the bodies' facets pass through each other by more than 1.035829e-2 mm, but they could not be intersected there; that part is ignored"
+      },
+      {
+        "a": "Z_Carriage_Upper",
+        "b": "Z_GuideRod_2",
+        "reason": "not verified: the bodies' facets pass through each other by more than 1.035829e-2 mm, but they could not be intersected there; that part is ignored"
+      }
+    ]
+  },
+  {
+    "count": 100,
+    "cycles": [],
+    "parameters": [
+      {
+        "comment": "[A 轴承导杆] LM6UU 外径",
+        "display_value": 12.0,
+        "error": null,
+        "expression": "12 mm",
+        "favorite": true,
+        "name": "BRG_OD",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [
+          "SEAT_R",
+          "d217",
+          "d221",
+          "d225",
+          "d229"
+        ],
+        "uses": [],
+        "value": 12.0
+      },
+      {
+        "comment": "[A 轴承导杆] LM6UU 内孔（= 导杆直径）",
+        "display_value": 6.0,
+        "error": null,
+        "expression": "6 mm",
+        "favorite": true,
+        "name": "BRG_ID",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [
+          "d219",
+          "d223",
+          "d227",
+          "d231"
+        ],
+        "uses": [],
+        "value": 6.0
+      },
+      {
+        "comment": "[A 轴承导杆] LM6UU 长度",
+        "display_value": 19.0,
+        "error": null,
+        "expression": "19 mm",
+        "favorite": true,
+        "name": "BRG_L",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [
+          "SEAT_L",
+          "d218",
+          "d220",
+          "d222",
+          "d224",
+          "d226",
+          "d228",
+          "d230",
+          "d232"
+        ],
+        "uses": [],
+        "value": 19.0
+      },
+      {
+        "comment": "[A 轴承导杆] 导杆直径",
+        "display_value": 6.0,
+        "error": null,
+        "expression": "6 mm",
+        "favorite": true,
+        "name": "ROD_D",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [
+          "ROD_HOLE_R",
+          "d209",
+          "d211",
+          "d213",
+          "d215"
+        ],
+        "uses": [],
+        "value": 6.0
+      },
+      {
+        "comment": "[A 轴承导杆] 滑车主座半径（轴承外径 + 0.10 间隙）",
+        "display_value": 6.05,
+        "error": null,
+        "expression": "BRG_OD / 2 + 0.05 mm",
+        "favorite": true,
+        "name": "SEAT_R",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [
+          "d107",
+          "d113",
+          "d134",
+          "d140",
+          "d161",
+          "d167",
+          "d188",
+          "d194"
+        ],
+        "uses": [
+          "BRG_OD"
+        ],
+        "value": 6.05
+      },
+      {
+        "comment": "[A 轴承导杆] 滑车主座长度",
+        "display_value": 19.2,
+        "error": null,
+        "expression": "BRG_L + 0.2 mm",
+        "favorite": true,
+        "name": "SEAT_L",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [
+          "d108",
+          "d110",
+          "d114",
+          "d116",
+          "d135",
+          "d137",
+          "d141",
+          "d143",
+          "d162",
+          "d164",
+          "d168",
+          "d170",
+          "d189",
+          "d191",
+          "d195",
+          "d197"
+        ],
+        "uses": [
+          "BRG_L"
+        ],
+        "value": 19.2
+      },
+      {
+        "comment": "[A 轴承导杆] 端板导杆孔半径 Ø6.10",
+        "display_value": 3.05,
+        "error": null,
+        "expression": "ROD_D / 2 + 0.05 mm",
+        "favorite": true,
+        "name": "ROD_HOLE_R",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [
+          "d18",
+          "d20",
+          "d43",
+          "d45",
+          "d65",
+          "d67",
+          "d90",
+          "d92"
+        ],
+        "uses": [
+          "ROD_D"
+        ],
+        "value": 3.05
+      },
+      {
+        "comment": "[A 轴承导杆] 导入段半径（形成 -端轴向挡肩）",
+        "display_value": 4.7,
+        "error": null,
+        "expression": "4.7 mm",
+        "favorite": true,
+        "name": "PILOT_R",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [
+          "d105",
+          "d111",
+          "d132",
+          "d138",
+          "d159",
+          "d165",
+          "d186",
+          "d192"
+        ],
+        "uses": [],
+        "value": 4.7
+      },
+      {
+        "comment": "[A 轴承导杆] 出口段半径（形成 +端轴向挡肩）",
+        "display_value": 5.1,
+        "error": null,
+        "expression": "5.1 mm",
+        "favorite": true,
+        "name": "EXIT_R",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [
+          "d109",
+          "d115",
+          "d136",
+          "d142",
+          "d163",
+          "d169",
+          "d190",
+          "d196"
+        ],
+        "uses": [],
+        "value": 5.1
+      },
+      {
+        "comment": "[B 冻结项] Z 轴限位开关槽宽（禁止改动）",
+        "display_value": 22.0,
+        "error": null,
+        "expression": "22 mm",
+        "favorite": true,
+        "name": "Z_SLOT_W",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [
+          "d76"
+        ],
+        "uses": [],
+        "value": 22.0
+      },
+      {
+        "comment": "[B 冻结项] X 轴限位开关口袋宽（禁止改动）",
+        "display_value": 20.8,
+        "error": null,
+        "expression": "20.8 mm",
+        "favorite": true,
+        "name": "X_POCKET_W",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [
+          "d31"
+        ],
+        "uses": [],
+        "value": 20.8
+      },
+      {
+        "comment": "[F 滑车] 滑车沿运动轴长度",
+        "display_value": 33.0,
+        "error": null,
+        "expression": "33 mm",
+        "favorite": true,
+        "name": "CAR_L",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [
+          "d101",
+          "d110",
+          "d116",
+          "d128",
+          "d137",
+          "d143",
+          "d157",
+          "d164",
+          "d170",
+          "d184",
+          "d191",
+          "d197"
+        ],
+        "uses": [],
+        "value": 33.0
+      },
+      {
+        "comment": "[F 滑车] 滑车横向跨距（两导杆外侧）",
+        "display_value": 50.0,
+        "error": null,
+        "expression": "50 mm",
+        "favorite": true,
+        "name": "CAR_SPAN",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [
+          "d103",
+          "d130",
+          "d155",
+          "d182"
+        ],
+        "uses": [],
+        "value": 50.0
+      },
+      {
+        "comment": "[F 滑车] 下滑车半体厚度",
+        "display_value": 10.5,
+        "error": null,
+        "expression": "10.5 mm",
+        "favorite": true,
+        "name": "CAR_T_LOWER",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [
+          "d102",
+          "d118",
+          "d120",
+          "d156",
+          "d172",
+          "d174"
+        ],
+        "uses": [],
+        "value": 10.5
+      },
+      {
+        "comment": "[F 滑车] X 上滑车半体厚度",
+        "display_value": 10.0,
+        "error": null,
+        "expression": "10 mm",
+        "favorite": true,
+        "name": "CAR_T_UPPER",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [
+          "d129",
+          "d145",
+          "d147"
+        ],
+        "uses": [],
+        "value": 10.0
+      },
+      {
+        "comment": "[F 滑车] Z 上滑车半体厚度",
+        "display_value": 15.0,
+        "error": null,
+        "expression": "15 mm",
+        "favorite": true,
+        "name": "CAR_T_UPPER_Z",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [
+          "d183",
+          "d199",
+          "d201"
+        ],
+        "uses": [],
+        "value": 15.0
+      },
+      {
+        "comment": "[F 滑车] M3 合拢通孔半径",
+        "display_value": 1.7,
+        "error": null,
+        "expression": "1.7 mm",
+        "favorite": true,
+        "name": "CAR_M3_R",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [
+          "d117",
+          "d119",
+          "d144",
+          "d146",
+          "d171",
+          "d173",
+          "d198",
+          "d200"
+        ],
+        "uses": [],
+        "value": 1.7
+      },
+      {
+        "comment": "X 型材截面宽（2040 的 20）",
+        "display_value": 20.0,
+        "error": null,
+        "expression": "20 mm",
+        "favorite": false,
+        "name": "PW",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [],
+        "uses": [],
+        "value": 20.0
+      },
+      {
+        "comment": "X 型材截面高（2040 的 40）",
+        "display_value": 40.0,
+        "error": null,
+        "expression": "40 mm",
+        "favorite": false,
+        "name": "PH",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [],
+        "uses": [],
+        "value": 40.0
+      },
+      {
+        "comment": "Z 型材截面宽（旋转 90°）",
+        "display_value": 40.0,
+        "error": null,
+        "expression": "40 mm",
+        "favorite": false,
+        "name": "PWZ",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [],
+        "uses": [],
+        "value": 40.0
+      },
+      {
+        "comment": "Z 型材截面深（旋转 90°）",
+        "display_value": 20.0,
+        "error": null,
+        "expression": "20 mm",
+        "favorite": false,
+        "name": "PHZ",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [],
+        "uses": [],
+        "value": 20.0
+      },
+      {
+        "comment": "2040 型材两个中心孔半径（Ø5）",
+        "display_value": 2.5,
+        "error": null,
+        "expression": "2.5 mm",
+        "favorite": false,
+        "name": "PROF_HOLE_R",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [
+          "d1",
+          "d2",
+          "d4",
+          "d5"
+        ],
+        "uses": [],
+        "value": 2.5
+      },
+      {
+        "comment": "X 型材 Y 起点",
+        "display_value": -57.0,
+        "error": null,
+        "expression": "-57 mm",
+        "favorite": false,
+        "name": "X_PROF_Y0",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [
+          "d27",
+          "d52"
+        ],
+        "uses": [],
+        "value": -57.0
+      },
+      {
+        "comment": "X 型材 Z 起点",
+        "display_value": 117.0,
+        "error": null,
+        "expression": "117 mm",
+        "favorite": false,
+        "name": "X_PROF_Z0",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [],
+        "uses": [],
+        "value": 117.0
+      },
+      {
+        "comment": "X 型材长度",
+        "display_value": 200.0,
+        "error": null,
+        "expression": "200 mm",
+        "favorite": false,
+        "name": "X_PROF_LEN",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [
+          "d3"
+        ],
+        "uses": [],
+        "value": 200.0
+      },
+      {
+        "comment": "Z 型材 X 起点",
+        "display_value": 130.0,
+        "error": null,
+        "expression": "130 mm",
+        "favorite": false,
+        "name": "Z_PROF_X0",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [],
+        "uses": [],
+        "value": 130.0
+      },
+      {
+        "comment": "Z 型材 Y 起点",
+        "display_value": -1.0,
+        "error": null,
+        "expression": "-1 mm",
+        "favorite": false,
+        "name": "Z_PROF_Y0",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [
+          "d74",
+          "d99"
+        ],
+        "uses": [],
+        "value": -1.0
+      },
+      {
+        "comment": "Z 型材长度",
+        "display_value": 150.0,
+        "error": null,
+        "expression": "150 mm",
+        "favorite": false,
+        "name": "Z_PROF_LEN",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [
+          "d6"
+        ],
+        "uses": [],
+        "value": 150.0
+      },
+      {
+        "comment": "[A 轴承导杆] X 轴导杆长度",
+        "display_value": 215.0,
+        "error": null,
+        "expression": "215 mm",
+        "favorite": false,
+        "name": "ROD_X_LEN",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [
+          "d210",
+          "d212"
+        ],
+        "uses": [],
+        "value": 215.0
+      },
+      {
+        "comment": "[A 轴承导杆] Z 轴导杆长度",
+        "display_value": 165.0,
+        "error": null,
+        "expression": "165 mm",
+        "favorite": false,
+        "name": "ROD_Z_LEN",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [
+          "d214",
+          "d216"
+        ],
+        "uses": [],
+        "value": 165.0
+      },
+      {
+        "comment": "[A 轴承导杆] X 导杆起点 X",
+        "display_value": 42.5,
+        "error": null,
+        "expression": "42.5 mm",
+        "favorite": false,
+        "name": "X_ROD_X0",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [],
+        "uses": [],
+        "value": 42.5
+      },
+      {
+        "comment": "[A 轴承导杆] X 导杆中心 Y（滑车分型面）",
+        "display_value": -68.0,
+        "error": null,
+        "expression": "-68 mm",
+        "favorite": false,
+        "name": "X_ROD_Y",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [],
+        "uses": [],
+        "value": -68.0
+      },
+      {
+        "comment": "[A 轴承导杆] X 导杆 1 中心 Z",
+        "display_value": 122.0,
+        "error": null,
+        "expression": "122 mm",
+        "favorite": false,
+        "name": "X_ROD_Z1",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [],
+        "uses": [],
+        "value": 122.0
+      },
+      {
+        "comment": "[A 轴承导杆] X 导杆 2 中心 Z",
+        "display_value": 152.0,
+        "error": null,
+        "expression": "152 mm",
+        "favorite": false,
+        "name": "X_ROD_Z2",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [],
+        "uses": [],
+        "value": 152.0
+      },
+      {
+        "comment": "[A 轴承导杆] Z 导杆起点 Z",
+        "display_value": 54.5,
+        "error": null,
+        "expression": "54.5 mm",
+        "favorite": false,
+        "name": "Z_ROD_Z0",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [],
+        "uses": [],
+        "value": 54.5
+      },
+      {
+        "comment": "[A 轴承导杆] Z 导杆 1 中心 X",
+        "display_value": 135.0,
+        "error": null,
+        "expression": "135 mm",
+        "favorite": false,
+        "name": "Z_ROD_X1",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [],
+        "uses": [],
+        "value": 135.0
+      },
+      {
+        "comment": "[A 轴承导杆] Z 导杆 2 中心 X",
+        "display_value": 165.0,
+        "error": null,
+        "expression": "165 mm",
+        "favorite": false,
+        "name": "Z_ROD_X2",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [],
+        "uses": [],
+        "value": 165.0
+      },
+      {
+        "comment": "[A 轴承导杆] Z 导杆中心 Y（滑车分型面）",
+        "display_value": -12.0,
+        "error": null,
+        "expression": "-12 mm",
+        "favorite": false,
+        "name": "Z_ROD_Y",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [],
+        "uses": [],
+        "value": -12.0
+      },
+      {
+        "comment": "[A 轴承导杆] X 滑车主座起点 X",
+        "display_value": 140.4,
+        "error": null,
+        "expression": "140.4 mm",
+        "favorite": false,
+        "name": "X_SEAT_X0",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [
+          "d106",
+          "d110",
+          "d112",
+          "d116",
+          "d133",
+          "d137",
+          "d139",
+          "d143"
+        ],
+        "uses": [],
+        "value": 140.4
+      },
+      {
+        "comment": "[A 轴承导杆] Z 滑车主座起点 Z",
+        "display_value": 127.4,
+        "error": null,
+        "expression": "127.4 mm",
+        "favorite": false,
+        "name": "Z_SEAT_Z0",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [
+          "d160",
+          "d164",
+          "d166",
+          "d170",
+          "d187",
+          "d191",
+          "d193",
+          "d197"
+        ],
+        "uses": [],
+        "value": 127.4
+      },
+      {
+        "comment": "[C 端板] 端板法兰板厚度（贴型材端面）",
+        "display_value": 7.5,
+        "error": null,
+        "expression": "7.5 mm",
+        "favorite": false,
+        "name": "FLANGE_T",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [
+          "d10",
+          "d35",
+          "d59",
+          "d84"
+        ],
+        "uses": [],
+        "value": 7.5
+      },
+      {
+        "comment": "[C 端板] 端板周边框架壁厚",
+        "display_value": 1.5,
+        "error": null,
+        "expression": "1.5 mm",
+        "favorite": false,
+        "name": "FRAME_WALL",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [
+          "d11",
+          "d12",
+          "d36",
+          "d37",
+          "d57",
+          "d58",
+          "d82",
+          "d83"
+        ],
+        "uses": [],
+        "value": 1.5
+      },
+      {
+        "comment": "[C 端板] 电机安装台伸出长度",
+        "display_value": 10.0,
+        "error": null,
+        "expression": "10 mm",
+        "favorite": false,
+        "name": "MOTOR_PAD_L",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [
+          "d13",
+          "d38",
+          "d62",
+          "d87"
+        ],
+        "uses": [],
+        "value": 10.0
+      },
+      {
+        "comment": "[C 端板] 电机安装台宽度",
+        "display_value": 18.0,
+        "error": null,
+        "expression": "18 mm",
+        "favorite": false,
+        "name": "MOTOR_PAD_W",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [
+          "d14",
+          "d39",
+          "d60",
+          "d85"
+        ],
+        "uses": [],
+        "value": 18.0
+      },
+      {
+        "comment": "[C 端板] 电机安装台高度",
+        "display_value": 24.0,
+        "error": null,
+        "expression": "24 mm",
+        "favorite": false,
+        "name": "MOTOR_PAD_H",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [
+          "d15",
+          "d40",
+          "d61",
+          "d86"
+        ],
+        "uses": [],
+        "value": 24.0
+      },
+      {
+        "comment": "[C 端板] L 端板电机让位孔半径",
+        "display_value": 8.5,
+        "error": null,
+        "expression": "8.5 mm",
+        "favorite": false,
+        "name": "MOTOR_BORE_L_R",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [
+          "d16",
+          "d63"
+        ],
+        "uses": [],
+        "value": 8.5
+      },
+      {
+        "comment": "[C 端板] R 端板电机让位孔半径",
+        "display_value": 10.0,
+        "error": null,
+        "expression": "10 mm",
+        "favorite": false,
+        "name": "MOTOR_BORE_R_R",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [
+          "d41",
+          "d88"
+        ],
+        "uses": [],
+        "value": 10.0
+      },
+      {
+        "comment": "[C 端板] X 端板电机孔中心 Y",
+        "display_value": -62.0,
+        "error": null,
+        "expression": "-62 mm",
+        "favorite": false,
+        "name": "MOTOR_Y",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [],
+        "uses": [],
+        "value": -62.0
+      },
+      {
+        "comment": "[C 端板] X 端板电机孔中心 Z",
+        "display_value": 137.0,
+        "error": null,
+        "expression": "137 mm",
+        "favorite": false,
+        "name": "MOTOR_Z",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [],
+        "uses": [],
+        "value": 137.0
+      },
+      {
+        "comment": "[C 端板] Z 端板电机孔中心 Y",
+        "display_value": 9.0,
+        "error": null,
+        "expression": "9 mm",
+        "favorite": false,
+        "name": "Z_MOTOR_Y",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [],
+        "uses": [],
+        "value": 9.0
+      },
+      {
+        "comment": "[C 端板] 端板安装孔半径（M3 过孔）",
+        "display_value": 1.7,
+        "error": null,
+        "expression": "1.7 mm",
+        "favorite": false,
+        "name": "MOUNT_R",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [
+          "d22",
+          "d24",
+          "d47",
+          "d49",
+          "d69",
+          "d71",
+          "d94",
+          "d96"
+        ],
+        "uses": [],
+        "value": 1.7
+      },
+      {
+        "comment": "[C 端板] X 端板安装孔中心 Y",
+        "display_value": -60.0,
+        "error": null,
+        "expression": "-60 mm",
+        "favorite": false,
+        "name": "X_MOUNT_Y",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [],
+        "uses": [],
+        "value": -60.0
+      },
+      {
+        "comment": "[C 端板] Z 端板安装孔中心 Y",
+        "display_value": -5.0,
+        "error": null,
+        "expression": "-5 mm",
+        "favorite": false,
+        "name": "Z_MOUNT_Y",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [],
+        "uses": [],
+        "value": -5.0
+      },
+      {
+        "comment": "[C 端板] 端板顶部皮带让位槽高度",
+        "display_value": 7.0,
+        "error": null,
+        "expression": "7 mm",
+        "favorite": false,
+        "name": "BELT_SLOT_H",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [
+          "d100",
+          "d28",
+          "d53",
+          "d75"
+        ],
+        "uses": [],
+        "value": 7.0
+      },
+      {
+        "comment": "[D X 端板] X 端板 L 起点 X",
+        "display_value": 0.0,
+        "error": null,
+        "expression": "0 mm",
+        "favorite": false,
+        "name": "X_EP_L_X0",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [],
+        "uses": [],
+        "value": 0.0
+      },
+      {
+        "comment": "[D X 端板] X 端板 L 长度（贴合型材 X50 端面）",
+        "display_value": 50.0,
+        "error": null,
+        "expression": "50 mm",
+        "favorite": false,
+        "name": "X_EP_L_LEN",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [
+          "d10",
+          "d17",
+          "d19",
+          "d21",
+          "d23",
+          "d25",
+          "d26",
+          "d29",
+          "d7"
+        ],
+        "uses": [],
+        "value": 50.0
+      },
+      {
+        "comment": "[D X 端板] X 端板 R 起点 X",
+        "display_value": 250.0,
+        "error": null,
+        "expression": "250 mm",
+        "favorite": false,
+        "name": "X_EP_R_X0",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [],
+        "uses": [],
+        "value": 250.0
+      },
+      {
+        "comment": "[D X 端板] X 端板 R 长度",
+        "display_value": 50.0,
+        "error": null,
+        "expression": "50 mm",
+        "favorite": false,
+        "name": "X_EP_R_LEN",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [
+          "d32",
+          "d35",
+          "d42",
+          "d44",
+          "d46",
+          "d48",
+          "d50",
+          "d51"
+        ],
+        "uses": [],
+        "value": 50.0
+      },
+      {
+        "comment": "[D X 端板] X 端板 Y 起点",
+        "display_value": -79.0,
+        "error": null,
+        "expression": "-79 mm",
+        "favorite": false,
+        "name": "X_EP_Y0",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [
+          "d27",
+          "d52"
+        ],
+        "uses": [],
+        "value": -79.0
+      },
+      {
+        "comment": "[D X 端板] X 端板 Y 宽度",
+        "display_value": 42.0,
+        "error": null,
+        "expression": "42 mm",
+        "favorite": false,
+        "name": "X_EP_W",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [
+          "d11",
+          "d27",
+          "d33",
+          "d36",
+          "d52",
+          "d8"
+        ],
+        "uses": [],
+        "value": 42.0
+      },
+      {
+        "comment": "[D X 端板] X 端板 Z 起点",
+        "display_value": 117.0,
+        "error": null,
+        "expression": "117 mm",
+        "favorite": false,
+        "name": "X_EP_Z0",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [],
+        "uses": [],
+        "value": 117.0
+      },
+      {
+        "comment": "[D X 端板] X 端板 Z 高度",
+        "display_value": 40.0,
+        "error": null,
+        "expression": "40 mm",
+        "favorite": false,
+        "name": "X_EP_H",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [
+          "d12",
+          "d34",
+          "d37",
+          "d9"
+        ],
+        "uses": [],
+        "value": 40.0
+      },
+      {
+        "comment": "[D X 端板] 限位口袋起点 X",
+        "display_value": 41.5,
+        "error": null,
+        "expression": "41.5 mm",
+        "favorite": false,
+        "name": "X_POCKET_X0",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [
+          "d29"
+        ],
+        "uses": [],
+        "value": 41.5
+      },
+      {
+        "comment": "[D X 端板] 限位口袋起点 Y",
+        "display_value": -79.0,
+        "error": null,
+        "expression": "-79 mm",
+        "favorite": false,
+        "name": "X_POCKET_Y0",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [
+          "d30"
+        ],
+        "uses": [],
+        "value": -79.0
+      },
+      {
+        "comment": "[D X 端板] 限位口袋终点 Y（与 Ø6.10 孔留 0.05 间隙）",
+        "display_value": -71.1,
+        "error": null,
+        "expression": "-71.1 mm",
+        "favorite": false,
+        "name": "X_POCKET_Y1",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [
+          "d30"
+        ],
+        "uses": [],
+        "value": -71.1
+      },
+      {
+        "comment": "[D X 端板] 限位口袋中心 Z",
+        "display_value": 131.25,
+        "error": null,
+        "expression": "131.25 mm",
+        "favorite": false,
+        "name": "X_POCKET_ZC",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [],
+        "uses": [],
+        "value": 131.25
+      },
+      {
+        "comment": "[E Z 端板] Z 端板 L 起点 X",
+        "display_value": 105.0,
+        "error": null,
+        "expression": "105 mm",
+        "favorite": false,
+        "name": "Z_EP_L_X0",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [],
+        "uses": [],
+        "value": 105.0
+      },
+      {
+        "comment": "[E Z 端板] Z 端板 L X 宽度",
+        "display_value": 90.0,
+        "error": null,
+        "expression": "90 mm",
+        "favorite": false,
+        "name": "Z_EP_L_W",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [
+          "d54",
+          "d57",
+          "d73"
+        ],
+        "uses": [],
+        "value": 90.0
+      },
+      {
+        "comment": "[E Z 端板] Z 端板 L Y 起点",
+        "display_value": -30.0,
+        "error": null,
+        "expression": "-30 mm",
+        "favorite": false,
+        "name": "Z_EP_L_Y0",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [
+          "d74"
+        ],
+        "uses": [],
+        "value": -30.0
+      },
+      {
+        "comment": "[E Z 端板] Z 端板 L Y 深度",
+        "display_value": 49.0,
+        "error": null,
+        "expression": "49 mm",
+        "favorite": false,
+        "name": "Z_EP_L_D",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [
+          "d55",
+          "d58",
+          "d74"
+        ],
+        "uses": [],
+        "value": 49.0
+      },
+      {
+        "comment": "[E Z 端板] Z 端板 L Z 起点",
+        "display_value": 12.0,
+        "error": null,
+        "expression": "12 mm",
+        "favorite": false,
+        "name": "Z_EP_L_Z0",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [
+          "d78"
+        ],
+        "uses": [],
+        "value": 12.0
+      },
+      {
+        "comment": "[E Z 端板] Z 端板 L 高度（贴合型材 Z62 端面）",
+        "display_value": 50.0,
+        "error": null,
+        "expression": "50 mm",
+        "favorite": false,
+        "name": "Z_EP_L_H",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [
+          "d56",
+          "d59",
+          "d64",
+          "d66",
+          "d68",
+          "d70",
+          "d72",
+          "d78"
+        ],
+        "uses": [],
+        "value": 50.0
+      },
+      {
+        "comment": "[E Z 端板] Z 端板 R 起点 X",
+        "display_value": 130.0,
+        "error": null,
+        "expression": "130 mm",
+        "favorite": false,
+        "name": "Z_EP_R_X0",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [],
+        "uses": [],
+        "value": 130.0
+      },
+      {
+        "comment": "[E Z 端板] Z 端板 R X 宽度",
+        "display_value": 40.0,
+        "error": null,
+        "expression": "40 mm",
+        "favorite": false,
+        "name": "Z_EP_R_W",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [
+          "d79",
+          "d82",
+          "d98"
+        ],
+        "uses": [],
+        "value": 40.0
+      },
+      {
+        "comment": "[E Z 端板] Z 端板 R Y 起点",
+        "display_value": -23.0,
+        "error": null,
+        "expression": "-23 mm",
+        "favorite": false,
+        "name": "Z_EP_R_Y0",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [
+          "d99"
+        ],
+        "uses": [],
+        "value": -23.0
+      },
+      {
+        "comment": "[E Z 端板] Z 端板 R Y 深度",
+        "display_value": 42.0,
+        "error": null,
+        "expression": "42 mm",
+        "favorite": false,
+        "name": "Z_EP_R_D",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [
+          "d80",
+          "d83",
+          "d99"
+        ],
+        "uses": [],
+        "value": 42.0
+      },
+      {
+        "comment": "[E Z 端板] Z 端板 R 起点（贴合型材 Z212 端面）",
+        "display_value": 212.0,
+        "error": null,
+        "expression": "212 mm",
+        "favorite": false,
+        "name": "Z_EP_R_Z0",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [],
+        "uses": [],
+        "value": 212.0
+      },
+      {
+        "comment": "[E Z 端板] Z 端板 R 高度",
+        "display_value": 50.0,
+        "error": null,
+        "expression": "50 mm",
+        "favorite": false,
+        "name": "Z_EP_R_H",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [
+          "d81",
+          "d84",
+          "d89",
+          "d91",
+          "d93",
+          "d95",
+          "d97"
+        ],
+        "uses": [],
+        "value": 50.0
+      },
+      {
+        "comment": "[E Z 端板] Z 限位槽中心 X",
+        "display_value": 150.0,
+        "error": null,
+        "expression": "150 mm",
+        "favorite": false,
+        "name": "Z_SLOT_XC",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [],
+        "uses": [],
+        "value": 150.0
+      },
+      {
+        "comment": "[E Z 端板] Z 限位槽起点 Y",
+        "display_value": -30.0,
+        "error": null,
+        "expression": "-30 mm",
+        "favorite": false,
+        "name": "Z_SLOT_Y0",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [
+          "d77"
+        ],
+        "uses": [],
+        "value": -30.0
+      },
+      {
+        "comment": "[E Z 端板] Z 限位槽终点 Y",
+        "display_value": -10.0,
+        "error": null,
+        "expression": "-10 mm",
+        "favorite": false,
+        "name": "Z_SLOT_Y1",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [
+          "d77"
+        ],
+        "uses": [],
+        "value": -10.0
+      },
+      {
+        "comment": "[E Z 端板] Z 限位槽起点 Z",
+        "display_value": 52.0,
+        "error": null,
+        "expression": "52 mm",
+        "favorite": false,
+        "name": "Z_SLOT_Z0",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [
+          "d78"
+        ],
+        "uses": [],
+        "value": 52.0
+      },
+      {
+        "comment": "[F 滑车] 滑车四角圆角半径",
+        "display_value": 4.0,
+        "error": null,
+        "expression": "4 mm",
+        "favorite": false,
+        "name": "CAR_CORNER_R",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [
+          "d104",
+          "d131",
+          "d158",
+          "d185"
+        ],
+        "uses": [],
+        "value": 4.0
+      },
+      {
+        "comment": "[F 滑车] 上半体沉孔半径",
+        "display_value": 3.2,
+        "error": null,
+        "expression": "3.2 mm",
+        "favorite": false,
+        "name": "CAR_CB_R_UPPER",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [
+          "d148",
+          "d150",
+          "d202",
+          "d204"
+        ],
+        "uses": [],
+        "value": 3.2
+      },
+      {
+        "comment": "[F 滑车] 下半体沉孔半径",
+        "display_value": 2.3,
+        "error": null,
+        "expression": "2.3 mm",
+        "favorite": false,
+        "name": "CAR_CB_R_LOWER",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [
+          "d121",
+          "d123",
+          "d175",
+          "d177"
+        ],
+        "uses": [],
+        "value": 2.3
+      },
+      {
+        "comment": "[F 滑车] 上半体沉孔深度",
+        "display_value": 3.0,
+        "error": null,
+        "expression": "3 mm",
+        "favorite": false,
+        "name": "CAR_CB_DEPTH_UPPER",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [
+          "d149",
+          "d151",
+          "d203",
+          "d205"
+        ],
+        "uses": [],
+        "value": 3.0
+      },
+      {
+        "comment": "[F 滑车] 下半体沉孔深度",
+        "display_value": 8.0,
+        "error": null,
+        "expression": "8 mm",
+        "favorite": false,
+        "name": "CAR_CB_DEPTH_LOWER",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [
+          "d122",
+          "d124",
+          "d176",
+          "d178"
+        ],
+        "uses": [],
+        "value": 8.0
+      },
+      {
+        "comment": "[F 滑车] 两 M3 孔间距",
+        "display_value": 12.0,
+        "error": null,
+        "expression": "12 mm",
+        "favorite": false,
+        "name": "CAR_M3_PITCH",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [],
+        "uses": [],
+        "value": 12.0
+      },
+      {
+        "comment": "[F 滑车] 中央皮带让位腔边长",
+        "display_value": 5.0,
+        "error": null,
+        "expression": "5 mm",
+        "favorite": false,
+        "name": "CAR_BELT_W",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [
+          "d125",
+          "d127",
+          "d152",
+          "d154",
+          "d179",
+          "d181",
+          "d206",
+          "d208"
+        ],
+        "uses": [],
+        "value": 5.0
+      },
+      {
+        "comment": "[F 滑车] 中央皮带让位腔深度",
+        "display_value": 2.0,
+        "error": null,
+        "expression": "2 mm",
+        "favorite": false,
+        "name": "CAR_BELT_D",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [
+          "d126",
+          "d153",
+          "d180",
+          "d207"
+        ],
+        "uses": [],
+        "value": 2.0
+      },
+      {
+        "comment": "[F 滑车] X 滑车起点 X",
+        "display_value": 133.5,
+        "error": null,
+        "expression": "133.5 mm",
+        "favorite": false,
+        "name": "X_CAR_X0",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [
+          "d106",
+          "d110",
+          "d112",
+          "d116",
+          "d133",
+          "d137",
+          "d139",
+          "d143"
+        ],
+        "uses": [],
+        "value": 133.5
+      },
+      {
+        "comment": "[F 滑车] X 滑车起点 Z",
+        "display_value": 112.0,
+        "error": null,
+        "expression": "112 mm",
+        "favorite": false,
+        "name": "X_CAR_Z0",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [],
+        "uses": [],
+        "value": 112.0
+      },
+      {
+        "comment": "[F 滑车] Z 滑车起点 X",
+        "display_value": 125.0,
+        "error": null,
+        "expression": "125 mm",
+        "favorite": false,
+        "name": "Z_CAR_X0",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [],
+        "uses": [],
+        "value": 125.0
+      },
+      {
+        "comment": "[F 滑车] Z 滑车起点 Z",
+        "display_value": 120.5,
+        "error": null,
+        "expression": "120.5 mm",
+        "favorite": false,
+        "name": "Z_CAR_Z0",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [
+          "d160",
+          "d164",
+          "d166",
+          "d170",
+          "d187",
+          "d191",
+          "d193",
+          "d197"
+        ],
+        "uses": [],
+        "value": 120.5
+      },
+      {
+        "comment": "[F 滑车] X 下半体 Y 起点（= 分型面）",
+        "display_value": -68.0,
+        "error": null,
+        "expression": "-68 mm",
+        "favorite": false,
+        "name": "X_CAR_LOWER_Y0",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [],
+        "uses": [],
+        "value": -68.0
+      },
+      {
+        "comment": "[F 滑车] X 上半体 Y 起点",
+        "display_value": -78.0,
+        "error": null,
+        "expression": "-78 mm",
+        "favorite": false,
+        "name": "X_CAR_UPPER_Y0",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [],
+        "uses": [],
+        "value": -78.0
+      },
+      {
+        "comment": "[F 滑车] Z 下半体 Y 起点（= 分型面）",
+        "display_value": -12.0,
+        "error": null,
+        "expression": "-12 mm",
+        "favorite": false,
+        "name": "Z_CAR_LOWER_Y0",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [],
+        "uses": [],
+        "value": -12.0
+      },
+      {
+        "comment": "[F 滑车] Z 上半体 Y 起点",
+        "display_value": -27.0,
+        "error": null,
+        "expression": "-27 mm",
+        "favorite": false,
+        "name": "Z_CAR_UPPER_Y0",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [],
+        "uses": [],
+        "value": -27.0
+      },
+      {
+        "comment": "[H 辅助] 加料特征与主体的重叠量",
+        "display_value": 0.2,
+        "error": null,
+        "expression": "0.2 mm",
+        "favorite": false,
+        "name": "OVL",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [
+          "d13",
+          "d38",
+          "d62",
+          "d87"
+        ],
+        "uses": [],
+        "value": 0.2
+      },
+      {
+        "comment": "[H 辅助] 去料刀具外延长度",
+        "display_value": 1.0,
+        "error": null,
+        "expression": "1 mm",
+        "favorite": false,
+        "name": "CUT_EXT",
+        "source": "user",
+        "unit": "mm",
+        "used_by": [
+          "d100",
+          "d118",
+          "d120",
+          "d122",
+          "d124",
+          "d126",
+          "d145",
+          "d147",
+          "d149",
+          "d151",
+          "d153",
+          "d17",
+          "d172",
+          "d174",
+          "d176",
+          "d178",
+          "d180",
+          "d19",
+          "d199",
+          "d201",
+          "d203",
+          "d205",
+          "d207",
+          "d21",
+          "d23",
+          "d25",
+          "d26",
+          "d28",
+          "d29",
+          "d42",
+          "d44",
+          "d46",
+          "d48",
+          "d50",
+          "d51",
+          "d53",
+          "d64",
+          "d66",
+          "d68",
+          "d70",
+          "d72",
+          "d73",
+          "d75",
+          "d78",
+          "d89",
+          "d91",
+          "d93",
+          "d95",
+          "d97",
+          "d98"
+        ],
+        "uses": [],
+        "value": 1.0
+      }
+    ]
+  },
+  {
+    "bodies": {
+      "X_Carriage_Lower": {
+        "color": "#eea858",
+        "name": "PETG / 上下滑车",
+        "opacity": 1.0,
+        "pbr": {
+          "dielectric_ior": 1.5,
+          "metallic": 0.0,
+          "roughness": 0.45
+        }
+      },
+      "X_Carriage_Upper": {
+        "color": "#eea858",
+        "name": "PETG / 上下滑车",
+        "opacity": 1.0,
+        "pbr": {
+          "dielectric_ior": 1.5,
+          "metallic": 0.0,
+          "roughness": 0.45
+        }
+      },
+      "X_EndPlate_L": {
+        "color": "#e8923e",
+        "name": "PETG / X-Z 端板",
+        "opacity": 1.0,
+        "pbr": {
+          "dielectric_ior": 1.5,
+          "metallic": 0.0,
+          "roughness": 0.45
+        }
+      },
+      "X_EndPlate_R": {
+        "color": "#e8923e",
+        "name": "PETG / X-Z 端板",
+        "opacity": 1.0,
+        "pbr": {
+          "dielectric_ior": 1.5,
+          "metallic": 0.0,
+          "roughness": 0.45
+        }
+      },
+      "X_GuideRod_1": {
+        "color": "#e1e4e8",
+        "name": "Ø6 导杆 / 轴承钢",
+        "opacity": 1.0,
+        "pbr": {
+          "dielectric_ior": 1.5,
+          "metallic": 0.85,
+          "roughness": 0.22
+        }
+      },
+      "X_GuideRod_2": {
+        "color": "#e1e4e8",
+        "name": "Ø6 导杆 / 轴承钢",
+        "opacity": 1.0,
+        "pbr": {
+          "dielectric_ior": 1.5,
+          "metallic": 0.85,
+          "roughness": 0.22
+        }
+      },
+      "X_LM6UU_1": {
+        "color": "#5a606a",
+        "name": "LM6UU / 轴承钢",
+        "opacity": 1.0,
+        "pbr": {
+          "dielectric_ior": 1.5,
+          "metallic": 0.9,
+          "roughness": 0.28
+        }
+      },
+      "X_LM6UU_2": {
+        "color": "#5a606a",
+        "name": "LM6UU / 轴承钢",
+        "opacity": 1.0,
+        "pbr": {
+          "dielectric_ior": 1.5,
+          "metallic": 0.9,
+          "roughness": 0.28
+        }
+      },
+      "X_Profile": {
+        "color": "#b0b7bf",
+        "name": "2040 铝型材 / 真实 BREP 截面",
+        "opacity": 1.0,
+        "pbr": {
+          "dielectric_ior": 1.5,
+          "metallic": 0.75,
+          "roughness": 0.35
+        }
+      },
+      "Z_Carriage_Lower": {
+        "color": "#eea858",
+        "name": "PETG / 上下滑车",
+        "opacity": 1.0,
+        "pbr": {
+          "dielectric_ior": 1.5,
+          "metallic": 0.0,
+          "roughness": 0.45
+        }
+      },
+      "Z_Carriage_Upper": {
+        "color": "#eea858",
+        "name": "PETG / 上下滑车",
+        "opacity": 1.0,
+        "pbr": {
+          "dielectric_ior": 1.5,
+          "metallic": 0.0,
+          "roughness": 0.45
+        }
+      },
+      "Z_EndPlate_L": {
+        "color": "#e8923e",
+        "name": "PETG / X-Z 端板",
+        "opacity": 1.0,
+        "pbr": {
+          "dielectric_ior": 1.5,
+          "metallic": 0.0,
+          "roughness": 0.45
+        }
+      },
+      "Z_EndPlate_R": {
+        "color": "#e8923e",
+        "name": "PETG / X-Z 端板",
+        "opacity": 1.0,
+        "pbr": {
+          "dielectric_ior": 1.5,
+          "metallic": 0.0,
+          "roughness": 0.45
+        }
+      },
+      "Z_GuideRod_1": {
+        "color": "#e1e4e8",
+        "name": "Ø6 导杆 / 轴承钢",
+        "opacity": 1.0,
+        "pbr": {
+          "dielectric_ior": 1.5,
+          "metallic": 0.85,
+          "roughness": 0.22
+        }
+      },
+      "Z_GuideRod_2": {
+        "color": "#e1e4e8",
+        "name": "Ø6 导杆 / 轴承钢",
+        "opacity": 1.0,
+        "pbr": {
+          "dielectric_ior": 1.5,
+          "metallic": 0.85,
+          "roughness": 0.22
+        }
+      },
+      "Z_LM6UU_1": {
+        "color": "#5a606a",
+        "name": "LM6UU / 轴承钢",
+        "opacity": 1.0,
+        "pbr": {
+          "dielectric_ior": 1.5,
+          "metallic": 0.9,
+          "roughness": 0.28
+        }
+      },
+      "Z_LM6UU_2": {
+        "color": "#5a606a",
+        "name": "LM6UU / 轴承钢",
+        "opacity": 1.0,
+        "pbr": {
+          "dielectric_ior": 1.5,
+          "metallic": 0.9,
+          "roughness": 0.28
+        }
+      },
+      "Z_Profile": {
+        "color": "#b0b7bf",
+        "name": "2040 铝型材 / 真实 BREP 截面",
+        "opacity": 1.0,
+        "pbr": {
+          "dielectric_ior": 1.5,
+          "metallic": 0.75,
+          "roughness": 0.35
+        }
+      }
+    },
+    "components": [],
+    "faces": [],
+    "in_design": [
+      {
+        "bodies": [
+          "X_Carriage_Lower",
+          "X_Carriage_Upper",
+          "Z_Carriage_Lower",
+          "Z_Carriage_Upper"
+        ],
+        "color": "#eea858",
+        "components": [],
+        "faces": [],
+        "name": "PETG / 上下滑车",
+        "opacity": 1.0,
+        "pbr": {
+          "dielectric_ior": 1.5,
+          "metallic": 0.0,
+          "roughness": 0.45
+        }
+      },
+      {
+        "bodies": [
+          "X_EndPlate_L",
+          "X_EndPlate_R",
+          "Z_EndPlate_L",
+          "Z_EndPlate_R"
+        ],
+        "color": "#e8923e",
+        "components": [],
+        "faces": [],
+        "name": "PETG / X-Z 端板",
+        "opacity": 1.0,
+        "pbr": {
+          "dielectric_ior": 1.5,
+          "metallic": 0.0,
+          "roughness": 0.45
+        }
+      },
+      {
+        "bodies": [
+          "X_GuideRod_1",
+          "X_GuideRod_2",
+          "Z_GuideRod_1",
+          "Z_GuideRod_2"
+        ],
+        "color": "#e1e4e8",
+        "components": [],
+        "faces": [],
+        "name": "Ø6 导杆 / 轴承钢",
+        "opacity": 1.0,
+        "pbr": {
+          "dielectric_ior": 1.5,
+          "metallic": 0.85,
+          "roughness": 0.22
+        }
+      },
+      {
+        "bodies": [
+          "X_LM6UU_1",
+          "X_LM6UU_2",
+          "Z_LM6UU_1",
+          "Z_LM6UU_2"
+        ],
+        "color": "#5a606a",
+        "components": [],
+        "faces": [],
+        "name": "LM6UU / 轴承钢",
+        "opacity": 1.0,
+        "pbr": {
+          "dielectric_ior": 1.5,
+          "metallic": 0.9,
+          "roughness": 0.28
+        }
+      },
+      {
+        "bodies": [
+          "X_Profile",
+          "Z_Profile"
+        ],
+        "color": "#b0b7bf",
+        "components": [],
+        "faces": [],
+        "name": "2040 铝型材 / 真实 BREP 截面",
+        "opacity": 1.0,
+        "pbr": {
+          "dielectric_ior": 1.5,
+          "metallic": 0.75,
+          "roughness": 0.35
+        }
+      }
+    ]
+  }
+]

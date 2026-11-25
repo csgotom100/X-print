@@ -1,0 +1,20 @@
+---
+General:
+  UUID: "5f2a08d2-410f-5bc7-9997-6ef83f567095"
+  Name: "工艺辅助几何非零件"
+  Author: "X-print"
+  License: "CC0-1.0"
+  Description: "M3 攻丝孔建模辅助体，仅表示工艺孔位，不是实体零件；半透明显示"
+Models:
+  Density:
+    UUID: '454661e5-265b-4320-8e6f-fcf6223ac3af'
+    Density: "1000 kg/m^3"
+AppearanceModels:
+  BasicRendering:
+    UUID: 'f006c7e4-35b7-43d5-bbf9-c5d572309e6e'
+    AmbientColor: "(0.4250, 0.4250, 0.4250, 1)"
+    DiffuseColor: "(0.85, 0.85, 0.85, 1)"
+    EmissiveColor: "(0, 0, 0, 1)"
+    SpecularColor: "(0.35, 0.35, 0.35, 1)"
+    Shininess: "0.10"
+    Transparency: "65"

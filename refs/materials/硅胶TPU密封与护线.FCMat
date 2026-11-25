@@ -1,0 +1,20 @@
+---
+General:
+  UUID: "5538f77d-715c-5a1e-9c4e-b20c6f50914c"
+  Name: "硅胶TPU密封与护线"
+  Author: "X-print"
+  License: "CC0-1.0"
+  Description: "防尘唇（毛毡或邵氏 A30 硅胶）/ 护线套（硅胶或 TPU A50）/ 保湿站密封圈"
+Models:
+  Density:
+    UUID: '454661e5-265b-4320-8e6f-fcf6223ac3af'
+    Density: "1150 kg/m^3"
+AppearanceModels:
+  BasicRendering:
+    UUID: 'f006c7e4-35b7-43d5-bbf9-c5d572309e6e'
+    AmbientColor: "(0.4600, 0.2750, 0.1200, 1)"
+    DiffuseColor: "(0.92, 0.55, 0.24, 1)"
+    EmissiveColor: "(0, 0, 0, 1)"
+    SpecularColor: "(0.35, 0.35, 0.35, 1)"
+    Shininess: "0.20"
+    Transparency: "0"

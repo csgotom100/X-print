@@ -1,0 +1,582 @@
+{
+ "commands": [
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "BRG_OD",
+    "expression": "12 mm"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "BRG_ID",
+    "expression": "6 mm"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "BRG_L",
+    "expression": "19 mm"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "ROD_D",
+    "expression": "6 mm"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "SEAT_R",
+    "expression": "BRG_OD / 2 + 0.05 mm"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "SEAT_L",
+    "expression": "BRG_L + 0.2 mm"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "ROD_HOLE_R",
+    "expression": "ROD_D / 2 + 0.05 mm"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "PILOT_R",
+    "expression": "4.7 mm"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "EXIT_R",
+    "expression": "5.1 mm"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "M3_R",
+    "expression": "1.7 mm"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "X_SEAT_X0",
+    "expression": "140.4 mm"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "Z_SEAT_Z0",
+    "expression": "127.4 mm"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "ROD_X_LEN",
+    "expression": "215 mm"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "ROD_Z_LEN",
+    "expression": "165 mm"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "Z_SLOT_W",
+    "expression": "22 mm"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "X_POCKET_W",
+    "expression": "20.8 mm"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "name": "X_Rod1_017",
+    "radius": "ROD_D / 2",
+    "height": "ROD_X_LEN",
+    "base": [
+     42.5,
+     -68.0,
+     122.0
+    ],
+    "axis": "X",
+    "operation": "new",
+    "body_name": "X_GuideRod_1"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "name": "X_Rod2_019",
+    "radius": "ROD_D / 2",
+    "height": "ROD_X_LEN",
+    "base": [
+     42.5,
+     -68.0,
+     152.0
+    ],
+    "axis": "X",
+    "operation": "new",
+    "body_name": "X_GuideRod_2"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "name": "Z_Rod1_021",
+    "radius": "ROD_D / 2",
+    "height": "ROD_Z_LEN",
+    "base": [
+     135.0,
+     -12.0,
+     54.5
+    ],
+    "axis": "Z",
+    "operation": "new",
+    "body_name": "Z_GuideRod_1"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "name": "Z_Rod2_023",
+    "radius": "ROD_D / 2",
+    "height": "ROD_Z_LEN",
+    "base": [
+     165.0,
+     -12.0,
+     54.5
+    ],
+    "axis": "Z",
+    "operation": "new",
+    "body_name": "Z_GuideRod_2"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "name": "X_LM6UU_1_Outer_025",
+    "radius": "BRG_OD / 2",
+    "height": "BRG_L",
+    "base": [
+     140.5,
+     -68.0,
+     122.0
+    ],
+    "axis": "X",
+    "operation": "new",
+    "body_name": "X_LM6UU_1"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "name": "X_LM6UU_1_Bore_027",
+    "radius": "BRG_ID / 2",
+    "height": "BRG_L",
+    "base": [
+     140.5,
+     -68.0,
+     122.0
+    ],
+    "axis": "X",
+    "operation": "cut",
+    "targets": [
+     "X_LM6UU_1"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "name": "X_LM6UU_2_Outer_029",
+    "radius": "BRG_OD / 2",
+    "height": "BRG_L",
+    "base": [
+     140.5,
+     -68.0,
+     152.0
+    ],
+    "axis": "X",
+    "operation": "new",
+    "body_name": "X_LM6UU_2"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "name": "X_LM6UU_2_Bore_031",
+    "radius": "BRG_ID / 2",
+    "height": "BRG_L",
+    "base": [
+     140.5,
+     -68.0,
+     152.0
+    ],
+    "axis": "X",
+    "operation": "cut",
+    "targets": [
+     "X_LM6UU_2"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "name": "Z_LM6UU_1_Outer_033",
+    "radius": "BRG_OD / 2",
+    "height": "BRG_L",
+    "base": [
+     135.0,
+     -12.0,
+     127.5
+    ],
+    "axis": "Z",
+    "operation": "new",
+    "body_name": "Z_LM6UU_1"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "name": "Z_LM6UU_1_Bore_035",
+    "radius": "BRG_ID / 2",
+    "height": "BRG_L",
+    "base": [
+     135.0,
+     -12.0,
+     127.5
+    ],
+    "axis": "Z",
+    "operation": "cut",
+    "targets": [
+     "Z_LM6UU_1"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "name": "Z_LM6UU_2_Outer_037",
+    "radius": "BRG_OD / 2",
+    "height": "BRG_L",
+    "base": [
+     165.0,
+     -12.0,
+     127.5
+    ],
+    "axis": "Z",
+    "operation": "new",
+    "body_name": "Z_LM6UU_2"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "name": "Z_LM6UU_2_Bore_039",
+    "radius": "BRG_ID / 2",
+    "height": "BRG_L",
+    "base": [
+     165.0,
+     -12.0,
+     127.5
+    ],
+    "axis": "Z",
+    "operation": "cut",
+    "targets": [
+     "Z_LM6UU_2"
+    ]
+   }
+  },
+  {
+   "command": "file.insert_step",
+   "params": {
+    "name": "LM6_Base6_Structural",
+    "path": "D:/ink/solidcraft/LM6UU_base6.step",
+    "names": "product"
+   }
+  },
+  {
+   "command": "file.insert_step",
+   "params": {
+    "name": "LM6_XEndPlates_Prebored",
+    "path": "D:/ink/solidcraft/LM6UU_xplates_lm6.step",
+    "names": "product"
+   }
+  },
+  {
+   "command": "file.insert_step",
+   "params": {
+    "name": "Aluminium_Profiles_UNCHANGED",
+    "path": "D:/ink/solidcraft/LM6UU_reference_profiles.step",
+    "names": "product"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "name": "X_Seat_Z122_L_044",
+    "radius": "SEAT_R",
+    "height": "SEAT_L",
+    "base": [
+     "X_SEAT_X0",
+     -68.0,
+     122.0
+    ],
+    "axis": "X",
+    "operation": "cut",
+    "targets": [
+     "X_Carriage_Lower"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "name": "X_Seat_Z122_U_046",
+    "radius": "SEAT_R",
+    "height": "SEAT_L",
+    "base": [
+     "X_SEAT_X0",
+     -68.0,
+     122.0
+    ],
+    "axis": "X",
+    "operation": "cut",
+    "targets": [
+     "X_Carriage_Upper"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "name": "X_Seat_Z152_L_048",
+    "radius": "SEAT_R",
+    "height": "SEAT_L",
+    "base": [
+     "X_SEAT_X0",
+     -68.0,
+     152.0
+    ],
+    "axis": "X",
+    "operation": "cut",
+    "targets": [
+     "X_Carriage_Lower"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "name": "X_Seat_Z152_U_050",
+    "radius": "SEAT_R",
+    "height": "SEAT_L",
+    "base": [
+     "X_SEAT_X0",
+     -68.0,
+     152.0
+    ],
+    "axis": "X",
+    "operation": "cut",
+    "targets": [
+     "X_Carriage_Upper"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "name": "Z_Seat_X135_L_052",
+    "radius": "SEAT_R",
+    "height": "SEAT_L",
+    "base": [
+     135.0,
+     -12.0,
+     "Z_SEAT_Z0"
+    ],
+    "axis": "Z",
+    "operation": "cut",
+    "targets": [
+     "Z_Carriage_Lower"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "name": "Z_Seat_X135_U_054",
+    "radius": "SEAT_R",
+    "height": "SEAT_L",
+    "base": [
+     135.0,
+     -12.0,
+     "Z_SEAT_Z0"
+    ],
+    "axis": "Z",
+    "operation": "cut",
+    "targets": [
+     "Z_Carriage_Upper"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "name": "Z_Seat_X165_L_056",
+    "radius": "SEAT_R",
+    "height": "SEAT_L",
+    "base": [
+     165.0,
+     -12.0,
+     "Z_SEAT_Z0"
+    ],
+    "axis": "Z",
+    "operation": "cut",
+    "targets": [
+     "Z_Carriage_Lower"
+    ]
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "name": "Z_Seat_X165_U_058",
+    "radius": "SEAT_R",
+    "height": "SEAT_L",
+    "base": [
+     165.0,
+     -12.0,
+     "Z_SEAT_Z0"
+    ],
+    "axis": "Z",
+    "operation": "cut",
+    "targets": [
+     "Z_Carriage_Upper"
+    ]
+   }
+  },
+  {
+   "command": "appearance.assign",
+   "params": {
+    "name": "PETG 异型结构件",
+    "bodies": [
+     "X_EndPlate_L",
+     "X_EndPlate_R",
+     "Z_EndPlate_L",
+     "Z_EndPlate_R",
+     "X_Carriage_Lower",
+     "X_Carriage_Upper",
+     "Z_Carriage_Lower",
+     "Z_Carriage_Upper"
+    ],
+    "color": [
+     51,
+     140,
+     204
+    ],
+    "pbr": {
+     "metallic": 0.0,
+     "roughness": 0.48,
+     "dielectric_ior": 1.5
+    }
+   }
+  },
+  {
+   "command": "appearance.assign",
+   "params": {
+    "name": "铝型材 2040（不变）",
+    "bodies": [
+     "X_Profile",
+     "Z_Profile"
+    ],
+    "color": [
+     176,
+     183,
+     191
+    ],
+    "pbr": {
+     "metallic": 0.75,
+     "roughness": 0.35,
+     "dielectric_ior": 1.5
+    }
+   }
+  },
+  {
+   "command": "appearance.assign",
+   "params": {
+    "name": "LM6UU 轴承钢",
+    "bodies": [
+     "X_LM6UU_1",
+     "X_LM6UU_2",
+     "Z_LM6UU_1",
+     "Z_LM6UU_2"
+    ],
+    "color": [
+     90,
+     96,
+     106
+    ],
+    "pbr": {
+     "metallic": 0.9,
+     "roughness": 0.28,
+     "dielectric_ior": 1.5
+    }
+   }
+  },
+  {
+   "command": "appearance.assign",
+   "params": {
+    "name": "Ø6 导杆 轴承钢",
+    "bodies": [
+     "X_GuideRod_1",
+     "X_GuideRod_2",
+     "Z_GuideRod_1",
+     "Z_GuideRod_2"
+    ],
+    "color": [
+     225,
+     228,
+     232
+    ],
+    "pbr": {
+     "metallic": 0.85,
+     "roughness": 0.22,
+     "dielectric_ior": 1.5
+    }
+   }
+  },
+  {
+   "command": "file.save",
+   "params": {
+    "path": "D:/ink/solidcraft/LM6UU_Redesign.sc",
+    "format": "container",
+    "overwrite": true
+   }
+  }
+ ]
+}

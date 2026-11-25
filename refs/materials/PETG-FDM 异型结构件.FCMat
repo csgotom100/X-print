@@ -1,0 +1,24 @@
+---
+General:
+  UUID: "0835e8bb-2bb4-5dac-8b23-4f45616016b6"
+  Name: "PETG-FDM 异型结构件"
+  Author: "X-print"
+  License: "CC0-1.0"
+  Description: "FDM 3D 打印：0.4 喷嘴 / 层高 0.20 / 4 周壁 / 40% 网格填充 / 240C 喷嘴 / 80C 热床；承力方向避免层间受拉；端板沉孔局部加厚 2 mm、凸台 3 mm、螺纹孔壁厚 >=2 mm"
+Models:
+  Density:
+    UUID: '454661e5-265b-4320-8e6f-fcf6223ac3af'
+    Density: "1270 kg/m^3"
+  LinearElastic:
+    UUID: '7b561d1d-fb9b-44f6-9da9-56a4f74d7536'
+    YoungsModulus: "2100 MPa"
+    PoissonRatio: "0.38"
+AppearanceModels:
+  BasicRendering:
+    UUID: 'f006c7e4-35b7-43d5-bbf9-c5d572309e6e'
+    AmbientColor: "(0.1000, 0.2750, 0.4000, 1)"
+    DiffuseColor: "(0.20, 0.55, 0.80, 1)"
+    EmissiveColor: "(0, 0, 0, 1)"
+    SpecularColor: "(0.35, 0.35, 0.35, 1)"
+    Shininess: "0.30"
+    Transparency: "0"

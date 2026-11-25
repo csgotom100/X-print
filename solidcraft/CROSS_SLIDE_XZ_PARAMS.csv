@@ -1,0 +1,101 @@
+﻿分组,参数名,表达式,说明,核心参数,生成方式
+,PW,20 mm,X 型材截面宽（2040 的 20）,,SolidCraft 原生 parameters.add
+,PH,40 mm,X 型材截面高（2040 的 40）,,SolidCraft 原生 parameters.add
+,PWZ,40 mm,Z 型材截面宽（旋转 90°）,,SolidCraft 原生 parameters.add
+,PHZ,20 mm,Z 型材截面深（旋转 90°）,,SolidCraft 原生 parameters.add
+,PROF_HOLE_R,2.5 mm,2040 型材两个中心孔半径（Ø5）,,SolidCraft 原生 parameters.add
+,X_PROF_Y0,-57 mm,X 型材 Y 起点,,SolidCraft 原生 parameters.add
+,X_PROF_Z0,117 mm,X 型材 Z 起点,,SolidCraft 原生 parameters.add
+,X_PROF_LEN,200 mm,X 型材长度,,SolidCraft 原生 parameters.add
+,Z_PROF_X0,130 mm,Z 型材 X 起点,,SolidCraft 原生 parameters.add
+,Z_PROF_Y0,-1 mm,Z 型材 Y 起点,,SolidCraft 原生 parameters.add
+,Z_PROF_LEN,150 mm,Z 型材长度,,SolidCraft 原生 parameters.add
+A 轴承导杆,BRG_OD,12 mm,LM6UU 外径,是,SolidCraft 原生 parameters.add
+A 轴承导杆,BRG_ID,6 mm,LM6UU 内孔（= 导杆直径）,是,SolidCraft 原生 parameters.add
+A 轴承导杆,BRG_L,19 mm,LM6UU 长度,是,SolidCraft 原生 parameters.add
+A 轴承导杆,ROD_D,6 mm,导杆直径,是,SolidCraft 原生 parameters.add
+A 轴承导杆,SEAT_R,BRG_OD / 2 + 0.05 mm,滑车主座半径（轴承外径 + 0.10 间隙）,是,SolidCraft 原生 parameters.add
+A 轴承导杆,SEAT_L,BRG_L + 0.2 mm,滑车主座长度,是,SolidCraft 原生 parameters.add
+A 轴承导杆,ROD_HOLE_R,ROD_D / 2 + 0.05 mm,端板导杆孔半径 Ø6.10,是,SolidCraft 原生 parameters.add
+A 轴承导杆,PILOT_R,4.7 mm,导入段半径（形成 -端轴向挡肩）,是,SolidCraft 原生 parameters.add
+A 轴承导杆,EXIT_R,5.1 mm,出口段半径（形成 +端轴向挡肩）,是,SolidCraft 原生 parameters.add
+A 轴承导杆,ROD_X_LEN,215 mm,X 轴导杆长度,,SolidCraft 原生 parameters.add
+A 轴承导杆,ROD_Z_LEN,165 mm,Z 轴导杆长度,,SolidCraft 原生 parameters.add
+A 轴承导杆,X_ROD_X0,42.5 mm,X 导杆起点 X,,SolidCraft 原生 parameters.add
+A 轴承导杆,X_ROD_Y,-68 mm,X 导杆中心 Y（滑车分型面）,,SolidCraft 原生 parameters.add
+A 轴承导杆,X_ROD_Z1,122 mm,X 导杆 1 中心 Z,,SolidCraft 原生 parameters.add
+A 轴承导杆,X_ROD_Z2,152 mm,X 导杆 2 中心 Z,,SolidCraft 原生 parameters.add
+A 轴承导杆,Z_ROD_Z0,54.5 mm,Z 导杆起点 Z,,SolidCraft 原生 parameters.add
+A 轴承导杆,Z_ROD_X1,135 mm,Z 导杆 1 中心 X,,SolidCraft 原生 parameters.add
+A 轴承导杆,Z_ROD_X2,165 mm,Z 导杆 2 中心 X,,SolidCraft 原生 parameters.add
+A 轴承导杆,Z_ROD_Y,-12 mm,Z 导杆中心 Y（滑车分型面）,,SolidCraft 原生 parameters.add
+A 轴承导杆,X_SEAT_X0,140.4 mm,X 滑车主座起点 X,,SolidCraft 原生 parameters.add
+A 轴承导杆,Z_SEAT_Z0,127.4 mm,Z 滑车主座起点 Z,,SolidCraft 原生 parameters.add
+B 冻结项,Z_SLOT_W,22 mm,Z 轴限位开关槽宽（禁止改动）,是,SolidCraft 原生 parameters.add
+B 冻结项,X_POCKET_W,20.8 mm,X 轴限位开关口袋宽（禁止改动）,是,SolidCraft 原生 parameters.add
+C 端板,FLANGE_T,7.5 mm,端板法兰板厚度（贴型材端面）,,SolidCraft 原生 parameters.add
+C 端板,FRAME_WALL,1.5 mm,端板周边框架壁厚,,SolidCraft 原生 parameters.add
+C 端板,MOTOR_PAD_L,10 mm,电机安装台伸出长度,,SolidCraft 原生 parameters.add
+C 端板,MOTOR_PAD_W,18 mm,电机安装台宽度,,SolidCraft 原生 parameters.add
+C 端板,MOTOR_PAD_H,24 mm,电机安装台高度,,SolidCraft 原生 parameters.add
+C 端板,MOTOR_BORE_L_R,8.5 mm,L 端板电机让位孔半径,,SolidCraft 原生 parameters.add
+C 端板,MOTOR_BORE_R_R,10 mm,R 端板电机让位孔半径,,SolidCraft 原生 parameters.add
+C 端板,MOTOR_Y,-62 mm,X 端板电机孔中心 Y,,SolidCraft 原生 parameters.add
+C 端板,MOTOR_Z,137 mm,X 端板电机孔中心 Z,,SolidCraft 原生 parameters.add
+C 端板,Z_MOTOR_Y,9 mm,Z 端板电机孔中心 Y,,SolidCraft 原生 parameters.add
+C 端板,MOUNT_R,1.7 mm,端板安装孔半径（M3 过孔）,,SolidCraft 原生 parameters.add
+C 端板,X_MOUNT_Y,-60 mm,X 端板安装孔中心 Y,,SolidCraft 原生 parameters.add
+C 端板,Z_MOUNT_Y,-5 mm,Z 端板安装孔中心 Y,,SolidCraft 原生 parameters.add
+C 端板,BELT_SLOT_H,7 mm,端板顶部皮带让位槽高度,,SolidCraft 原生 parameters.add
+D X 端板,X_EP_L_X0,0 mm,X 端板 L 起点 X,,SolidCraft 原生 parameters.add
+D X 端板,X_EP_L_LEN,50 mm,X 端板 L 长度（贴合型材 X50 端面）,,SolidCraft 原生 parameters.add
+D X 端板,X_EP_R_X0,250 mm,X 端板 R 起点 X,,SolidCraft 原生 parameters.add
+D X 端板,X_EP_R_LEN,50 mm,X 端板 R 长度,,SolidCraft 原生 parameters.add
+D X 端板,X_EP_Y0,-79 mm,X 端板 Y 起点,,SolidCraft 原生 parameters.add
+D X 端板,X_EP_W,42 mm,X 端板 Y 宽度,,SolidCraft 原生 parameters.add
+D X 端板,X_EP_Z0,117 mm,X 端板 Z 起点,,SolidCraft 原生 parameters.add
+D X 端板,X_EP_H,40 mm,X 端板 Z 高度,,SolidCraft 原生 parameters.add
+D X 端板,X_POCKET_X0,41.5 mm,限位口袋起点 X,,SolidCraft 原生 parameters.add
+D X 端板,X_POCKET_Y0,-79 mm,限位口袋起点 Y,,SolidCraft 原生 parameters.add
+D X 端板,X_POCKET_Y1,-71.1 mm,限位口袋终点 Y（与 Ø6.10 孔留 0.05 间隙）,,SolidCraft 原生 parameters.add
+D X 端板,X_POCKET_ZC,131.25 mm,限位口袋中心 Z,,SolidCraft 原生 parameters.add
+E Z 端板,Z_EP_L_X0,105 mm,Z 端板 L 起点 X,,SolidCraft 原生 parameters.add
+E Z 端板,Z_EP_L_W,90 mm,Z 端板 L X 宽度,,SolidCraft 原生 parameters.add
+E Z 端板,Z_EP_L_Y0,-30 mm,Z 端板 L Y 起点,,SolidCraft 原生 parameters.add
+E Z 端板,Z_EP_L_D,49 mm,Z 端板 L Y 深度,,SolidCraft 原生 parameters.add
+E Z 端板,Z_EP_L_Z0,12 mm,Z 端板 L Z 起点,,SolidCraft 原生 parameters.add
+E Z 端板,Z_EP_L_H,50 mm,Z 端板 L 高度（贴合型材 Z62 端面）,,SolidCraft 原生 parameters.add
+E Z 端板,Z_EP_R_X0,130 mm,Z 端板 R 起点 X,,SolidCraft 原生 parameters.add
+E Z 端板,Z_EP_R_W,40 mm,Z 端板 R X 宽度,,SolidCraft 原生 parameters.add
+E Z 端板,Z_EP_R_Y0,-23 mm,Z 端板 R Y 起点,,SolidCraft 原生 parameters.add
+E Z 端板,Z_EP_R_D,42 mm,Z 端板 R Y 深度,,SolidCraft 原生 parameters.add
+E Z 端板,Z_EP_R_Z0,212 mm,Z 端板 R 起点（贴合型材 Z212 端面）,,SolidCraft 原生 parameters.add
+E Z 端板,Z_EP_R_H,50 mm,Z 端板 R 高度,,SolidCraft 原生 parameters.add
+E Z 端板,Z_SLOT_XC,150 mm,Z 限位槽中心 X,,SolidCraft 原生 parameters.add
+E Z 端板,Z_SLOT_Y0,-30 mm,Z 限位槽起点 Y,,SolidCraft 原生 parameters.add
+E Z 端板,Z_SLOT_Y1,-10 mm,Z 限位槽终点 Y,,SolidCraft 原生 parameters.add
+E Z 端板,Z_SLOT_Z0,52 mm,Z 限位槽起点 Z,,SolidCraft 原生 parameters.add
+F 滑车,CAR_L,33 mm,滑车沿运动轴长度,是,SolidCraft 原生 parameters.add
+F 滑车,CAR_SPAN,50 mm,滑车横向跨距（两导杆外侧）,是,SolidCraft 原生 parameters.add
+F 滑车,CAR_T_LOWER,10.5 mm,下滑车半体厚度,是,SolidCraft 原生 parameters.add
+F 滑车,CAR_T_UPPER,10 mm,X 上滑车半体厚度,是,SolidCraft 原生 parameters.add
+F 滑车,CAR_T_UPPER_Z,15 mm,Z 上滑车半体厚度,是,SolidCraft 原生 parameters.add
+F 滑车,CAR_CORNER_R,4 mm,滑车四角圆角半径,,SolidCraft 原生 parameters.add
+F 滑车,CAR_M3_R,1.7 mm,M3 合拢通孔半径,是,SolidCraft 原生 parameters.add
+F 滑车,CAR_CB_R_UPPER,3.2 mm,上半体沉孔半径,,SolidCraft 原生 parameters.add
+F 滑车,CAR_CB_R_LOWER,2.3 mm,下半体沉孔半径,,SolidCraft 原生 parameters.add
+F 滑车,CAR_CB_DEPTH_UPPER,3 mm,上半体沉孔深度,,SolidCraft 原生 parameters.add
+F 滑车,CAR_CB_DEPTH_LOWER,8 mm,下半体沉孔深度,,SolidCraft 原生 parameters.add
+F 滑车,CAR_M3_PITCH,12 mm,两 M3 孔间距,,SolidCraft 原生 parameters.add
+F 滑车,CAR_BELT_W,5 mm,中央皮带让位腔边长,,SolidCraft 原生 parameters.add
+F 滑车,CAR_BELT_D,2 mm,中央皮带让位腔深度,,SolidCraft 原生 parameters.add
+F 滑车,X_CAR_X0,133.5 mm,X 滑车起点 X,,SolidCraft 原生 parameters.add
+F 滑车,X_CAR_Z0,112 mm,X 滑车起点 Z,,SolidCraft 原生 parameters.add
+F 滑车,Z_CAR_X0,125 mm,Z 滑车起点 X,,SolidCraft 原生 parameters.add
+F 滑车,Z_CAR_Z0,120.5 mm,Z 滑车起点 Z,,SolidCraft 原生 parameters.add
+F 滑车,X_CAR_LOWER_Y0,-68 mm,X 下半体 Y 起点（= 分型面）,,SolidCraft 原生 parameters.add
+F 滑车,X_CAR_UPPER_Y0,-78 mm,X 上半体 Y 起点,,SolidCraft 原生 parameters.add
+F 滑车,Z_CAR_LOWER_Y0,-12 mm,Z 下半体 Y 起点（= 分型面）,,SolidCraft 原生 parameters.add
+F 滑车,Z_CAR_UPPER_Y0,-27 mm,Z 上半体 Y 起点,,SolidCraft 原生 parameters.add
+H 辅助,OVL,0.2 mm,加料特征与主体的重叠量,,SolidCraft 原生 parameters.add
+H 辅助,CUT_EXT,1 mm,去料刀具外延长度,,SolidCraft 原生 parameters.add

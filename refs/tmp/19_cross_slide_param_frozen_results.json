@@ -1,0 +1,166 @@
+[
+  {
+    "bodies": [
+      {
+        "area_mm2": 34052.5861239316,
+        "bbox": {
+          "max": [
+            195.0,
+            21.0,
+            61.99999999999989
+          ],
+          "min": [
+            105.0,
+            -30.000000000002302,
+            11.99999999999774
+          ]
+        },
+        "center_of_mass": [
+          149.99999782938997,
+          -8.546670305119818,
+          45.54472469528481
+        ],
+        "closed": true,
+        "density_g_cm3": 1.29,
+        "edges": 82,
+        "face_types": {
+          "cylinder": 5,
+          "plane": 26
+        },
+        "faces": 31,
+        "kernel": {
+          "edges": 105,
+          "faces": 37,
+          "shells": 1,
+          "vertices": 70
+        },
+        "mass_g": 45.836341450669956,
+        "material": "Default",
+        "name": "Z_EndPlate_L",
+        "vertices": 58,
+        "volume_mm3": 35532.04763617826
+      }
+    ],
+    "body_count": 1,
+    "total": {
+      "area_mm2": 34052.5861239316,
+      "edges": 82,
+      "faces": 31,
+      "mass_g": 45.836341450669956,
+      "open_bodies_skipped": 0,
+      "vertices": 58,
+      "volume_mm3": 35532.04763617826
+    }
+  },
+  {
+    "display_value": 24.0,
+    "errors": [],
+    "expression": "24 mm",
+    "name": "Z_SLOT_W",
+    "recomputed": 74,
+    "restored": 0,
+    "value": 24.0
+  },
+  {
+    "bodies": [
+      {
+        "area_mm2": 33935.64212766055,
+        "bbox": {
+          "max": [
+            195.0,
+            21.0,
+            61.99999999999989
+          ],
+          "min": [
+            105.0,
+            -30.000000000002302,
+            11.99999999999774
+          ]
+        },
+        "center_of_mass": [
+          149.99999781008276,
+          -8.444772040522508,
+          45.43507586812899
+        ],
+        "closed": true,
+        "density_g_cm3": 1.29,
+        "edges": 93,
+        "face_types": {
+          "cylinder": 6,
+          "plane": 28
+        },
+        "faces": 34,
+        "kernel": {
+          "edges": 117,
+          "faces": 41,
+          "shells": 1,
+          "vertices": 78
+        },
+        "mass_g": 45.44037530858512,
+        "material": "Default",
+        "name": "Z_EndPlate_L",
+        "vertices": 64,
+        "volume_mm3": 35225.097138438075
+      }
+    ],
+    "body_count": 1,
+    "total": {
+      "area_mm2": 33935.64212766055,
+      "edges": 93,
+      "faces": 34,
+      "mass_g": 45.44037530858512,
+      "open_bodies_skipped": 0,
+      "vertices": 64,
+      "volume_mm3": 35225.097138438075
+    }
+  },
+  {
+    "angle_deg": 180.0,
+    "delta": [
+      0.0,
+      -0.0,
+      -0.0
+    ],
+    "distance_mm": 24.0,
+    "from": [
+      138.0,
+      0.0,
+      0.0
+    ],
+    "items": [
+      {
+        "area_mm2": 134.62499999999864,
+        "planar": true,
+        "type": "face"
+      },
+      {
+        "area_mm2": 134.62499999998113,
+        "planar": true,
+        "type": "face"
+      }
+    ],
+    "max": 31.31297654328109,
+    "max_delta": [
+      24.0,
+      17.450000000001904,
+      10.000000000000263
+    ],
+    "max_from": [
+      138.0,
+      -30.00000000000184,
+      51.99999999999908
+    ],
+    "max_to": [
+      162.0,
+      -12.549999999999937,
+      61.999999999999346
+    ],
+    "measure": "min",
+    "min": 24.0,
+    "to": [
+      138.0,
+      -0.0,
+      -0.0
+    ]
+  }
+]

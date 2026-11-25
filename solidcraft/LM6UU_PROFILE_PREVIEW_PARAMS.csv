@@ -1,0 +1,23 @@
+﻿参数名,表达式,说明
+PW,20 mm,X 型材截面宽（2040 的 20，沿 Y）
+PH,40 mm,X 型材截面高（2040 的 40，沿 Z）
+PWZ,40 mm,Z 型材截面宽（旋转 90° 后为 40，沿 X）
+PHZ,20 mm,Z 型材截面深（旋转 90° 后为 20，沿 Y）
+SLOT_W,6 mm,T 槽槽口宽
+SLOT_D,2 mm,T 槽槽口深（外窄段）
+CAV_W,11 mm,T 槽内部腔宽（内宽段）
+CAV_D,5 mm,T 槽内部腔深
+CORE_U,2 mm,中心腔沿 20 方向半宽（与 T 槽内腔留 WALL 筋）
+CORE_V,12 mm,中心腔沿 40 方向半长
+CORNER_U,2.6 mm,四角减重腔沿 20 方向尺寸
+CORNER_V,5.5 mm,四角减重腔沿 40 方向尺寸
+WALL,1 mm,中心腔到 T 槽内腔的最小材料筋
+CUT_EXT,1 mm,切割刀具两端外伸量（避免共面）
+X_PROF_X0,50 mm,X 型材起点 X
+X_PROF_Y0,-57 mm,X 型材起点 Y
+X_PROF_Z0,117 mm,X 型材起点 Z
+X_PROF_LEN,200 mm,X 型材长度
+Z_PROF_X0,130 mm,Z 型材起点 X
+Z_PROF_Y0,-1 mm,Z 型材起点 Y
+Z_PROF_Z0,62 mm,Z 型材起点 Z
+Z_PROF_LEN,150 mm,Z 型材长度

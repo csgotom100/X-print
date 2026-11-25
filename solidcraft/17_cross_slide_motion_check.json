@@ -1,0 +1,11 @@
+{
+ "commands": [
+  {"command": "occurrence.properties", "params": {"occurrence": "X_Stage:1"}},
+  {"command": "occurrence.properties", "params": {"occurrence": "Z_Stage:1"}},
+  {"command": "joint.drive", "params": {"joint": "X_Travel", "value": 20, "quiet": true}},
+  {"command": "joint.drive", "params": {"joint": "Z_Travel", "value": 15, "quiet": true}},
+  {"command": "occurrence.properties", "params": {"occurrence": "X_Stage:1"}},
+  {"command": "occurrence.properties", "params": {"occurrence": "Z_Stage:1"}},
+  {"command": "joint.list", "params": {}}
+ ]
+}
